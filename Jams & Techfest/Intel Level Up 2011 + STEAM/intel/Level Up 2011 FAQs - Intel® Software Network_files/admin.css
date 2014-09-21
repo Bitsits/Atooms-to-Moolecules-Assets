@@ -1,0 +1,319 @@
+@import url('/rfadmin/css/global.css?v=2923');
+@import url('/rfadmin/css/wp-admin.css');
+@import url('/rfadmin/css/colors-fresh.css');
+@import url('/rfadmin/css/dashboard.css');
+<!--[if IE]>@import url('/rfadmin/css/ie.css');<![endif]-->
+<!--[if IE 7]>@import url('/rfadmin/css/ie.css');<![endif]-->
+
+#wphead, body.login {
+	border-top-color: #0861AD;
+}
+
+#user_info, .howto, .nonessential, #dashmenu a, #sidemenu, #edit-slug-box, .form-input-tip, #dashboard_primary span.rss-date, .subsubsub, #dashboard_secondary
+div.dashboard-widget-content ul li a cite {
+	color: #fff;
+}
+
+#dashmenu {
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	font-weight: bold;
+	top: 7px;
+	left: 0;
+	font-size: 11px;
+	padding-left: 9px;
+}
+
+.widefat thead, .thead {
+	background-color: #0861AD;
+	color: #fff;
+}
+
+.widefat-head {
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	background-color: #eaf3fa;
+	border-color: #ccc;
+	clear: both;
+	margin: 0;
+}
+
+
+.widefat-head-div {
+	border-width: 1px;
+	border-top-width:0px;
+	border-style: solid;
+	border-collapse: collapse;
+	background-color: #eaf3fa;
+	border-color: #ccc;
+	width: 100%;
+	clear: both;
+	margin: 0px;
+	height:25px;
+}
+
+
+.wrap, .updated, .error {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+
+}
+
+.dropdown {
+	color:#000000;
+	background-color: white;
+	padding: 5px;
+	border: 2px solid;
+	border-color:#0861AD;
+}
+
+
+#poststuff #editor-toolbar .active {
+	background-color: #cee1ef;
+	color: #333;
+}
+
+#poststuff .closed .togbox {
+	/*background-color: #2583ad;
+	background-image: url("/media/images/toggle-arrow.gif");*/
+	background-image: url("/media/images/open.gif");
+}
+
+#poststuff .postbox, #titlediv, #poststuff .postarea, #poststuff .stuffbox {
+	border-color: #ebebeb;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+}
+#poststuff .togbox {
+	/*background-color: #b2b2b2;
+	background-image: url("/media/images/toggle-arrow.gif");*/
+	background-image: url("/media/images/close.gif");
+}
+<!-- ISN Specific styles - same as external style.css -->
+h1 { color: #000; font-family: "lucida grande",arial,sans-serif; font-size: 21px; font-weight: normal; padding-bottom: 5px }
+h1 a:link, h1 a:visited { color: #0860a8; text-decoration: none }
+h1 a:hover { color: #626262; text-decoration: none }
+h2 { font-family:verdana, sans-serif; color: #000000; font-size: 14px; font-weight: bold; margin-bottom: 4px; padding-bottom: 4px;border-bottom:none; }
+h3 { font-family:verdana, sans-serif; color: #666; font-size: 12px; font-weight: normal; line-height: 16px; padding-bottom: 6px;margin-bottom:0px; }
+h3 a { font-weight: bold }
+h5 { font-family:verdana, sans-serif;color: #666; font-size: 10px; font-weight: normal; line-height: 16px; padding-bottom: 20px }
+h5 a { font-weight: bold }
+
+/* Page title will be H1 - Page title � 21px, "lucida grande",arial,sans-serif, black */
+.pagetitle {font-family: "lucida grande",arial,sans-serif; color: #959595; font-size: 21px; font-weight: normal;}
+.pagetitle a:link { color: #0860a8; text-decoration: none }
+.pagetitle a:visited { color: #0860a8; text-decoration: none }
+.pagetitle a:hover { color: #626262; text-decoration: none }
+
+/* Page section/group will be H2� Section heading � 14px, bold, verdana,sans-serif, black � only used occasionally */
+.pagesection {font-family:verdana, sans-serif; color: #000000; font-size: 14px; font-weight: bold;border-bottom:none;margin-bottom:0px;}
+
+/* Table column headings will be H3 - Heading � 12px, bold, verdana,sans-serif, black */
+.colheader {font-family:verdana, sans-serif; color: #fff; font-size: 12px; font-weight: bold; border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	vertical-align: text-top;
+}
+.colheader a { font-weight: bold }
+
+.tdtext {font-family:verdana, sans-serif; color: #fff; font-size: 11px; font-weight: normal; border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	vertical-align: text-top;
+}
+
+/* Table column text will be H4 - Normal text � 11px, verdana,sans-serif, black  */
+.bodytext {font-family: verdana, sans-serif; color: #000; font-size: 11px; font-weight: normal;}
+.bodytext a { font-weight: bold }
+
+/* H5 � Author and date � 11px, verdana,sans-serif, grey */
+.grayText {font-family:verdana, sans-serif;color: #666; font-size: 10px; font-weight: normal;}
+
+.widefat th {
+font-size:12px;
+}
+
+#poststuff .postbox, #poststuff .stuffbox {
+        margin-left: 0px;
+        margin-right:0px;
+}
+
+/*#poststuff .togbox {
+	margin-left:-15px;
+}*/
+
+.warning {
+color : red;
+}
+
+
+.required {
+color : red;
+}
+
+/*Starts New Admin CSS*/
+
+h1.admin {
+	width: 100%;
+	text-align: left;
+}
+
+.log_user {
+	float: right;
+}
+
+.description{
+	font-size: 10px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.blockline{
+	float: left;
+	width: 100%;
+}
+
+.block{
+	width: 19%;
+	float: left;
+}
+
+div.block a {
+	width: 100%;
+	font-size: 11px;
+	font: normal;
+	margin: 0px;
+}
+
+div.full, div.block h2, div.block h3{
+	background-color: #666666;
+	width: 100%;
+}
+
+div.full {
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	clear: both;
+}
+
+.title span, .selected span, div.block h2, div.block h3{
+	color: white;
+	font-weight: bold;
+}
+
+div.block h2, div.block h3 {
+	margin-top: 0px;
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 6px;
+	height: 14px;
+}
+
+.title span, .selected span{
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	padding: 0 0 0 35px;
+	text-decoration: none;
+	font-size: 14px;
+	display:block;
+	line-height:30px;
+}
+
+.title span {
+	background-image:  url(/media/images/arrow_right_forum.gif); 
+}
+
+.selected span{
+	background-image: url(/media/images/arrow_down.gif);
+	
+}
+
+#list_report, #list_system {
+	clear: both;
+}
+
+/*Here starts the round area*/
+
+.round_third, .third-end {
+	display:inline;
+	float:left;
+	margin-right:16px;
+	width:178px;
+}
+
+.tr-corner {
+	background:transparent url(/media/images/corners.gif) repeat scroll right top;
+}
+
+.tr-corner-thin {
+	background:transparent url(/media/images/corners-thin.gif) repeat scroll right top;
+}
+
+.tl-corner, .tr-corner, .bl-corner, .br-corner, .tr-corner-thin, .tl-corner-thin {
+	font-size:1px;
+	height:5px;
+}
+
+.round_box {
+	background:white none repeat scroll 0 0;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	padding: 0px 0 0;
+}
+
+#wrapper {
+	color:#666666;
+	font-size:70%;
+}
+
+.tl-corner {
+	background:transparent url(/media/images/corners.gif) repeat scroll left top;
+	float:left;
+	width:5px;
+}
+
+.tl-corner-thin {
+	background:transparent url(/media/images/corners-thin.gif) repeat scroll left top;
+	float:left;
+	width:5px;
+}
+
+.round_module {
+	margin:0 1px;
+	padding: 8px;
+}
+
+.round_box ul {
+	padding: 0px;
+}
+
+.br-corner {
+	background:transparent url(/media/images/corners-thin.gif) repeat scroll right bottom;
+	margin-bottom:15px;
+	position:relative;
+	top:-5px;
+}
+
+.tl-corner, .tr-corner, .bl-corner, .br-corner {
+	font-size:1px;
+	height:5px;
+}
+
+.bl-corner {
+	background:transparent url(/media/images/corners-thin.gif) repeat scroll left bottom;
+	float:left;
+	width:5px;
+}
+
+.NoLoginMessage {
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+
+/*Ends New Admin CSS*/

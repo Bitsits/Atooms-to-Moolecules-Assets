@@ -1,0 +1,32 @@
+ body{ background-color:#FFFFFF; background-image:none; color:#000000 }
+ 
+ #header{ display:none;}
+ 
+ #right{ display:none;}
+ 
+ #footer{ display:none;}
+ 
+ #print_discard{ display:none;}
+ 
+ #rating_option{ display:none;}
+ 
+ #poll_res{ display:none;}
+ 
+ #media_downloads{ display:none;}
+ 
+ #media_uploads{ display:none;} 
+ 
+ #CalendarControlIFrame{ display:none;} 
+
+ #CalendarControl{ display:none;} 
+
+ #isnDLb2{ display:none;} 
+
+ #fb2{ display:none;} 
+
+ #efb2{ display:none;} 
+
+ #academic_access{ display:none;} 
+
+.main-inner * ul { list-style: disc outside }
+.main-inner * ol { list-style: decimal outside }

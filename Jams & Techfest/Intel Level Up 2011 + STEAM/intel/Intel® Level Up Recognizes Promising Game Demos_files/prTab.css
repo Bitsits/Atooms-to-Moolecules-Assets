@@ -1,0 +1,20 @@
+.prTabContainer{margin:11px auto;width:600px}
+.simpleTabs{border:0 solid #e6e6e6;float:left;padding:0;width:700px}
+.simpleTabsBackground{background:url("http://www.intel.com/newsroom/assets/tab/tab2/images/ui-bg_inset-hard_75_0860a8_1x100.png") no-repeat left top;float:left;height:35px;margin:-1px 0 -30px;width:700px}
+.simpleTabs .simpleTabs{background-image:none;border:0}
+ul.tabs{border-bottom:1px solid #a6a6a6;height:29px}
+ul.tabs li{float:left;list-style:none;margin:0 8px 5px 0;padding:0; height: 35px}
+ul.tabs a:link,ul.tabs a:visited{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) right 60px;color:#666;display:block;font-weight:400;height:30px;line-height:30px;text-decoration:none}
+a:link .doubleheight,a:visited .doubleheight{line-height:1.2em;text-align:center}
+ul.tabs a span{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) left 60px;display:block;height:30px;margin-left:-7px;margin-right:10px;padding-left:10px}
+ul.tabs a:hover{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) right 30px;color:#0860a8;cursor:pointer;display:block}
+ul.tabs a:hover span{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) left 30px;border-bottom:solid 1px #fff;cursor:pointer;display:block}
+ul.tabs .tab_active a:link,ul.tabs .tab_active a:visited,ul.tabs .tab_active a:visited,ul.tabs .tab_active a:hover{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) right 0 no-repeat;border:0;color:#0860a8}
+ul.tabs .tab_active a span,ul.tabs .tab_active a:hover span{background:url(http://www.intel.com/newsroom/assets/tab/images/round2.png) left 0 no-repeat;border:0;cursor:pointer}
+.tab_content{border:0 solid green;float:left;overflow:hidden;width:700px}
+
+.tab_content ul.tabs{border-bottom:solid 1px #a6a6a6;height:29px;margin-left:-10px;width:695px}
+.tab_content .tab_content{border:0 solid blue;height:210px;padding-left:5px;width:690px}
+
+.tab_content .headergradNR{width:694px;}
+.tab_content .backtotopwhite{margin-right:3px}

@@ -1,0 +1,43 @@
+ #twitterLocal {
+                                font-family:arial,sans-serif;
+                                width:223px;
+                }
+                                #twitterHeaderLocal {
+                                                background:url(http://www.intel.com/communities/pix/other/Newsroom_twitter_header.png) no-repeat;
+                                                color:white;
+                                                font-size:13px;
+                                                font-weight:bold;
+                                                height:50px;
+                                }
+                                #twitterTitleLocal {
+                                                padding:16px 0px 0px 65px;
+                                }
+                                #twitterBodyLocal {
+                                                font-size:11px;
+                                }
+                                                #twitter_update_listLocal {
+                                                                margin:0px;background-color:white;
+                                                                padding:10px 10px 0px 10px;
+                                                                border-right:1px solid #0377C0;
+                                                                border-left:1px solid #0377C0;
+                                                }
+                                                #twitter_update_listLocal li {
+                                                                padding-bottom:10px;
+                                                                list-style:none;
+                                                                font-size:11px;
+                                                                line-height:1.25em;
+                                                }
+                                #twitterFooterLocal {
+                                                background:url(http://www.intel.com/communities/pix/other/Newsroom_twitter_footer.png) no-repeat;
+                                                font-size:13px;
+                                                font-weight:bold;
+                                }
+                                                #twitterLogoLocal {
+                                                                border:none;
+                                                                margin: 5px 10px 0px 10px;
+                                                }
+                                                #twitterLinkLocal {
+                                                                display:block;
+                                                                padding: 0px 10px 10px 10px;
+                                                                color:white;
+                                                }

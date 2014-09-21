@@ -1,0 +1,3194 @@
+h/*  dwcommon css */
+
+ul.lotusList li a.dogearUntag {
+padding-left:17px !important;margin-right:35px;display:inline;margin-top:-5px;} /* Updated right margin to pad long tag names */
+
+input.tagSearchQueryText .lotusText   { 
+width:110px !important; height:12px !important;}
+
+.lotusCommunities .lotusHeader .lotusTable .lotusType { 
+vertical-align:-37px !important;}
+
+.lotusMessage{
+margin-top:20px;}
+
+#communityLogo {
+margin-top:7px !important;}
+
+#bannerprofusername, #headerUserName {color:#8fc5eb !important;font-size:0.9em;font-weight:bold;}
+
+.dw-lc-formblock .ask {
+font-size:.9em;}
+
+.formnote dw-lc-formblock {
+font-size:.9em;}
+
+
+	#lotusBanner,
+	.lotusBanner {
+		background-color: #000;
+		overflow:inherit;
+		margin: 0 0 0 0;
+		padding:0px !important;
+		text-align:inherit;
+	}
+	#lotusBanner #lotusLogo,
+	.lotusBanner .lotusLogo {
+		float:none;
+	}
+	#lotusBanner ul,
+	.lotusBanner ul {
+		margin-top:0px !important;
+	}
+	#lotusBanner ul.lotusLinks,
+	.lotusBanner ul.lotusLinks {
+		padding-left:0px !important;
+	}
+	#lotusBanner ul li,
+	.lotusBanner ul li {
+		background:inherit;
+		border-left:none;
+		color:inherit;
+		padding:0px;
+	}
+	#lotusBanner ul li.lotusFirst,
+	.lotusBanner ul li.lotusFirst {
+		background:inherit !important;
+	}
+	#lotusBanner ul.lotusLinks li a,
+	.lotusBanner ul.lotusLinks li a {
+		color:#CCC;
+	}
+	#lotusMain {
+		border-bottom:none !important;
+		margin-bottom:0px !important;
+		-moz-border-radius:0px !important;
+	}
+	#lotusFooter {
+		border:none !important;
+		margin:0 0 0 0 !important;
+		padding:0px !important;
+	}
+	/* ibm.com */
+	html,
+	body {
+		margin:0px;
+		padding:0px;
+		background-image:none !important;
+		}
+	
+/*
+	.blog #frame,
+	#lotusFrame {
+		min-width:0px;
+		width:970px;
+	}
+	#lotusFrame,
+	.lotusFrame {
+		width:950px !important;
+		min-width:950px !important;
+	}
+*/
+
+	#communities-masthead {
+		background:#000 url(//dw1.s81c.com/developerworks/i/dw-lc-mast_base.gif) repeat-x;
+		color:#CCC;
+		font-family:Arial,Helvetica,sans-serif;
+		font-size:0.9em;
+		line-height:normal;
+		margin:0px;
+		z-index:0;
+	}
+	#communities-masthead .lotusAccess {
+		position:absolute;
+		left:-3000px;
+		width:500px;
+	}
+	#communities-masthead a,
+	#communities-masthead a:link,
+	#communities-masthead a:visited {
+		color:#CCC;
+		text-decoration:none;
+	}
+	#communities-logo {
+		float:left;
+		height:32px;
+		width:130px;
+		z-index:2;
+	}
+	#communities-logo a {
+		/*border:red solid 1px;*/
+		display:block;
+		padding:8px 32px;
+	}
+	* html #communities-logo a {padding-bottom:2px !important;}
+	#communities-logo a.menu-open {
+		background:transparent
+			url(//dw1.s81c.com/i/v16/ibmlc/mast_menu.png)
+			no-repeat 16px 2px;
+			height:12px;
+	}
+
+
+*:first-child+html #communities-logo a.menu-open {
+		background:url(//dw1.s81c.com/i/v16/ibmlc/mast_menu.png) no-repeat 22px 2px;
+        }
+
+	* html #communities-logo a.menu-open {
+		background:url(//dw1.s81c.com/i/v16/ibmlc/mast_menu.gif) no-repeat 22px 2px;
+	}
+	#communities-logo img {
+		border:0px;
+	}
+	#communities-nav,
+	#communities-login {
+		background:#000
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast_base.gif)
+			repeat-x;
+		list-style-type:none;
+		margin:0px;
+		padding:0px;
+	}
+	#lotusBanner #communities-masthead #applinks #communities-nav {
+		float:left;
+		margin:0px;
+		width:525px;
+	}
+	
+	#lotusBanner #communities-masthead #applinks #communities-nav-575 {
+		float:left;
+		margin:0px;
+		width:575px;
+	}
+	
+	#lotusBanner #communities-masthead #communities-login {
+		float:right;
+	}
+/*
+*:first-child+html #lotusBanner #communities-masthead #communities-login {width:330px;border:}
+* html #lotusBanner #communities-masthead #communities-login {width:330px;}
+*/
+#headerUserName {
+	display:block !important;
+	color:#FFF !important;
+	font-weight:bold;
+}
+
+	#communities-nav li,
+	#communities-login li {
+		display:block;
+		float:left;
+		font-weight:bold;
+	}
+	#communities-login li {
+		font-weight:normal;
+	}
+	/*#lotusBanner #communities-nav li a,*/
+	#lotusBanner #communities-login li a {
+		display:block;
+		padding:9px 10px !important;
+		color: #ccc;
+		background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc-mast_login_divider.gif) no-repeat 100% 50%;
+	}
+	#lotusBanner #communities-nav li a {
+		display:block;
+		padding:9px 10px !important;
+		color: #ccc;
+	}
+	#lotusBanner #communities-login li span{
+	display:block;
+	padding:9px 10px !important;
+	color:#8FC5EB !important;
+	font-weight:bold;
+	background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc-mast_login_divider.gif) no-repeat 100% 50%;
+	}
+	
+	#communities-login li span,
+	#communities-login li a {
+		/*background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc-mast_login_divider.gif) no-repeat 100% 50%;*/
+		padding:9px 8px 9px 7px;
+		height:14px;
+	}
+* html 	#lotusBanner #communities-nav li a {background-color:transparent;}	
+* html 	#communities-login li span,
+* html	#communities-login li a {height:auto;}
+	
+	#communities-login #logoutLi a {
+		background-image:none;
+	}
+	#communities-login #headerUserText {
+		display:block !important;
+		text-align:right;
+	}
+	#communities-login #headerUserText span {
+		color:#FFF;
+		/*display:none;*/
+		white-space:nowrap;
+	}
+	#communities-masthead a,
+	#communities-masthead a:link,
+	#communities-masthead a:visited {
+		color:#CCC;
+		text-decoration:none;
+	}
+	/*#communities-masthead a:focus,*/
+	#communities-masthead a:hover {
+		color:#FFF;
+	}
+* html #lotusBanner #communities-nav li a.active {padding-top:9px;padding-bottom: 9px;margin:0px;}
+
+#lotusBanner #communities-nav li#lotusBannerHomepage,
+#lotusBanner #communities-nav li#lotusBannerProfile,
+#lotusBanner #communities-nav li#lotusBannerCommunities,
+#lotusBanner #communities-nav li#lotusBannerBlogs,
+#lotusBanner #communities-nav li#lotusBannerDogear,
+#lotusBanner #communities-nav li#lotusBannerActivities {margin:0px !important; padding:0px !important;}
+
+	#lotusBanner #communities-nav li a.active,
+	#lotusBanner #communities-nav li a.hover,
+	/*#lotusBanner #communities-nav li a:focus,*/
+	#lotusBanner #communities-nav li a:hover {
+		background:transparent
+			url(//dw1.s81c.com/developerworks/i/dw-lc/mdw-mast-nav-select.gif)
+			repeat-x 0% 100%;
+		color:#FFF !important;
+	}
+	
+#lotusBanner #communities-nav li.lotusSelected a {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc/mdw-mast-nav-select.gif) repeat-x scroll 0 100% !important;
+	color:#FFFFFF !important;
+}
+
+
+	#communities-masthead div.ibm-rule {
+		clear:both;
+		height:0px;
+	}
+	#communities-masthead div.ibm-rule hr {
+		display:none;
+	}
+	#communities-menu {
+		background:transparent
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast_menu_foot.png)
+			no-repeat 16px 100%;
+		display:none;
+		left:0px;
+		padding:0px 0px 7px 16px;
+		position:absolute;
+		top:26px;
+		width:156px;
+		z-index:1;
+	}
+
+*:first-child+html #communities-menu {
+		background:transparent
+			url(//dw1.s81c.com/i/v16/ibmlc/mast_menu_foot.png)
+			no-repeat 22px 100%;
+	padding-left:22px;
+}
+
+	* html #communities-menu {
+		background:
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast-menu-foot.png)
+			no-repeat 22px 100%;
+	padding-left:22px;
+	}
+	#communities-menu ul {
+		background:transparent
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast-menu.png)
+			no-repeat 0px -24px;
+		float:none;
+		list-style-type:none;
+		margin:0px;
+		padding:2px 4px 0px;
+	}
+	* html #communities-menu ul {
+		background-image:
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast_menu.gif);
+	}
+	#lotusBanner #communities-menu li {
+		background-image:none;
+		border-top:#333 solid 1px;
+		display:block;
+		margin:0px;
+		padding:0px;
+		text-align:left;
+	}
+	#lotusBanner #communities-menu li.lotusFirst {
+	background-image:none !important;
+		border-top:none;
+	}
+	#lotusBanner #communities-menu a {
+		display:block;
+		padding:4px 10px;
+		width:128px;
+	}
+	#communities-menu a:hover {
+		background:
+			url(//dw1.s81c.com/developerworks/i/dw-lc-mast_menu_over_crop.gif)
+			repeat-x;
+	}
+	
+.lotusInlinelist{margin:0;padding:0}
+.lotusInlinelist li{display:inline;margin:0;padding:0 7px;border-left-width:1px;border-color:#CCCCCC;}
+.lotusInlinelist li.lotusFirst, .lotusInlinelist li.lotusLast{padding-left:0;border-left-width:0;}
+.lotusNoDivider li{border-left-width:0 !important;}
+	
+#bannerprofimg {
+border:1px solid #BCBCBC;
+margin: -4px !important;
+position:relative;
+top:0px;
+}
+
+
+
+#headerHelpLi {
+	border-color:#CCC;
+	border-left-style:solid;
+	border-left-width:1px;
+}
+
+#headermyprofile {margin-right:20px;}
+
+#headerLanguageSelectorMenu, #headerHelpLink{
+	background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc-mast_login_divider.gif) no-repeat 100% 50%;
+}
+
+/*
+.lotusInlinelist li {defaultTheme.css (line 23)
+border-color:#CCCCCC;
+}
+
+.lotusInlinelist li {core.css (line 81)
+border-left-style:solid;
+border-left-width:1px;
+display:inline;
+margin:0;
+padding:0 7px;
+}
+*/
+	
+ul#mdw-breadcrumbs {
+	line-height:1em;
+	height:1%;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+	
+ul#mdw-breadcrumbs li {
+	background:url(//dw1.s81c.com/developerworks/lc/images/nav-trail.gif) no-repeat 100% 50%; 
+	float:left;
+	display:inline;
+	padding:0px 14px 0px 2px;
+	margin:5px;
+	font-size:10px !important;
+	font-weight:bold;
+}
+
+ul#mdw-breadcrumbs li.mdw-firstcrumb {padding-left:17px;}
+
+ul#mdw-breadcrumbs li a:visited, ul#mdw-breadcrumbs li a:link {
+	color: #666666 !important;
+	font-size:10px 
+}
+
+
+#lotusTitleBar, .lotusTitleBar {
+	
+	background-image:none;
+	border-bottom-color:#ffffff !important;
+	height:134px !important;
+	margin:0 0 0 0;
+	position: relative;
+}
+	
+* html #lotusTitleBar, 
+* html .lotusTitleBar {
+	
+	background-image:none;
+	border-bottom-color:#ffffff !important;
+	height:134px !important;
+	margin:0 0 0 0;
+	position: relative;
+}
+	
+
+/* 
+* html #lotusTitleBar,
+* html .lotusTitleBar {border-bottom:0px !important;}
+*/
+
+
+	#lotusTitleBar .lotusRightCorner,
+	.lotusTitleBar .lotusRightCorner {
+		background-position:100% 0% !important;
+		background-repeat: repeat-x;
+		padding-right:0px !important;
+	}
+	#lotusTitleBar .lotusInner,
+	.lotusTitleBar .lotusInner {
+		background: url(//dw1.s81c.com/developerworks/lc/images/mdw-bkgd-top-r1.jpg) no-repeat !important;
+		background-position:100% 0% !important;
+		height:135px !important;
+	}
+
+#lotusTitleBar .lotusTabs, 
+.lotusTitleBar .lotusTabs {
+	/*left:0px !important;*/
+	width:auto;
+	left:20px !important;
+}
+
+
+#lotusTitleBar .lotusTabs li.lotusSelected, 
+.lotusTitleBar .lotusTabs li.lotusSelected {
+background:url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -130px !important;
+border-top:1px solid #CCC !important;
+border-bottom:0 #FFF !important;
+border-left:1px solid #CCC !important;
+}
+
+#lotusTitleBar .lotusTabs li.lotusSelected a, 
+#lotusTitleBar .lotusTabs li.lotusSelected a:visited, 
+.lotusTitleBar .lotusTabs li.lotusSelected a, 
+.lotusTitleBar .lotusTabs li.lotusSelected a:visited {
+background:url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -130px !important;
+border-top:0px !important;
+color:#000 !important;
+}
+
+#lotusTitleBar .lotusTabs li.lotusSelected a {}
+
+
+#lotusTitleBar .lotusTabs li,
+.lotusTitleBar .lotusTabs li {
+background:url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px 0px !important;
+border-bottom:0px !important;
+padding-left:0px !important;
+}
+
+#lotusTitleBar .lotusTabs a, 
+#lotusTitleBar .lotusTabs a:visited, 
+.lotusTitleBar .lotusTabs a, 
+.lotusTitleBar .lotusTabs a:visited {
+background-image:none !important;
+border-top:0px solid #7E9AB0 !important;
+border-bottom:0px !important;
+color:#c8d7e3 !important;
+}
+
+#lotusTitleBar .lotusTabs a, #lotusTitleBar .lotusTabs a:visited, .lotusTitleBar .lotusTabs a, .lotusTitleBar .lotusTabs a:visited {padding:5px 12px !important;font-size:0.9em !important;}
+
+#searchFor {width:200px !important;}
+
+#lotusPlaceBar,
+.lotusPlaceBar {background:url('//dw1.s81c.com/i/v16/ibmlc/lc_navbar_bg.gif') align:bottom repeat-x 0px 0px !important;}
+
+.lotusTabs li, .portlet-tab li {
+	margin-right:2px;
+	border-style:none;
+	}
+
+
+#lotusTitleBar .lotusTabs li, .portlet-tab li {
+	margin:0px !important;
+	border-style:none;
+	}
+
+
+#lotusMain, .lotusMain {background-image:none !important;}
+#old-lotusMain {background-color:#FFF;;border-right:1px solid #CFCFCF;border-left:1px solid #CFCFCF;}
+
+.lotusMenu #communitylinkstitle {
+background:#7A96AB url(//dw1.s81c.com/i/v16/t/leftnav-overview-gradient.gif) repeat-x 0px 50%;
+color:#FFF;
+font-weight:bold;
+padding:2px 5px 2px 7px;
+font-size:0.9em;
+}
+#communityHomeLink a {
+padding-left:8px !important;
+}
+#communityMembersLink a {
+padding-left:8px !important;
+}
+#communityForumLink a {
+padding-left:8px !important;
+}
+#communityBookmarksLink a {
+padding-left:8px !important;
+}
+#communityFeedsLink a {
+padding-left:8px !important;
+}
+
+.lotusMenu, .portlet-menu {
+border:1px solid #98b1c7 !important;
+background-image:none !important;
+background-color:#e7eef4 !important;
+padding-top:0px !important;
+}
+
+.lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .portlet-menu li.lotusSelected a, .portlet-menu li.lotusSelected a:visited, .portlet-menu li.lotusSelected a:active {
+background-color:#C8D6E1 !important;
+color:#4C6E94 !important;
+}
+
+.lotusMenu .lotusMenuSection {
+border-bottom-color:#A8BDCE !important;
+}
+
+.lotusMenu li a, .lotusMenu li a:visited, .portlet-menu li a, .portlet-menu li a:visited {font-size:11px; font-weight:bold !important;color:#4c6e94 !important;padding-left:7px !important;}
+
+.lotusMenu li a.homeIcon,.lotusMenu li a.completedIcon,.lotusMenu li a.tunedOutIcon,.lotusMenu li a.trashIcon,.lotusMenu li a.highPriorityIcon,.lotusMenu li a.mediumPriorityIcon {padding-left:8px !important;}
+
+.lotusMenu li a.activityIcon,
+.lotusMenu li a.calendarIcon,
+.lotusMenu li a.todoListIcon {padding-left:8px !important;}
+
+.lotusMenu li a, .lotusMenu li a:visited, .portlet-menu li a, .portlet-menu li a:visited {padding-top:7px !important;padding-bottom:8px !important;}
+
+.lotusMenu .lotusInner,
+.lotusMenu .lotusBottomCorner {background-image:none !important;}
+
+.lotusMenu .lotusBottomCorner, .portlet-menu .lotusBottomCorner {padding-bottom:0px !important;}
+
+.lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .lotusMenu li.lotusSelected a:active, .portlet-menu li.lotusSelected a, .portlet-menu li.lotusSelected a:visited, .portlet-menu li.lotusSelected a:active {background-color:#c8d6e1 !important;border:0px !important;}
+
+.lotusMenu li.lotusSelected a, .lotusMenu li.lotusSelected a:visited, .portlet-menu li.lotusSelected a, .portlet-menu li.lotusSelected a:visited {margin:0px !important;}
+
+
+.lotusMenu ul li a, .lotusMenu ul li a:visited, .lotusMenu ul li.lotusSelected a, .lotusMenu ul li.lotusSelected a:visited {margin:0px !important;}
+
+.lotusInfoBox{background-color:#FFF !important;border:1px solid #CCC !important;padding:0px !important;}
+.portlet-msg{background-color:#FFF !important;border:1px solid #CCC !important;padding:0px !important;}
+
+
+#lotusColLeft .lotusSection .lotusSection, .lotusColLeft .lotusSection .lotusSection {border: none !important;}
+
+.lotusColLeft .lotusSection {border:1px solid #CCC !important;padding-bottom:0px !important;}
+
+#lotusColLeft .lotusSection .lotusChunk, .lotusColLeft .lotusSection .lotusChunk {padding-bottom:10px; font-size:11px;}
+
+#lotusColLeft .lotusSection .lotusChunk, .lotusColLeft .lotusSection .lotusChunk #cloudSelected .lotusInlinelist .lotusActions .lotusFirst {padding-bottom:10px; }
+
+* html #lotusColLeft .lotusSection .lotusChunk,
+* html .lotusColLeft .lotusSection .lotusChunk {width:150px !important;padding-right:0px !important;margin-right:0px !important;}
+
+#lotusColLeft .lotusSection .lotusChunk h3, .lotusColLeft .lotusSection .lotusChunk h3 {font-size:11px !important;}
+
+#lotusColLeft .lotusSection #tagCloud, .lotusColLeft .lotusSection #tagCloud {
+padding-left:0px;
+padding-right:0px;
+}
+
+* html #lotusColLeft .lotusSection #tagCloud, * html .lotusColLeft .lotusSection #tagCloud {padding-left:1px !important;padding-right:0px !important;width:160px !important;}
+
+.lotusSection, .portlet-section {padding-top:0px !important;}
+
+#lotusColLeft .lotusSection, #lotusColLeft .lotusSection input, .lotusColLeft .lotusSection, .lotusColLeft .lotusSection input{line-height:1.33em !important; font-size:11px !important;}
+
+* html #lotusColLeft .lotusSection,
+* html #lotusColLeft .lotusSection input,
+* html .lotusColLeft .lotusSection,
+* html .lotusColLeft .lotusSection input {font-size:11px !important;}
+
+.lotusColLeft .lotusTagCloud, #lotusColLeft .lotusTagCloud {width:auto !important;}
+
+
+
+.lotusColLeft #lconn_act_TitlePane_1 .dijitTitlePaneContentInner{
+	font-size:11px;
+	}
+
+.lotusColLeft #dashTagCloud .dijitTitlePaneTitle {
+background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+}
+
+.lotusColLeft .dijitTitlePane.dijitContentPane {border:1px solid #CCC;}
+
+
+.lotusColLeft #t_dashTagCloud,
+.lotusColLeft #dashTagCloud, 
+.lotusColLeft #todoTagCloud,
+.lotusColLeft #lconn_act_TitlePane_0, 
+.lotusColLeft #lconn_act_TitlePane_2,
+.lotusColLeft #lconn_act_TitlePane_7,
+.lotusColLeft #lconn_act_TitlePane_2,
+.lotusColLeft #lconn_act_TitlePane_9{
+	border:1px solid #CCC;margin-bottom:10px;
+	}
+	
+.lotusColLeft .lotusInner .dijitTitlePaneTitle {background-image:none !important;background-color:#E7EEF4 !important;}
+
+.lotusColLeft .dijitTitlePaneTitle {background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px !important;}
+
+
+.lotusSearch input {vertical-align:top !important;}
+
+.lotusSearch .dijitTextBox {width:110px !important;height:18px;}
+
+#searchFor {width:140px !important;}
+
+#lotusColRight .portlet-section{
+border: 1px solid #CCC;
+margin-bottom:15px !important;
+}
+
+#lotusColRight .lotusSection{
+border: 1px solid #cccccc;
+margin-bottom:15px !important;
+}
+
+#lotusColRight .lotusSection {width:auto !important;}
+
+
+#lotusColLeft .lotusSection h2, .lotusColLeft .lotusSection h2 {
+background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+border-top:0px !important;
+height:1% !important;
+margin:0px !important;
+padding:3px 5px !important;
+color:#000 !important;
+font-size:11px !important;
+}
+
+/* fix bug 2785*/ 
+#lotusColLeft .lotusSection #subscribersHolder h2 {
+	margin-left: 0px !important; 
+}
+
+#lotusColLeft .lotusSection h2 span.lotusLeft, .lotusColLeft .lotusSection h2 span.lotusLeft, #lotusColRight .lotusSection h2 span.lotusLeft, .lotusColRight .lotusSection h2 span.lotusLeft {width:125px;padding-top:2px !important;}
+
+
+
+
+.lotusWidget {border:1px solid #CCC !important;margin:0px 5px 20px 5px !important; width:auto !important;}
+
+a.lotusAction:link,
+a.lotusAction:visited {text-decoration:none !important;}
+a.lotusAction:hover {text-decoration:underline !important;}
+
+.dijitCalendarYearLabel .dijitCalendarPreviousYear, .dijitCalendarYearLabel, .dijitCalendarNextYear,a.lotusAction, a.lotusAction:visited {color:#4a6694 !important;}
+
+h2.ibmDndDragHandle {
+background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+border-bottom:1px solid #CCC !important;
+border-top:0px !important;
+margin:0px !important;
+padding:3px 5px !important;
+color:#000 !important;
+font-size:12px !important;
+overflow:hidden;
+height:auto !important;
+}
+
+
+
+
+* html #lotusColLeft .lotusSection h2 span.lotusLeft,
+* html .lotusColLeft .lotusSection h2 span.lotusLeft,
+* html #lotusColRight .lotusSection h2 span.lotusLeft,
+* html .lotusColRight .lotusSection h2 span.lotusLeft {width:120px !important;display:block !important;}
+
+#lotusColLeft, .lotusColLeft {padding:20px 20px 10px 10px !important; width:170px !important;}
+.lotusBlue .dijitButtonTemplate button, .lotusBlue .dijitDropDownButtonTemplate button {width:170px !important; margin-bottom:10px !important; }
+
+.dijitTitlePaneTitle .dijitClosed {
+margin-top:10px !important;
+}
+
+.lotusMenu, .portlet-menu {width:auto !important;}
+
+table#commonSlider, table#tagSlider, table#slider1{width:150px !important;}
+
+.dijit_a11y div.dijitSliderImageHandle, .dijitSliderImageHandle {background-image:url(//dw1.s81c.com/i/v16/ibmlc/tagsliderhandle.gif) !important;}
+
+.dijitSliderImageHandleH {left:-10px !important; top:-5px !important;height:16px !important;width:16px !important;} /* Alignment fix for slider bar handle button */
+
+table#commonSlider .dijitSliderImageHandleH {left:-10px !important;} /* Alignment fix for slider bar handle button */
+
+.dijitSliderRemainingBar {background:#FFF url(//dw1.s81c.com/i/v16/ibmlc/tagsliderbar.gif) no-repeat 0px 0px !important;}
+
+.dijitSlider .dijitSliderBumperH {width:9px;} /* Alignment fix for slider bar bumper across all apps */
+
+.lotusInfoBox h3, .portlet-msg h3 {
+background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+border-bottom:1px solid #CCC;
+border-top:0px !important;
+margin:0px !important;
+padding:3px 5px;
+color:#000 !important;
+font-size:11px !important;
+}
+
+h4 {font-size:11px !important;}
+
+#lotusContent h4,.lotusFirst h4
+{font-size:12px;}
+
+
+#communityFeedContentContainerFeedTableContainer h4,
+#dogearFeedContentContainerFeedTableContainer h4,
+#blogsFeedContentContainerFeedTableContainer h4,
+#activitiesFeedContentContainerFeedTableContainer h4,
+#filesFeedContentContainerFeedTableContainer h4,
+#downloadsFeedContentContainerFeedTableContainer h4
+{font-size:12px !important;}
+
+
+#lotusColRight h4 {font-size:11px;}
+
+#lotusColRight table.lotusTable td h4,
+
+
+
+
+.lotusInfoBox ul.list, .portlet-msg ul.list {
+	list-style-type:none;
+	margin:0px;
+	padding:4px 3px 4px 0px;
+}
+
+.lotusInfoBox ul.list li, .portlet-msg ul.list li {
+	background:url(//dw1.s81c.com/i/v16/bullets/sprites.gif) no-repeat 6px -806px;
+	line-height:1.2em;
+	padding:2px 0px;
+	height:1%;
+	padding-left:14px;
+	padding-right:2px;
+	font-size:.9em !important;
+}
+
+
+.lotusInfoBox p {font-size:0.9em !important; color:#666 !important;}
+
+
+.lotus	 {background-color:#e6edf2 !important;background-image:none !important;}
+.lotusWelcomeBox, .lotusWelcomeBox h2 {
+color:#000000;
+border-style:none;
+}
+
+#lotusWelcomeBox-Homepage{margin-bottom:18px !important;}
+
+.lotusWelcomeBox p,
+.lotusWelcomeBox ul {margin-right:0px !important;}
+
+#contentArea .lotusSection, 
+#contentArea .portlet-section {
+padding-top:0px !important;
+padding-bottom:0px !important;
+}
+
+* html #contentArea .lotusSection,
+* html #contentArea .portlet-section {width:99% !important;}
+
+#lotusContent .lotusSection h2, .lotusContent .lotusSection h2 {
+background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+border-bottom:1px solid #CCC !important;
+border-top:0px !important;
+height:1% !important;
+margin:0px !important;
+padding:3px 5px !important;
+}
+
+#lotusMain h1, #lotusMain h2, .lotusWidget h3 {color:#000 !important;}
+
+.lotusContent .lotusSection .lotusWelcomeBox h2,
+.lotusWelcomeBox h2 {background:none !important;border-bottom:0px none !important;}
+
+
+/*.lotusTags {color:#666;font-weight:bold;padding-left:16px;background:url(//dw1.s81c.com/i/v16/ibmlc/community-tags.gif) no-repeat 0px 0px;}*/
+
+.lotusTags .lotusInlinelist li {border-width:0px !important;}
+
+
+.hiviz{font-weight:normal}
+
+* html #lotusContent {float:left !important;}
+
+
+	#ibm-footer-module.communities-footer-module,
+	#test-footer {
+		background:
+			url(//dw1.s81c.com/i/v16/ibmlc/lc_theme_v3_liquid_footer.jpg)
+			no-repeat
+			100% 0%
+			!important;
+		height:73px !important;
+		margin:0px;
+/*		margin:0px auto !important;
+		width:930px !important;
+*/
+	}
+
+
+.lotusBlue .dijitButton, .lotusBlue .dijitDropDownButton{border:0px !important;}
+
+.dijitButton, .dijitDropDownButton, .dijitComboButton {margin:0px !important;}
+.lotusBlue .createActivityButton button {width:170px !important;font-size:1em !important; margin:0 0 10px;}
+
+.lotusBlue .dijitButton button, .lotusBlue .dijitDropDownButton {
+background-color:transparent !important;
+color:#FFF !important;
+padding:2px !important;
+margin-right:2px !important;
+}
+
+.lotusBlue .dijitToolbar .dijitButton button,
+.lotusBlue .dijitToolbar .dijitDropDownButton button {border:0px !important; color:#999999 !important;background:transparent none !important;}
+
+
+
+.lotusBlue .dijitDropDownButton.dropDownButtonLink button,
+.lotusBlue .dijitButton.buttonLink button {
+background:none !important;
+border:none !important;
+padding:0px !important;
+}
+
+.dijitButtonNode .dijitArrowButtonInner {height:14px !important;}
+
+.RichTextEditable .dijitButtonNode .dijitArrowButtonInner {background-image:url(//dw1.s81c.com/activities/nav/common/styles/images/btnDropDown.gif) !important;}
+
+.lotusWelcome .lotusBtnAction, .lotusWelcomeBox .lotusClose {border:none !important;}
+
+/*.lotusWelcomeBox .lotusClose {	
+background-image: url(http://dw1.s81c.com/developerworks/mydeveloperworks/profiles/nav/common/styles/images/iconCloseWelcome.gif)!important;	
+BACKGROUND-COLOR: transparent !important;
+border:none !important;
+min-width:15px !important;
+color:transparent !important;
+}*/
+
+#lotusMain span.lotusBtnAction {border-color:#2E4F76 !important;border:0px !important;}
+
+#lotusMain span.lotusBtn.lotusLeft {border:0px !important;}
+
+/*
+span.lotusBtn.lotusLeft a,
+span.lotusBtn.lotusLeft a:visited {color:#105CB6 !important;}
+*/
+
+span.lotusBtn.lotusLeft a.lotusBookmarkButton,
+span.lotusBtn.lotusLeft a.lotusBookmarkButton:visited {color:#FFF !important;
+line-height:1em !important;
+font-size:1em !important;
+padding:5px 10px !important;
+width:auto !important;
+}
+* html span.lotusBtn.lotusLeft a.lotusBookmarkButton,
+* html span.lotusBtn.lotusLeft a.lotusBookmarkButton:visited {width:130px !important;}
+
+
+
+
+
+input.ibm-btn-arrow-pri,
+/*input.lotusFormButton,*/
+ span.lotusBtnAction, 
+ span.lotusBtnAction a:visited {
+/* background:#2E4F76 url(//dw1.s81c.com/i/v16/ibmlc/btn-pri-bg.gif) repeat-x 0px 0px !important; */
+/*border:1px solid #2E4F76 !important; */
+color:#FFF !important;
+min-width:100px;
+padding:2px 0px !important;
+/* font-size:.9em;*/
+font-weight:bold;
+}
+
+span.lotusClose a,
+span.lotusClose a:visited {
+BACKGROUND-IMAGE:url(http://dw1.s81c.com/developerworks/mydeveloperworks/profiles/nav/common/styles/images/iconCloseWelcome.gif) !important;	
+COLOR:#fff!important;
+border:none !important;
+min-width:15px !important;
+background-color:transparent !important;
+width:15px !important;
+background-repeat:no-repeat !important;
+line-height:11px !important;
+height:11px;}
+
+
+
+
+a.personLabel.offlineStatusLabel{color:#999;font-weight:bold;padding:5px;}
+
+
+
+
+input.ibm-btn-arrow-pri {
+	padding:2px 10px 2px 10px !important;
+	text-align:center;
+	cursor:pointer;
+	line-height:1em !important;
+	min-width: 0;
+}
+
+input.lotusBtnSpecial {
+BORDER-RIGHT: #6e88a7 1px solid;	
+PADDING-RIGHT: 10px !important;	
+BORDER-TOP: #6e88a7 1px solid;	
+PADDING-LEFT: 10px !important;	
+BACKGROUND: #6e88a7 url(//dw1.s81c.com/i/v16/ibmlc/btn-sec-bg.gif) repeat-x 0px 0px !important;	
+PADDING-BOTTOM: 2px !important;	
+BORDER-LEFT: #6e88a7 1px solid;	
+COLOR: #fff !important;	
+PADDING-TOP: 2px !important;	
+BORDER-BOTTOM: #6e88a7 1px solid;	
+min-width: 135px !important;
+}
+
+
+.lotusBlue #lotusPlaceBar .dijitButton button,
+.lotusBlue #lotusPlaceBar .dijitDropDownButton button, 
+.lotusInner span.lotusBtn, 
+#lotusInner span.lotusBtn {
+background:#6E88A7 url(//dw1.s81c.com/i/v16/ibmlc/btn-sec-bg.gif) repeat-x 0px 0px !important;
+border:1px solid #6E88A7 !important;
+color:#FFF !important;
+min-width:100px;
+padding:0px 10px !important;
+margin-top:2px !important;
+}
+
+#lotusInner .lotusBtnContainer .lotusLeft span {
+background-image:none;
+border:none;
+}
+
+.lotusInner span.lotusBtn a,
+.lotusInner span.lotusBtn a:visited,
+#lotusInner span.lotusBtn a,
+#lotusInner span.lotusBtn a:visited {background-color:transparent !important;border-top:0px !important;color:#FFF !important;}
+
+input.button-save {
+padding: 0px 10px !important;
+min-width:0px !important;
+height:auto !important;
+}
+
+* html input.ibm-btn-arrow-pri,
+/* * html input.lotusFormButton, */
+* html span.lotusBtnAction a,
+* html span.lotusBtnAction a:visited,
+* html input.lotusBtnSpecial {padding:0px;width:100px;}
+
+*:first-child+html input.ibm-btn-arrow-pri,
+/* *:first-child+html input.lotusFormButton, */
+*:first-child+html input.lotusBtnSpecial {padding:0px 20px 0px 8px;text-align:center;line-height:1em !important;}
+
+span.lotusBtn.lotusLeft a {
+font-size:11px !important;
+border:1px solid #CCCCCC;}
+
+#ibm-content {margin:0px 10px;padding:15px 170px 25px;}
+
+#ibm-content a {text-decoration:underline;}
+
+#ibm-content a.ibm-forward-link {text-decoration:none;}
+#ibm-content a.ibm-forward-link:hover {text-decoration:underline;}
+
+.lotusLogin h1 {
+	padding-bottom:7px !important;
+	font-size: 1.7em;
+}
+
+form.ibm-column-form label {
+	clear:left;
+	display:block;
+	float:left;
+	font-weight:bold;
+	width:150px;
+}
+form.ibm-column-form p span {
+	display:block;
+	margin-left:157px;
+}
+
+form.ibm-column-form a.ibm-forward-link {
+background:url(//dw1.s81c.com/i/v16/icons/fw.gif) no-repeat 2px 0px;
+height:1%;
+margin:0;
+padding:0 5px 3px 21px;
+}
+
+form.ibm-column-form p {padding-top:5px;padding-bottom:10px;}
+
+
+#ibm-footer-module.communities-footer-module ul {padding-top:26px;}
+
+#ibm-footer-module.communities-footer-module li {
+        float:left;
+        overflow:inherit;
+        padding:2px 0px 2px 0px !important;
+        white-space:nowrap;
+}
+
+#ibm-footer-module.communities-footer-module li.ibm-first {
+	font-size:1.3em;
+        color:#FFF;
+	font-weight:bold;
+	padding-left:8px !important;
+	padding-right:18px !important;
+	padding-top:1px !important;
+}
+
+#ibm-footer-module.communities-footer-module li a {
+
+                background:transparent
+                        url(//dw1.s81c.com/i/v16/ibmlc/foot_divider.gif)
+                        no-repeat 0% 50% !important;
+                padding:0px 9px 0px 9px;
+	color:#FFF;
+}
+
+#ibm-footer-module.communities-footer-module li.ibm-first-link a {
+ background:none !important;
+}
+
+
+
+
+#ibm-footer {
+	background:#000 url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -631px;
+	border-top:0px !important;
+/*	margin:0px auto !important;
+        width:930px !important;
+*/	
+	margin:0;
+	clear:both;
+	color:#CCC;
+	padding-top:1px;
+	height:auto;
+}
+#ibm-footer ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	height:1%;
+}
+#ibm-footer li {
+	float:left;
+	overflow:inherit;
+	padding:3px 10px 5px 14px !important;
+	white-space:nowrap;
+}
+#ibm-footer li.ibm-first {
+	background-image:none;
+	padding-left:19px;
+}
+
+
+#ibm-footer li a:link, #ibm-footer li a:visited {color:#CCC;text-decoration:none;}
+#ibm-footer li a:hover {color:#FFF;text-decoration:none;}
+
+#ibm-footer:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+#ibm-footer ul {
+	font-family:arial,sans-serif;
+	font-size:1em;
+	font-weight:bold;
+}
+
+
+	/* override iehacks */
+/*
+	* html .blog #frame,
+	* html #lotusFrame {
+		min-width:0px;
+		width:970px;
+	}
+*/	
+	
+	* html #lotusBanner,
+	* html .lotusBanner {
+		margin-bottom:0px;
+	}
+	/* force hasLayout for MSIE < 7 */
+	* html #communities-masthead,
+	* html #communities-nav,
+	* html #communities-login,
+	* html #communities-menu * {
+		height:1%;
+	}
+	/* force hasLayout for MSIE 7 */
+	*:first-child+html #communities-masthead {
+		height:1%;
+	}
+	*:first-child+html #communities-menu * {
+		height:1%;
+	}
+	#communities-menu.menu-open {
+		display:block;
+	}
+	#headerHelpLi {
+		display:none;
+	}
+ 
+
+.memo {
+	border: 2px solid #ccc;
+	font-family: cursive;
+	width: 15em;
+	background:#EDFEE1 ;
+}
+
+.tileit {
+	font-weight: bold;
+	float: left;
+	width: 15em;
+	color: #3F70A8;
+}
+
+.forImage {
+	font-weight: bold;
+	float: left;
+	width: 5em;
+	height: 5em;
+	color: #3F70A8;
+	vertical-align:top;
+}
+
+.close {
+	float: right;
+	background: black;
+	color: yellow;
+	font-size: x-small;
+	cursor: pointer;
+}
+
+.contents {
+	clear: both;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	margin: 5px;
+}
+
+.label{
+         border:2px solid #ccc;
+ }
+
+
+
+form {margin-right:0px;}
+img {border:0px;}
+
+div.ibm-rule {
+	background:#FFF url(//dw1.s81c.com/i/dotted.gif) repeat-x;
+	height:1px;
+}
+div.ibm-alternate-rule,
+div.ibm-alternate-rule-two {
+	background:#FFF url(//dw1.s81c.com/i/solid.gif) repeat-x;
+	height:1px;
+}
+div.ibm-alternate-rule-two {
+	background-repeat:repeat;
+	height:4px;
+}
+div.ibm-alternate-rule-three {
+	background:none;
+	height:0px;
+}
+div.ibm-rule hr,
+div.ibm-alternate-rule hr,
+div.ibm-alternate-rule-two hr,
+div.ibm-alternate-rule-three hr {display:none;}
+.ibm-rule,
+.ibm-alternate-rule,
+.ibm-alternate-rule-two,
+.ibm-alternate-rule-three,
+.ibm-clear {clear:both;}
+
+/* accessibility styles begin ============================================ */
+.ibm-access {
+	position:absolute;
+	left:-3000px;
+	width:500px;
+}
+/* accessibility styles begin ============================================ */
+
+
+/* content styles begin ================================================== */
+ul.ibm-link-list {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	clear:both;
+}
+#ibm-content-main p {
+	margin:0em;
+	padding:0em 0em 1em;
+}
+#lotusColRight .ibm-container {
+	margin:0em 0em 1.2em;
+	width:100%;
+}
+.ibm-error {color:#F00;}
+#lotusColRight .ibm-container .ibm-container-body{
+	background:#FFF url(//dw1.s81c.com/i/ v16/t/container-gradient.gif) repeat-x 0% 100%;
+	border-bottom:#CCC solid 1px;
+	border-left:#CCC solid 1px;
+	border-right:#CCC solid 1px;
+	}
+#lotusColRight .ibm-container.ibm-alternate .ibm-container-body {background:none;}
+#lotusColRight .ibm-container h2 {
+	background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px; 
+	border:#CCC solid 1px;
+	margin:0px;
+	padding:3px 5px !important; 
+	height:1%;
+	margin-bottom:-2px !important;
+}
+
+.EventLog {
+border:none;
+padding:0px 0px 5px 0px !important;
+width:150px !important;
+}
+
+.EventLog h2 {line-height:1em !important;}
+
+
+* html #lotusColRight .ibm-container h2 {padding:3px 5px;}
+
+#lotusColRight .ibm-container .ibm-container-body h2,
+#lotusColRight .ibm-container.ibm-alternate-two h2,
+#lotusColRight .ibm-container.ibm-alternate-six h2 {
+	background:none;
+	border:none;
+}
+#ibm-content-main .ibm-container p {padding:0.3em 5px 0.7em;}
+#ibm-content-main p.ibm-ind-link {padding:0em;}
+.ibm-container ol {
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+}
+.ibm-container .ibm-container-body ul.ibm-bullet-list {
+	list-style-type:none;
+	margin:0px;
+	padding:4px 3px 4px 0px;
+}
+.ibm-container .ibm-container-body ul.ibm-bullet-list li {
+	background:url(//dw1.s81c.com/i/v16/bullets/sprites.gif) no-repeat 6px -806px;
+	line-height:1.2em;
+	padding:2px 0px;
+	height:1%;
+	padding-left:14px;
+	padding-right:2px;
+}
+#ibm-content-main ul.ibm-bullet-list li p {
+	margin:0px !important;
+	padding:0px !important;
+}
+.ibm-container .ibm-container-body ul.ibm-bullet-list.ibm-no-links li {background:url(//dw1.s81c.com/i/v16/bullets/sprites.gif) no-repeat 6px 0.15em;}
+.ibm-container .ibm-container-body ul.ibm-bullet-list li.ibm-no-links {background:url(//dw1.s81c.com/i/v16/bullets/sprites.gif) no-repeat 6px 0.15em !important;}
+.ibm-container .ibm-container-body ul.ibm-bullet-list.ibm-error li {background:url(//dw1.s81c.com/i/v16/bullets/sprites.gif) no-repeat 6px -2422px;}
+#ibm-content-main .ibm-container.ibm-alternate .ibm-container-body {border-width:0px;}
+#ibm-content-main .ibm-container.ibm-alternate .ibm-container-body p {padding:0.3em 0px 0.7em;}
+#ibm-content-main .ibm-container.ibm-alternate-two h2,
+#ibm-content-main .ibm-container.ibm-alternate-six h2 {
+	border-left:#CCC solid 1px;
+	border-right:#CCC solid 1px;
+	background:none;
+	color:#000;
+	margin:0px;
+}
+#ibm-content-main .ibm-alternate .ibm-container-body h2 {
+	background:none;
+	color:#000;
+	margin:0px;
+	padding-left:0px;
+}
+#ibm-content-main .ibm-container.ibm-alternate-two .ibm-container-body h2,
+#ibm-content-main .ibm-container.ibm-alternate-three .ibm-container-body,
+#ibm-content-main .ibm-container.ibm-alternate-six .ibm-container-body h2 {border:none;}
+h2.ibm-inner-subhead {
+/*	background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px !important; */
+background-color:#EEE !important;
+	border-top:#CCC solid 1px  !important;
+	border-bottom:#CCC solid 1px  !important;
+}
+#ibm-content-main .ibm-container.ibm-alternate-two,
+#ibm-content-main .ibm-container.ibm-alternate-three {border-top:1px solid #CCC;}
+#ibm-content-main .ibm-container.ibm-alternate-six {border-top:4px solid #CCC;}
+#ibm-content-main ul.ibm-link-list {padding:5px 0px 2px 0px;}
+
+#lotusColRight div.lotusChunk {margin:0px !important;}
+
+#lotusColRight #linkroll .lotusChunk{
+	margin:0 0 0 3px !important;font-size:11px;
+	}
+	
+#lotusColRight #recent-friends-container .lotusChunk{
+	margin:0 0 0 3px !important;font-size:11px !important;
+	}
+	
+#recent-friends-container a.lotusAction {font-size:11px !important;}
+
+#lotusColLeft .lotusSection .lotusList {
+margin:0px !important;
+padding-right:5px !important;
+}
+
+
+ul.lotusList {padding-top:5px !important;}
+ul.lotusList li {
+padding-right:5px !important;
+margin:0px !important;
+font-size:11px;
+}
+
+ul.lotusList li a {
+
+display:block;
+padding:0px 2px 5px 5px !important;
+}
+
+#linkroll ul.lotusList li a {display:inline-block;}
+
+/* see ie hacks at end for ie 6 version of above */
+
+
+ul.lotusList li a:link,
+ul.lotusList li a:visited {text-decoration:none !important;}
+ul.lotusList li a:hover {text-decoration:underline !important;}
+
+.lotusPostContent ul li textarea{
+	display: block;
+}
+
+.lotusPostContent ul li a{
+	display: inline;
+	position: relative;
+	top: 5px;
+}
+
+#ibm-content-main ul.ibm-link-list li {
+	height:1%;
+	padding:0px;
+	margin:0px;
+}
+#ibm-content-main a.ibm-anchor-down-link {
+	background:url(//dw1.s81c.com/i/v16/icons/d_bold.gif) no-repeat 2px 2px;
+	display:block;
+}
+#ibm-content-main ul.ibm-link-list a {
+	height:1%;
+	padding:0px 5px 3px 21px;
+	margin:0px;
+	background-position:2px 0px;
+}
+#ibm-content-main .ibm-two-column .ibm-column.ibm-first {
+	width:260px;
+	float:left;
+}
+#ibm-content-main .ibm-two-column .ibm-column.ibm-second {
+	width:260px;
+	float:right;
+}
+#ibm-content-main .ibm-alternate-four .ibm-column.ibm-first {width:350px;}
+#ibm-content-main .ibm-alternate-four .ibm-column.ibm-second {width:170px;}
+#ibm-content-main .ibm-alternate-five .ibm-column.ibm-first {width:170px;}
+#ibm-content-main .ibm-alternate-five .ibm-column.ibm-second {width:350px;}
+.ibm-product-module p {clear:left !important;}
+img.ibm-inset {
+	float:left;
+	margin:5px 5px 0px 5px;
+	padding:0px;
+}
+img.ibm-inset.ibm-alternate {
+	float:right;
+	margin:5px 5px 0px 5px;
+	padding:0px;
+}
+p img.ibm-inset {margin:0px 5px 5px 0px;}
+p img.ibm-inset.ibm-alternate {margin:0px 0px 5px 5px;}
+span.ibm-inset-img-caption {
+	color:#666;
+	float:left;
+	margin:0px;
+	padding:0px 10px 0px 0px;
+}
+span.ibm-inset-img-caption.ibm-alternate {
+	float:right;
+	padding:0px 0px 0px 10px;
+}
+blockquote {
+	margin:0px;
+	padding:0px;
+}
+div.ibm-container.ibm-alternate .ibm-container-body blockquote p {
+	margin:0px !important;
+	padding:0px !important;
+	color:#999 !important;
+}
+div.ibm-container.ibm-alternate .ibm-container-body p.ibm-quote-source {
+	color:#999 !important;
+	text-align:right;
+}
+.ibm-two-column,
+.ibm-three-column,
+.ibm-four-column {overflow:hidden;}
+#ibm-content-main .ibm-three-column .ibm-column {
+	float:left;
+	margin-left:0px;
+	margin-right:10px;
+	width:170px;
+}
+#ibm-content-main .ibm-container-body.ibm-three-column .ibm-column,
+#ibm-content-main .ibm-four-column .ibm-column {
+	float:left;
+	margin-left:0px;
+	margin-right:6px;
+	width:172px;
+}
+#ibm-content-main .ibm-three-column .ibm-column.ibm-third,
+#ibm-content-main .ibm-four-column .ibm-column.ibm-fourth {margin-right:0px;}
+#ibm-content-main .ibm-three-column div.ibm-column h3 {padding-top:0px !important; margin-right:5px;}
+#ibm-content-main .ibm-container-body h3 {
+	margin:0px;
+	padding:0.3em 0px 0px 5px;
+}
+div.ibm-column.ibm-list-container {padding:5px 0px;}
+div.ibm-column.ibm-list-container h3 {margin:0px;}
+div.ibm-column.ibm-list-container .ibm-rule {margin:5px 0px;}
+
+.ibm-portrait-module ul.ibm-newsletter span.ibm-newsletter-content {margin-left:75px;}
+ul.ibm-link-list li p {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+	padding-left:21px !important;
+}
+ul.ibm-link-list li.ibm-link-description {padding-bottom:5px !important;}
+ul.ibm-link-list li.ibm-link-description a {padding-bottom:0px !important;}
+ul.ibm-link-list li.ibm-link-description p {padding-top:0px !important;}
+ul.ibm-link-list li.ibm-link-description p.ibm-call-info {padding-top:5px !important;}
+li.ibm-link-description.ibm-last {padding-bottom:10px;}
+ul.ibm-link-list p.ibm-call-info {
+	padding:0px !important;
+	margin:0px !important;
+}
+#ibm-content-main p.ibm-ind-link.ibm-next-page,
+#ibm-content-main p.ibm-ind-link.ibm-back-to-top {
+	clear:both;
+	padding:5px;
+	text-align:right;
+	height:1%;
+}
+#ibm-content-main p.ibm-ind-link.ibm-back-to-top a.ibm-anchor-up-link {
+	background:url(//dw1.s81c.com/i/v16/icons/u_bold.gif) no-repeat 0px -1px;
+	display:inline;
+	margin:0px;
+	padding:0px 0px 0px 18px;
+}
+#ibm-content-main p.ibm-ind-link.ibm-next-page a.ibm-forward-link {
+	background:url(//dw1.s81c.com/i/v16/ibmlc/lc_fw_arrow.gif) no-repeat 0px -1px;
+	display:inline;
+	margin:0px;
+	padding:0px 0px 0px 18px;
+}
+#ibm-content-main p.ibm-ind-link.ibm-next-page a.ibm-forward-em-link {
+	background:url(//dw1.s81c.com/i/v16/ibmlc/lc_fw_arrow_bold.gif) no-repeat 0px -1px;
+	display:inline;
+	margin:0px;
+	padding:0px 0px 0px 18px;
+}
+#ibm-content-main .ibm-container-body.ibm-indent p,
+#ibm-content-main .ibm-container-body div.ibm-indent p,
+#ibm-content-main .ibm-container-body div.ibm-indent ul {
+	margin-top:0px !important;
+	padding-top:0px !important;
+	margin-left:14px !important;
+}
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-ind-link,
+#ibm-content-main .ibm-container-body div.ibm-indent p.ibm-ind-link {
+	margin-top:0px !important;
+	padding-top:0px !important;
+	margin-left:0px !important;
+}
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-ind-caution,
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-ind-error,
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-ind-help,
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-ind-price,
+#ibm-content-main .ibm-container-body div.ibm-indent p.ibm-ind-caution,
+#ibm-content-main .ibm-container-body div.ibm-indent p.ibm-ind-error,
+#ibm-content-main .ibm-container-body div.ibm-indent p.ibm-ind-help,
+#ibm-content-main .ibm-container-body div.ibm-indent p.ibm-ind-price {
+	margin-top:0px !important;
+	padding-top:5px !important;
+	margin-left:0px !important;
+}
+#ibm-content-main .ibm-container-body.ibm-indent p.ibm-remove-indent {
+	margin-top:5px !important;
+	margin-left:0px !important;
+}
+div.ibm-list-next {
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+p.ibm-list-next {padding-bottom:0px !important;}
+
+.ibm-container .ibm-container-body ul.ibm-bullet-list li ol li { 
+	background:none !important; 
+	margin:0px;
+	padding:0px;
+}
+.ibm-container .ibm-container-body ul.ibm-bullet-list li ol li {height:auto;}
+sup {
+ 	vertical-align:text-top;
+	color:#666;
+	position:relative;
+	top:-1px;
+}
+
+.dw-lc-formblock {padding: 3px 0 !important;}
+	
+	.dw-lc-formblocksans {padding: 8px 0;}  
+	
+	.dw-lc-formlabel {
+		display: block;
+		float: left;
+		width: 150px;
+	}
+	
+	.dw-lc-formlabelsecondary {margin-left:40px;width:70px;}
+	
+	div.ibm-alternate-rule {
+	background:#FFF url(//dw1.s81c.com/i/solid.gif) repeat-x;
+	height:1px;
+	}
+	
+	.ibm-required {color:#F30;}
+	
+	label {font-weight: bold;}
+	
+	
+	.dw-lc-nonemphasis {font-weight: normal !important;}
+	/* suggested addtional style values for checkbox group.
+	    check to see if these can be appended to existing values rather than adding */
+	    
+	.dw-lc-button-block {clear:left;padding-top: 30px;}
+	
+	.dw-lc-header-blogs {font-size:1.2em !important;}
+	
+	.dw-lc-input-block {clear:left;padding-top: 15px !important;margin-top:5px;width:auto;}
+	
+	.dw-lc-input-block .dw-lc-additionalinfo {font-size: 15px}
+	
+	.dw-lc-input-group {float:left;margin-right:50px;width:250px;}
+	
+	.dw-lc-input-group label {font-weight:normal;}
+	
+	.dw-lc-inputleader {display:block;padding:5px 0;}
+	
+	.dw-lc-required {color:#F00;width:auto;}
+	
+	.dw-lc-white {color: #FFF;}
+	
+	.dw-lc-clearleft {clear:left;}
+	
+	input.dw-lc-btn-next, input.dw-lc-btn-cancel {
+		background:#FFF;
+		border:none;
+		color:#4C6E94;
+		padding:5px 0px 9px 29px;
+		text-align:left;
+		cursor:pointer;
+		margin-bottom:-7px;
+		font-family:arial,sans-serif;
+		font-weight:bold;
+	}
+	
+	input.dw-lc-btn-next {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -450px}
+	input.dw-lc-btn-next:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -300px;}
+
+	input.dw-lc-btn-cancel {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -1650px;}
+	input.dw-lc-btn-cancel:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -1500px;}
+
+	span.btn-sep {
+		display:inline !important;
+		clear:none;
+		margin:0px !important;
+		padding-right:20px;
+	}
+	
+	dw-lc-tagsearchinputtext {
+	font-size:12px;
+	color: rgb(170, 170, 170);
+	}
+	
+/* content styles end =============================================== */
+
+
+/* features styles begin ============================================ */
+
+#lotusColRight ul {margin-left:0px;}
+#lotusColRight .contents {margin:0px;}
+#lotusColRight {
+	width:170px !important;
+}
+
+#lotusColRight .ibm-container {
+	float:right;
+	clear:right;
+}
+#lotusColRight ul.ibm-bullet-list {
+	color:#666;
+	margin:0em;
+	padding:0em 0em 1em;
+	}
+
+
+#lotusColRight p {
+	color:#666;
+	margin:0em;
+	padding:0px 7px 12px 7px;
+	text-align:left;
+	line-height: normal;
+	font-size:11px !important;
+	margin-top:7px;
+	}
+
+#lotusColRight ul.ibm-bullet-list {padding-right:2px;}
+#lotusColRight .ibm-container .ibm-container-body img {
+	display:block;
+	clear:both;
+	margin:0px auto 4px;
+	text-align:center;
+}
+#lotusColRight .ibm-container p {padding:0px 5px;}
+#lotusColRight .ibm-container.ibm-alternate-three {border-top: 1px solid #CCC;}
+#lotusColRight .ibm-container.ibm-alternate-three h2 {
+	color:#000;
+	border:0px;
+	background:none;
+	padding:0px 5px;
+}
+#lotusColRight p.ibm-ind-link {padding:0px 0px 1px 0px;}
+#lotusColRight ul.ibm-link-list li{
+	background:url(//dw1.s81c.com/i/dotted.gif) repeat-x;
+}
+ul.ibm-link-list li a {height:1%;}
+ul.ibm-link-list li.ibm-first,
+ul.ibm-link-list.ibm-alternate li {background-image:none !important;}
+ul.ibm-link-list li.ibm-first {width:auto !important;}
+ul.ibm-link-list.ibm-alternate a {
+	background-position:2px 3px !important;
+	padding:2px 5px 3px 21px !important;
+}
+#lotusColRight .ibm-container.ibm-live-assistance .ibm-portrait {min-height:60px;}
+#lotusColRight .ibm-container.ibm-live-assistance .ibm-portrait.ibm-alternate {min-height:45px;}
+
+* html #lotusColRight .ibm-container.ibm-live-assistance .ibm-portrait.ibm-alternate {height:45px;margin-top:-12px;border-top:1px solid #CCC;}
+
+#lotusColRight .ibm-container.ibm-live-assistance .ibm-container-body div.ibm-portrait img {
+	display:inline;
+	float:left;
+	margin:5px;
+}
+#lotusColRight .ibm-container.ibm-live-assistance .ibm-container-body div.ibm-portrait p {
+	margin-left:55px;
+	height:1%;
+}
+#lotusColRight .ibm-container.ibm-live-assistance .ibm-container-body div.ibm-portrait.ibm-alternate p {
+	margin-left:40px;
+	height:1%;
+}
+ul.ibm-live-assistance-list {
+	list-style-type:none;
+	margin:0px;
+	padding:0px !important;
+	clear:both;
+}
+ul.ibm-live-assistance-list p,
+ul.ibm-live-assistance-list a {
+	height:1%;
+	display:block;
+	margin:0px;
+	padding:5px 5px 10px 30px !important;
+}
+ul.ibm-live-assistance-list li.ibm-first {padding-top:5px;}
+ul.ibm-live-assistance-list p {padding-bottom:0px !important;}
+ul.ibm-live-assistance-list p.ibm-call-info {padding-bottom:10px !important;}
+ul.ibm-live-assistance-list a.ibm-forward-link {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -750px;}
+ul.ibm-live-assistance-list a.ibm-forward-link:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -600px;}
+ul.ibm-live-assistance-list a.ibm-chat-link {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -2550px;}
+ul.ibm-live-assistance-list a.ibm-chat-link:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -2400px;}
+ul.ibm-live-assistance-list a.ibm-email-link {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -4050px;}
+ul.ibm-live-assistance-list a.ibm-email-link:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -3900px;}
+ul.ibm-live-assistance-list a.ibm-video-link {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -6300px;}
+ul.ibm-live-assistance-list a.ibm-video-link:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -6150px;}
+ul.ibm-live-assistance-list a.ibm-call-link {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -4950px;}
+ul.ibm-live-assistance-list a.ibm-call-link:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -4800px;}
+ul.ibm-live-assistance-list p.ibm-call-info {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -4950px;}
+ul.ibm-live-assistance-list p.ibm-call-info:hover {background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px -4800px;}
+h2.ibm-last,
+h3.ibm-last {padding-bottom:5px !important;}
+
+#lotusColRight form.ibm-sidebar-form {
+	padding-top:0px;
+	padding-bottom:12px;
+}
+#lotusColRight form.ibm-sidebar-form p {
+	padding-top:5px !important;
+	padding-bottom:0px !important;
+}
+#lotusColRight .lotusSection h2, .lotusColRight .lotusSection h2, .lotusColLeft #commonTagsSection .lotusWidget2 h2 {
+background:#FFFFFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x scroll 0 -545px;
+border-bottom:1px solid #CCCCCC !important;
+border-top:0 none !important;
+height:1% !important;
+margin:0 !important;
+padding:3px 3px 3px 5px;
+font-size:11px;
+}
+
+
+
+/* features styles end ============================================== */
+
+
+/* anchor styles begin ============================================== */
+a:link, a:hover {color:#4a6694}
+a:visited {color:#969;}
+
+a.ibm-feature-em-link:link,
+a.ibm-feature-em-link:visited,
+a.ibm-feature-link:link,
+a.ibm-feature-link:visited,
+
+p.ibm-ind-link a:link,
+p.ibm-ind-link a:visited,
+ul.ibm-link-list a:link,
+ul.ibm-link-list a:visited {text-decoration:none;}
+
+a.ibm-feature-em-link:hover,
+a.ibm-feature-link:hover,
+
+p.ibm-ind-link a:hover,
+ul.ibm-link-list a:hover {text-decoration:underline;}
+p.ibm-ind-link a,
+ul.ibm-link-list a {
+	display:block;
+	margin:0px;
+	padding:0px 5px 5px 18px;
+}
+.ibm-container-body.ibm-two-column p.ibm-ind-link {clear:both;}
+li.ibm-audio-link,p.ibm-ind-link a.ibm-audio-link,ul.ibm-link-list a.ibm-audio-link {background:url(//dw1.s81c.com/i/v16/icons/aud.gif) no-repeat 2px 4px;}
+
+/*li.ibm-back-link,p.ibm-ind-link a.ibm-back-link,ul.ibm-link-list a.ibm-back-link {background:url(//dw1.s81c.com/i/v16/icons/bk.gif) no-repeat 2px 4px;}*/
+
+li.ibm-back-link, p.ibm-ind-link a.ibm-back-link, ul.ibm-link-list a.ibm-back-link {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(//dw1.s81c.com/i/v16/icons/bk.gif) no-repeat scroll 2px 4px;
+}
+
+li.ibm-back-em-link,p.ibm-ind-link a.ibm-back-em-link,ul.ibm-link-list a.ibm-back-em-link {background:url(//dw1.s81c.com/i/v16/icons/bk_bold.gif) no-repeat 2px 4px;}
+li.ibm-calculator-link,p.ibm-ind-link a.ibm-calculator-link,ul.ibm-link-list a.ibm-calculator-link {background:url(//dw1.s81c.com/i/v16/icons/calculator.gif) no-repeat 2px 4px;}
+li.ibm-calendar-link,p.ibm-ind-link a.ibm-calendar-link,ul.ibm-link-list a.ibm-calendar-link {background:url(//dw1.s81c.com/i/v16/icons/calendar.gif) no-repeat 2px 4px;}
+li.ibm-cancel-link,p.ibm-ind-link a.ibm-cancel-link,ul.ibm-link-list a.ibm-cancel-link {background:url(//dw1.s81c.com/i/v16/icons/cancel.gif) no-repeat 2px 4px;}
+li.ibm-caution-link,p.ibm-ind-link a.ibm-caution-link,ul.ibm-link-list a.ibm-caution-link {background:url(//dw1.s81c.com/i/v16/icons/caution.gif) no-repeat 2px 4px;}
+li.ibm-confirm-link,p.ibm-ind-link a.ibm-confirm-link,ul.ibm-link-list a.ibm-confirm-link {background:url(//dw1.s81c.com/i/v16/icons/confirm.gif) no-repeat 2px 4px;}
+li.ibm-chat-link,p.ibm-ind-link a.ibm-chat-link,ul.ibm-link-list a.ibm-chat-link {background:url(//dw1.s81c.com/i/v16/icons/chat.gif) no-repeat 2px 4px;}
+li.ibm-anchor-down-link,p.ibm-ind-link a.ibm-anchor-down-link,ul.ibm-link-list a.ibm-anchor-down-link {background:url(//dw1.s81c.com/i/v16/icons/d.gif) no-repeat 2px 4px;}
+li.ibm-anchor-down-em-link,p.ibm-ind-link a.ibm-anchor-down-em-link,ul.ibm-link-list a.ibm-anchor-down-em-link {background:url(//dw1.s81c.com/i/v16/icons/d_bold.gif) no-repeat 2px 4px;}
+li.ibm-download-link,p.ibm-ind-link a.ibm-download-link,ul.ibm-link-list a.ibm-download-link {background:url(//dw1.s81c.com/i/v16/icons/dn.gif) no-repeat 2px 4px;}
+li.ibm-enlarge-link,p.ibm-ind-link a.ibm-enlarge-link,ul.ibm-link-list a.ibm-enlarge-link {background:url(//dw1.s81c.com/i/v16/icons/enlarge.gif) no-repeat 2px 4px;}
+li.ibm-error-link,p.ibm-ind-link a.ibm-error-link,ul.ibm-link-list a.ibm-error-link {background:url(//dw1.s81c.com/i/v16/icons/error.gif) no-repeat 2px 4px;}
+li.ibm-information-link,p.ibm-ind-link a.ibm-information-link,ul.ibm-link-list a.ibm-information-link {background:url(//dw1.s81c.com/i/v16/icons/info.gif) no-repeat 2px 4px;}
+li.ibm-password-link,p.ibm-ind-link a.ibm-password-link,ul.ibm-link-list a.ibm-password-link {background:url(//dw1.s81c.com/i/v16/icons/key.gif) no-repeat 2px 4px;}
+li.ibm-secure-link,p.ibm-ind-link a.ibm-secure-link,ul.ibm-link-list a.ibm-secure-link {background:url(//dw1.s81c.com/i/v16/icons/lock.gif) no-repeat 2px 4px;}
+li.ibm-pdf-link,p.ibm-ind-link a.ibm-pdf-link,ul.ibm-link-list a.ibm-pdf-link {background:url(//dw1.s81c.com/i/v16/icons/pdf.gif) no-repeat 2px 4px;}
+li.ibm-call-link,p.ibm-ind-link a.ibm-call-link,ul.ibm-link-list a.ibm-call-link,ul.ibm-link-list p.ibm-call-info {background:url(//dw1.s81c.com/i/v16/icons/ph.gif) no-repeat 2px 4px;}
+li.ibm-video-podcast-link,p.ibm-ind-link a.ibm-video-podcast-link,ul.ibm-link-list a.ibm-video-podcast-link {background:url(//dw1.s81c.com/i/v16/icons/podvideo.gif) no-repeat 2px 4px;}
+li.ibm-popup-link,p.ibm-ind-link a.ibm-popup-link,ul.ibm-link-list a.ibm-popup-link {background:url(//dw1.s81c.com/i/v16/icons/popup.gif) no-repeat 2px 4px;}
+li.ibm-print-link,p.ibm-ind-link a.ibm-print-link,ul.ibm-link-list a.ibm-print-link {background:url(//dw1.s81c.com/i/v16/icons/printer.gif) no-repeat 2px 4px;}
+li.ibm-rss-link,p.ibm-ind-link a.ibm-rss-link,ul.ibm-link-list a.ibm-rss-link {background:url(//dw1.s81c.com/i/v16/icons/rss.gif) no-repeat 2px 4px;}
+li.ibm-sort-down-link,p.ibm-ind-link a.ibm-sort-down-link,ul.ibm-link-list a.ibm-sort-down-link {background:url(//dw1.s81c.com/i/v16/icons/scope_dn.gif) no-repeat 2px 4px;}
+li.ibm-sort-up-link,p.ibm-ind-link a.ibm-sort-up-link,ul.ibm-link-list a.ibm-sort-up-link {background:url(//dw1.s81c.com/i/v16/icons/scope_up.gif) no-repeat 2px 4px;}
+li.ibm-external-link,p.ibm-ind-link a.ibm-external-link,ul.ibm-link-list a.ibm-external-link {background:url(//dw1.s81c.com/i/v16/icons/sout.gif) no-repeat 2px 4px;}
+li.ibm-anchor-up-link,p.ibm-ind-link a.ibm-anchor-up-link,ul.ibm-link-list a.ibm-anchor-up-link {background:url(//dw1.s81c.com/i/v16/icons/u_bold.gif) no-repeat 2px 4px;}
+li.ibm-video-link,p.ibm-ind-link a.ibm-video-link,ul.ibm-link-list a.ibm-video-link {background:url(//dw1.s81c.com/i/v16/icons/video.gif) no-repeat 2px 4px;}
+li.ibm-wireless-link,p.ibm-ind-link a.ibm-wireless-link,ul.ibm-link-list a.ibm-wireless-link {background:url(//dw1.s81c.com/i/v16/icons/wireless.gif) no-repeat 2px 4px;}
+li.ibm-forward-link,p.ibm-ind-link a.ibm-forward-link,ul.ibm-link-list a.ibm-forward-link {background:url(//dw1.s81c.com/i/v16/ibmlc/lc_fw_arrow.gif) no-repeat 2px 4px;}
+li.ibm-forward-em-link,p.ibm-ind-link a.ibm-forward-em-link,ul.ibm-link-list a.ibm-forward-em-link {background:url(//dw1.s81c.com/i/v16/ibmlc/lc_fw_arrow_bold.gif) no-repeat 2px 1px;font-weight:bold;}
+li.ibm-email-link,p.ibm-ind-link a.ibm-email-link,ul.ibm-link-list a.ibm-email-link {background:url(//dw1.s81c.com/i/v16/icons/em.gif) no-repeat 2px 4px;}
+li.ibm-audio-link,li.ibm-back-link,li.ibm-back-em-link,li.ibm-calculator-link,li.ibm-calendar-link,li.ibm-cancel-link,li.ibm-caution-link,li.ibm-confirm-link,li.ibm-chat-link,li.ibm-anchor-down-link,li.ibm-anchor-down-em-link,li.ibm-download-link,li.ibm-enlarge-link,li.ibm-error-link,li.ibm-information-link,li.ibm-password-link,li.ibm-secure-link,li.ibm-pdf-link,li.ibm-call-link,li.ibm-call-info,li.ibm-video-podcast-link,li.ibm-popup-link,li.ibm-print-link,li.ibm-rss-link,li.ibm-sort-down-link,li.ibm-sort-up-link,li.ibm-external-link,li.ibm-anchor-up-link,li.ibm-video-link,li.ibm-wireless-link,li.ibm-forward-link,li.ibm-forward-em-link,li.ibm-email-link {
+	background-repeat: no-repeat;
+	background-position: 2px 0px;
+	padding-left:18px !important;
+	padding-bottom:8px !important;
+}
+li.ibm-audio-link a,li.ibm-back-link a,li.ibm-back-em-link a,li.ibm-calculator-link a,li.ibm-calendar-link a,li.ibm-cancel-link a,li.ibm-caution-link a,li.ibm-confirm-link a,li.ibm-chat-link a,li.ibm-anchor-down-link a,li.ibm-anchor-down-em-link a,li.ibm-download-link a,li.ibm-enlarge-link a,li.ibm-error-link a,li.ibm-information-link a,li.ibm-password-link a,li.ibm-secure-link a,li.ibm-pdf-link a,li.ibm-call-link a,li.ibm-call-info a,li.ibm-video-podcast-link a,li.ibm-popup-link a,li.ibm-print-link a,li.ibm-rss-link a,li.ibm-sort-down-link a,li.ibm-sort-up-link a,li.ibm-external-link a,li.ibm-anchor-up-link a,li.ibm-video-link a,li.ibm-wireless-link a,li.ibm-forward-link a,li.ibm-forward-em-link a,li.ibm-email-link a {
+	display:inline;
+	margin-left:-18px !important;
+}
+li.ibm-audio-link p,li.ibm-back-link p,li.ibm-back-em-link p,li.ibm-calculator-link p,li.ibm-calendar-link p,li.ibm-cancel-link p,li.ibm-caution-link p,li.ibm-confirm-link p,li.ibm-chat-link p,li.ibm-anchor-down-link p,li.ibm-anchor-down-em-link p,li.ibm-download-link p,li.ibm-enlarge-link p,li.ibm-error-link p,li.ibm-information-link p,li.ibm-password-link p,li.ibm-secure-link p,li.ibm-pdf-link p,li.ibm-call-link p,li.ibm-call-info p,li.ibm-video-podcast-link p,li.ibm-popup-link p,li.ibm-print-link p,li.ibm-rss-link p,li.ibm-sort-down-link p,li.ibm-sort-up-link p,li.ibm-external-link p,li.ibm-anchor-up-link p,li.ibm-video-link p,li.ibm-wireless-link p,li.ibm-forward-link p,li.ibm-forward-em-link p,li.ibm-email-link p{margin-left:-18px !important;}
+/* anchor styles end ================================================ */
+
+/* .lotusInner .lotusSearch,
+*/
+.feedEntriesPaging {display:none !important;}
+
+
+
+#importantBookmarksSection .lotusleft h2 {
+	font-size:.9em !important;
+	}
+}
+
+
+#lotusColRight h2 {font-size:11px !important;}
+
+#lotusContent .lotusWelcomeBox h2 {font-size:1.7em !important;}
+
+#lotusTitleBar .lotusInner h2 {
+	color: #FFF;
+	font-size:1.8em !important;
+	font-weight: bold !important;
+	letter-spacing:0;
+	line-height:normal !important;
+	margin:35px 0 0 -190px;
+	width:auto !important;
+}
+
+
+* html #lotusTitleBar .lotusInner h2 {
+	color: #FFF;
+	font-size:1.8em;
+	font-weight: bold !important;
+	letter-spacing:0;
+	line-height:normal !important;
+	margin:18px 0 0 8px;
+	width:auto !important;
+}
+
+
+/*#lotusTitleBar h2, .lotusTitleBar h2{padding:3px 0 0 12px;float:left;font-size:1.5em;line-height:2em;letter-spacing:0;width:200px;font-weight:normal}*/
+/*#lotusTitleBar h2, .lotusTitleBar h2{color:#fff;font-weight:bold;margin-left:10px;margin-top:26px;}*/
+#lotusTitleBar .lotusInner p.ibm-subtitle {float:left;clear:left;margin:0px;padding:0px 5px 5px 12px;}
+#lotusTitleBar .lotusInner p.ibm-subtitle em {font-weight:bold; font-style:normal;}
+
+/* fixing bug 2765 */
+#widget-container-2 .lotusSection h2 .lotusLeft {
+	float: none !important;
+	font-size: 12px !important;
+}
+
+form.ibm-column-form {width:400px;}
+
+#lotusBanner #communities-login li#headermyprofile a#bannerproflink, #lotusBanner #communities-login li#headermyprofile a#bannerproflink:visited {color:#b4dce6 !important;padding:9px 0 0 !important;}
+
+/*** F O O T E R **/
+/*this sits at the bottom of the UI and contains a lot of support links, like help and about*/
+#lotusFooter, .lotusFooter{border-width:1px;-moz-border-radius:4px;-webkit-border-radius:4px;font-size:.9em;}
+#lotusFooter p, .lotusFooter p{line-height:1.3em}
+#lotusFooter ul, .lotusFooter ul{margin:0;padding:0;list-style-type:none}
+#lotusFooter li, .lotusFooter li{line-height:1.2em;padding:.3em 0}
+#footerprofile {
+	background-image:url(//dw1.s81c.com/developerworks/lc/images/mdw-footer-bottom-r1.jpg);
+	color:#FFF;
+	height:60px !important;text-align:center; 
+	margin-top: 60px !important;
+	background-position:100% 0;
+	background-repeat:no-repeat !important;}
+#footerprofile li {border-width:0;display:block;float:left;font-size:1.2em;font-weight:bold;margin:19px 16px 0 20px;}
+* html #footerprofile li {border-width:0;display:block;float:left;font-size:1.2em;font-weight:bold;margin:19px 16px 0 10px;}
+#footerprofile li a {color:#FFF;font-size:0.83em;font-weight:normal;}
+#ibm-footer {
+	background:#000 url('//dw1.s81c.com/i/v16/t/sprites-t1.gif') repeat-x 0px -631px;
+	border-top:1px solid #FFF;
+	clear:both;
+	color:#CCC;
+	margin:0px;
+	padding-top:1px;
+	height:20px;
+}
+#ibm-footer ul {
+	list-style-type:none;
+	margin:0;
+	padding:0px;
+	height:1%;
+}
+#ibm-footer li {
+	display:block;
+	font-weight: bold;
+	font-size: 0.9em;
+	float:left;
+	overflow:inherit;
+	padding:3px 10px 5px 14px;
+	white-space:nowrap;
+}
+#ibm-footer li.ibm-first {
+	background-image:none;
+	padding-left:19px;
+}
+#ibm-footer li a:link, #ibm-footer li a:visited {font-size:11px;color:#CCC;text-decoration:none;margin:15px 0}
+#ibm-footer li a:hover {color:#FFF;text-decoration:none;}
+
+
+
+
+/***********************************************************/
+
+#dw-lc-important-interests a {display:none;}
+
+#dw-lc-important-skills a {display:none;}
+
+.dw-lc-important-update {
+	 background-color:#FFC;
+	 margin: 10px 20px;
+	 padding: 5px;
+}
+
+* html .dw-lc-important-update {
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.dw-lc-important-update a {
+	 color: #CCC;
+	 display: block;
+	 float: right;
+	 font-weight: bold;
+	 text-decoration :none;
+}
+
+.dw-lc-important-update p {
+	  line-height: 1.2em;
+	  margin: 0;
+}
+
+* html .dw-lc-important-update p {
+	line-height: 1.3em;
+}
+
+.dw-lc-important-widthshort {width: 40%;}
+
+.dw-lc-important-widthwide {width: 85%;}
+
+
+
+
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+/********VIPER DELTA new classes ***************************************************/
+
+
+
+
+		
+.dw-lc-activityappspipe {
+	color:#999999;
+	padding:5px;
+}
+	
+	
+.dw-lc-back-link {
+	background:url(//dw1.s81c.com/i/v16/icons/bk.gif) no-repeat 2px 2px;
+	}
+	
+	
+	
+.dw-lc-blogsfollow {padding-top:10px !important;}
+		
+.dw-lc-blogsfollow a {
+	background:url('//dw1.s81c.com/i/v16/icons/fw_bold_overlay.gif') no-repeat 0px -1px;
+	font-weight: bold;
+	display:inline;
+	margin:0px;
+	padding-left: 18px;
+}
+
+.dw-lc-blogsfollowed {
+	font-weight:bold;
+	padding-top: 10px !important;
+}
+		
+.dw-lc-blogsfollowed span {background:url('//dw1.s81c.com/i/v16/icons/confirm.gif') no-repeat 2px 0;padding-left:20px;}
+		
+.dw-lc-blogsfollower {padding:5px;}
+		
+.dw-lc-blogsfollower img {height:35px;padding: 0 5px 5px 0; width:35px;}
+		
+/*recreation of class lotusLeft just for this blogs container since lotusLeft, at least in blogs, does not like to work well with FF and others when used in conjuncton with lotusRight */
+/* verify if actually needed */
+		
+* html .dw-lc-blogsrightheader {
+	float:left;
+	font-size:11px !important;
+	text-align:left;
+}
+	
+.dw-lc-borderadd {
+	border-top: 1px solid #CCC;
+}
+.dw-lc-contactsubheading {
+	padding-top:15px;
+}
+
+.dw-lc-contactinfocontainer {
+	clear:both;
+	height:1%;
+	overflow:visible;
+	padding-top: 0px;
+}
+
+.dw-lc-contactinfoleft {
+	display:inline;
+	float:left;
+	padding-right:20px;
+}
+
+.dw-lc-contactinforight {
+	display:block;
+	padding-right: 20px;
+	text-align: right;
+	font-size:11px;
+}
+
+
+.dw-lc-contactinforight {
+	padding-top:3px;
+}
+
+.dw-lc-contactinforight label, .dw-lc-disabled {
+	font-weight: normal;
+}
+
+.dw-lc-containeroffset {
+	padding:10px;
+}
+
+.dw-lc-displaypublic p {
+	padding-bottom: 10px;
+}
+			
+.dw-lc-displaypublic img {
+	padding: 20px 0;
+}
+
+.dw-lc-layout-fontweightbold {
+	font-weight:bold;
+	}
+	
+.dw-lc-layout-orangetext {
+	color: rgb(253, 101, 2);
+	}
+	
+.dw-lc-layout-displaynone {
+	display:none;
+}
+
+.dw-lc-layout-font11 {
+	font-size: 12px;
+}
+
+.dw-lc-layout-fontsize11 {
+	font-size:11px;
+	}
+	
+.dw-lc-layout-font1pt1em {
+	font-size:1.1em;
+	}
+	
+.dw-lc-layout-marginleft10 {
+	margin-left: 10px;	
+}
+
+	
+.dw-lc-layout-padding10 {
+	padding:10px;
+}
+
+.dw-lc-layout-paddingtop7 {
+	padding-top:7pt;
+}
+
+	
+.dw-lc-facebookconnect {
+	border-width: 0;padding-top: 15px;
+}
+
+.dw-lc-favlinks-linkedin {
+	background: transparent url(//dw1.s81c.com/i/v16/icons/linkedin.gif) no-repeat scroll 0% 0%;
+	padding-left: 25px; 
+	padding-bottom: 15px;
+}
+	
+.dw-lc-favlinks-twitter {
+	background: transparent url(//dw1.s81c.com/i/v16/icons/twitter.gif) no-repeat scroll 0% 0%;
+	padding-left: 25px; 
+	padding-bottom: 15px;
+}
+	
+.dw-lc-favlinkmy {
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+	
+.dw-lc-favlinkswidget li {
+	list-style-type:none;
+	padding:5px 0 0 10px;
+}
+
+.dw-lc-formaddsec {
+	background: url('//dw1.s81c.com/developerworks/mydeveloperworks/profiles/nav/common/styles/images/iconAdd.gif') no-repeat scroll 0 4px;
+	border:none;
+	color:#4C6E94;
+	cursor:pointer;
+	margin-bottom:-7px;
+	padding:5px 0px 9px 29px;
+	text-align:left;
+}
+
+.dw-lc-formaddsec2 {
+	background: url('//dw1.s81c.com/i/v16/buttons/sprites.gif') no-repeat -2px -150px;
+	border:none;
+	color:#4C6E94;
+	cursor:pointer;
+	margin-bottom:-7px;
+	padding:5px 0px 9px 29px;
+	text-align:left;
+}
+	
+.dw-lc-formgroup-2col {
+	clear: both;
+	height: 1%;
+	padding: 10px 0 15px 0;
+	overflow: visible;
+	text-align: left;
+}
+
+.dw-lc-formgroup-2col label {font-weight: normal;}
+
+.dw-lc-formgroup-2colfirst {
+	display:inline;
+	float:left;
+	padding-right:20px;
+}
+
+.dw-lc-formgroup-2colsecond {
+	display: block;
+}
+		
+.dw-lc-headercontact {
+	/*clear:both;float:right;*/
+}
+
+.dw-lc-headerinline {
+	color: #000;
+	padding-right:3px;
+}
+	
+.dw-lc-homewidgetfind {clear: both;}
+	
+.dw-lc-homewidgetfind div {
+	display:inline;
+	float:left;
+	text-align:left;
+}
+
+.dw-lc-homewidgetfind div {padding: 0 40px 20px 0;}
+	
+.dw-lc-homewidgetlinkmore {font-size:0.9em;text-decoration:underline !important;}
+
+.dw-lc-homewidgetlistadjust {padding-left: 15px;}
+	
+.dw-lc-homewidgetsuggested {clear:both;}
+	
+.dw-lc-homewidgetwatchlist th {border-bottom: #CCC 1px solid;font-weight: bold;}
+	
+.dw-lc-homewidgetwatchlist ul {list-style-type:none;}
+	
+.dw-lc-homewidgetwatchlist ul li {padding-right:15px;}
+	
+.dw-lc-homewidgetwatchlistcontents td {padding-top: 10px;}
+	
+.dw-lc-homewidgetwatchlistcontents td p {padding-top: 7px;}
+	
+.dw-lc-homewidgetwatchlistcontents td p span {color:#61656E;font-size:0.9em;padding-right:20px;}
+	
+.dw-lc-homewidgetwatchlistlast {padding-top: 40px;}
+	
+.dw-lc-homewidgetwatchlistheader {color:#7191C0;font-weight:bold;margin-left:-1px;}
+	
+.dw-lc-homewidgetwatchlistvalues {color:#4C6E94;;font-weight:normal;}
+
+.dw-lc-iconedit {
+	/*background: url('//dw1.s81c.com/developerworks/i/dw-lc/homepage/nav/common/styles/images/widget_edit.gif') no-repeat 0 -2px;*/
+	background: url('//dw1.s81c.com/developerworks/lc/images/widget_edit.gif') no-repeat 0 -1px;
+	border-width: 0 !important;
+	padding:0 5px 5px 18px;
+}
+
+
+
+.dw-lc-iconhelp {
+	border-width: 0 !important;
+}
+
+.dw-lc-iconoffset {
+	margin-left: 6px;
+}
+	
+.dw-lc-important {
+	color:#F30;
+}
+
+.dw-lc-important-adjust {
+	font-size:11px;
+} 
+	
+.dw-lc-interestssearch {
+	padding: 5px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.dw-lc-interestssearch input.lotusSearchButton {margin-bottom: -5px;padding-right: 10px;}
+
+.dw-lc-intereststips {
+	border-top: 1px solid #CCC;
+	font-size: 0.9em;
+	padding: 10px;
+}
+
+.dw-lc-intereststips_contentarea {
+	font-size: 0.9em;
+}
+
+.dw-lc-labeloverride {
+	display:inline !important;
+	float:none !important;
+	width:auto !important;
+}
+	
+.dw-lc-linkhelpoverlay {
+	float: right;
+}
+		
+.dw-lc-linkhelpoverlay img {
+	background: url('//dw1.s81c.com/i/v16/icons/help.gif') no-repeat 0 1px;
+} 
+	
+.dw-lc-linkviewpublic {
+	float: right;
+	padding: 5px;
+	font-size:11px;
+}
+
+.dw-lc-linkviewedit {
+	background: url('//dw1.s81c.com/developerworks/i/dw-lc/homepage/nav/common/styles/images/widget_edit.gif') no-repeat 0 1px;
+	border-width: 0 !important;
+}
+
+.dw-lc-marginreset {
+	margin-bottom: 0 !important;
+}
+
+		
+.dw-lc-profileconfirm {
+	color:#009F00;
+}
+.dw-lc-profileinterests {
+	list-style-type: none !important;
+	padding: 5px 0;
+}
+
+.dw-lc-profileinterests input {
+	margin-left: -10px;
+}
+
+.dw-lc-profileinterests label {
+	color: #6B84C7;
+	font-size: 0.9em;
+	font-weight: normal;
+	padding-left: 3px;
+}
+
+.dw-lc-profileinterests li {
+	vertical-align: middle;
+}	
+	
+.dw-lc-profileinterests-view {
+	list-style-type: none !important;
+	padding: 5px 0;
+}
+		
+.dw-lc-profileinterests-view li {
+	color: #6B84C7;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.dw-lc-profileintro {
+	clear:both;
+	padding:10px 10px 20px 10px;
+}
+
+.dw-lc-profilespecial {
+	padding:0 10px 20px 10px;
+}
+		
+.dw-lc-profiles-workingon {
+	font-size:0.9em;padding:5px 0;
+}
+
+.dw-lc-profilewidgetlist {
+	height: 1%;
+	padding:8px 0;
+}
+
+.dw-lc-profilewidgetlist li {
+	list-style-type:none;
+	padding:5px 0;
+	vertical-align: middle;
+}
+
+.dw-lc-profilewidgetlist li label {
+	font-weight: normal;
+	padding-left: 3px;
+}
+	
+.dw-lc-public {
+	color:#F00;
+}
+		
+.dw-lc-removefavlink {
+	background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc/profiles/nav/common/styles/images/iconDelete.gif) no-repeat scroll 0 2px;
+	padding-left:20px;
+}
+
+.dw-lc-removeprofile {
+	padding-bottom: 5px;
+}
+
+.dw-lc-removeprofile li {
+	list-style-type: none;
+	margin-left: -17px;
+	padding: 5px 0;
+}
+
+.dw-lc-removeprofile li a {
+	color: #4FA9E8;
+	font-size: 0.9em;
+	padding-left: 3px;
+}
+
+.dw-lc-securityform {
+	padding: 8px 0;
+}
+
+.dw-lc-security-hr {
+	background-color: #CCC;
+	color: #CCC;
+	height: 1px;
+	}
+
+.dw-lc-securitysep {
+	padding: 8px 0;
+}
+
+.dw-lc-skills-label {
+	font-weight: normal;
+}	
+
+/*this ie hacks class is probably not needed if standard widget markup is used, in which case it should be deleted. However, if needed, apply these values */
+* html .dw-lc-socialbox {margin-top: 15px;}
+
+.dw-lc-socialboxcontainer {
+	border-bottom: 1px solid #CCC;
+}
+
+.dw-lc-socialboxcontainer ul {
+	padding-left: 25px;
+	width: 125px;
+}
+
+* html .dw-lc-socialboxcontainer ul {
+	width: auto;
+}
+
+.dw-lc-socialboxcontainer ul li {
+	color: #666; font-size: 11px;
+}
+
+.dw-lc-socialboxlogo {
+	padding-bottom: 5px;
+}
+
+.dw-lc-socialemptybox {
+	height:170px;text-align:center;
+}
+
+.dw-lc-socialboxcontainer {
+	padding: 10px;
+	font-size:11px;
+}
+
+.dw-lc-socialboxcontainer td  {
+	padding-right:5px;
+}
+
+.dw-lc-socialboxcontainer td a {
+	font-size: 0.9em;
+	line-height: 110%;
+}
+
+.dw-lc-socialboxcontainer td a img {
+	padding-top:10px;
+}
+
+.dw-lc-socialboxpersonal {
+	background: no-repeat 5px 5px;
+	padding-left: 65px !important;
+}
+
+.dw-lc-socialboxpersonal span {
+	color: #666;
+}
+
+.dw-lc-socialedit {
+	text-decoration: underline !important;
+}
+
+.dw-lc-socialemptycontents {
+	position:relative;top:50%;
+	/*height:10em;*/ margin-top:-5em;
+}
+
+* html .dw-lc-socialrecommendations {
+	display:inline;
+}
+
+.dw-lc-subheadcontact {
+	color: #fd6502;
+	font-size:12px;
+		}
+
+h3.dw-lc-subheader {
+	border-bottom: 1px solid #CCC;
+	color:#000 !important;
+	font-size: 11px !important;
+	height:1% !important;
+	margin:0 !important;
+	padding:3px 5px !important;
+	}
+		
+.dw-lc-subtabcontainer {
+	border: none;
+	}
+
+.dw-lc-suggestedtagtwisty-closed {
+	background: url('//dw.raleigh.ibm.com/developerworks/community/viper2009/delta/arrow-closed.gif') no-repeat 0 3px;
+	height:18px;
+	margin-right:2px;
+	width:13px;
+}
+
+.dw-lc-textaccess {
+	position:absolute;left:-30000000px;
+	color: #FFF;
+	font-size: 0.0001px
+}
+	
+.dw-lc-textadjust {font-size:0.9em;}
+
+.dw-lc-textareaoffset {
+	padding-top:15px;
+}
+
+
+.dw-lc-theboard {
+	padding: 15px 0;
+}
+
+.dw-lc-theboard-addcomment {
+	font-size: 0.9em; 
+	text-decoration: underline !important;
+}
+
+.dw-lc-theboard-bg1 {
+	background-color:#EFEFF7
+}
+
+.dw-lc-theboard-bubble {
+	background:url('dw-lc-bubblePoint2.gif') no-repeat top right;
+}
+
+.dw-lc-theboard-delete {
+	background-image:url('//dw1.s81c.com/developerworks/i/dw-lc/profiles/nav/common/styles/images/iconDelete.gif');
+}
+
+.dw-lc-theboard-divider {
+	background:#FFF url('dw-lc-theboard-hr.gif') repeat-x 0 6px;
+	height:11px;
+}
+
+.dw-lc-theboard-header {
+	padding: 60px 0 15px 0;
+}	
+	
+	
+.lotusHeader #multiFeedReaderContentContainer .dw-lc-subtabcontainer .lotusSection h2 {
+	background:#FFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x 0px -545px;
+	border-bottom:1px solid #CCC !important;
+	border-top:0px !important;
+	height:1% !important;
+	margin:0px !important;
+	padding:3px 5px !important;
+	background:#FFFFFF url(//dw1.s81c.com/i/v16/t/sprites-t1.gif) repeat-x scroll 0 -545px;
+	border-bottom:1px solid #CCC !important;
+	border-top:0 none !important;
+	height:1% !important;
+	margin:0 !important;
+	padding:3px 5px !important;
+}
+
+/*this ie hacks class is probably not needed if standard widget markup is used, in which case it should be deleted. However, if needed, apply these values - for some reason, padding has disappeared on the mockups and this hacks class restores that */
+
+* html .lotusInfoBox {margin-bottom: 15px;}
+
+.lotusSection h2.dw-lc-profilescollapse .lotusLeft {
+	float:none !important;
+	font-size:12px !important;
+	color:#000000;
+	}
+
+
+.photoarea {
+	border-style:none;
+	background:#cccccc;
+	}
+
+
+body.lotusui {color:#222;background:none;background-color:#ffffff}
+
+span #lconn_act_StartActivityButton_0 .lotusBTn .lotusBtnAction {
+	border:1px solid #2E4F76 !important;
+	}
+
+
+#activityList .feedContainer a,
+#t_activityList .feedContainer a{
+	font-size:11px !important;
+	}
+
+
+
+
+.dw-lc-labelformat{
+	position:relative;
+	top:7px;
+	}
+
+.lotusEntryExpended, .storyTitleOver {
+background-color:#F1F3F5 !important;
+}
+
+#lconn_act_StartActivityButton_0 a ,
+#topicList .lotusBtnAction a{
+background:#2E4F76 url(//dw1.s81c.com/i/v16/ibmlc/btn-pri-bg.gif) repeat-x scroll 0 0 !important;
+border:1px solid #2E4F76 !important;
+color:#FFFFFF !important;
+font-weight:bold;
+min-width:100px;
+padding:2px 6 !important;
+}
+
+span.ask{
+display:none;
+visibility:none;
+}
+
+.lotusFeeds a{
+	font-size:11px !important;
+	}
+	
+#multiFeedReaderLotusTabs a{font-size:12px !important;}
+.lotusTabContainer {font-size:12px !important;}
+
+.closingtext{
+font-size:11px;}
+
+.fbox{
+font-size:11px;
+}
+
+
+a.edit_help_link,
+a.search_help_link,
+a.related_content_help_link,
+a.tags_help_link {
+font-size:12px !important;
+}
+
+a.help_link,
+a.demo_link{
+font-size:11px;}
+
+li.help_link {
+font-size:11px !important;}
+
+p.dw-lc-sizedown{
+font-size:11px;}
+
+input.ibm-btn-add-sec {
+	background: #FFF url('//dw1.s81c.com/i/v16/buttons/sprites.gif') no-repeat -2px -150px;
+	border:none;
+	color:#4C6E94;
+	padding:5px 0px 9px 29px;
+	text-align:left;
+	cursor:pointer;
+	margin-bottom:-7px;
+}
+
+input.ibm-btn-add-sec:hover {color:#2A507B;background:url(//dw1.s81c.com/i/v16/buttons/sprites.gif) no-repeat -2px 0px;}
+
+.lotusBoard .lotusPost {border-top: none !important;}
+
+#bannerprofimgli a, #lotusHeaderUserName {background: none transparent !important;}
+
+#newsStatusPostDiv a {position: relative;top:6px;}
+
+.dw-lc-forcefield-30 {
+	max-width:30px;
+	width: expression(this.width > 30 ? "30px": true);
+}
+
+.dw-lc-forcefield-40 {
+	max-width:40px;
+	width: expression(this.width > 40 ? "40px": true);
+}
+
+.dw-lc-forcefield-50 {
+	max-width:50px;
+	width: expression(this.width > 50 ? "50px": true);
+}
+
+.dw-lc-forcefield-60 {
+	max-width:60px;
+	width: expression(this.width > 60 ? "60px": true);
+}
+
+.dw-lc-forcefield-70 {
+	max-width:70px;
+	width: expression(this.width > 70 ? "70px": true);
+}
+
+.dw-lc-forcefield-100 {
+	max-width:100px;
+	width: expression(this.width > 100 ? "100px": true);
+}
+
+.dw-lc-forcefield-150 {
+	max-width:150px;
+	width: expression(this.width > 150 ? "150px": true);
+}
+
+.dw-lc-forcefield-200 {
+	max-width:200px;
+	width: expression(this.width > 200 ? "200px": true);
+}
+
+.dw-lc-forcefield-250 {
+	max-width:250px;
+	width: expression(this.width > 250 ? "250px": true);
+	width:250px;
+}
+
+.dw-lc-forcefield-300 {
+	max-width:300px;
+	width: expression(this.width > 300 ? "300px": true);
+}
+
+#dw-lc-typesearch {
+	display:none;
+	float: left;
+	list-style-type: none;
+	left: -1500px;
+	position:absolute;
+	top: -1500px;
+	width: 150px;
+	z-index:10;
+}
+
+#dw-lc-typesearch li {
+	background-color: #BDCEDC;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+#dw-lc-parsearch li {
+	display: inline;
+} 
+
+#dw-lc-typesearch li a {
+	background-color: #BDCEDC;
+	color: #293D6B;
+	display: inline-block;
+	font-size: 0.7em;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#dw-lc-typesearch li a:hover {
+	background-color: #98B1C4;
+}
+
+#dw-lc-typesearch li a:hover {
+	color: inherit;
+}
+
+.dw-lc-hidelabel {left:-2000px !important;position:absolute;z-index:2}
+
+
+/* group related widgets */
+.noborder {
+	border-style:none;
+	}
+	
+.dwPaletteWidget div.lotusIcon {
+	text-align:center;
+	width:34px;
+	}
+	
+h3.relatedtitletext {
+	height: 3em; 
+	font-size: 11px; 
+	font-weight: bold; 
+	width: 135px;
+	}
+
+h2.ibmDndDragHandle  .lotusLeft {
+width:auto !important;}
+
+#lotusColRight h2.ibmDndDragHandle  .lotusLeft {
+font-size:11px !important;}
+
+
+#editBFDiv a img, #editBKDiv a img, #editMemDiv a img, #editGrpDiv a img {
+	position: relative; 
+	top: 5px;
+	width:14px;
+	height:14px;
+	}
+p#editHelpTextDiv, p#editHelpTextDiv ul,
+p#editGrpHelpDiv, p#editGrpHelpDiv ul,
+p#editBkHelpTextDiv, p#editBkHelpTextDiv ul,
+p#editMemHelpTextDiv, p#editMemHelpTextDiv ul,
+div#mainMemDiv, div#mainMemDiv ul,
+div#mainGrpDiv, div#mainGrpDiv ul,
+div#mainBFDiv, div#mainBFDiv ul;
+ {
+	color: rgb(102, 102, 102); 
+	font-size: 11px;
+	}
+	
+/* IE 6 hacks */
+
+
+
+* html ul#communities-nav li.lotusSelected {background: none transparent !important;}
+* html #bannerprofimg {
+border:1px solid #BCBCBC;
+margin: -4px !important;
+position:relative;
+top:0px !important;
+}
+
+* html #linkroll .lotusDelete {
+	background: url('themeImages/lotusSprite-8bit.png') 100px -2383px no-repeat;
+	display:block;
+	float: right;
+	height:16px;
+	width:16px;
+}
+
+* html .lotusPostContent ul li a {top:3px;}
+
+* html #tagCloudWidgetContainer #tagsContent{
+	margin-left:0px !important;
+	}
+*html #tagcloudWidgetContainer .lotusSectionBody #tagCloud .lotusChunk h3{
+	margin-left:15px !important;
+	}
+	
+* html #linkroll .lotusDelete img {
+	background:url('themeImages/lotusSprite-8bit.png') 0 -2383px no-repeat;
+	}
+	
+* html lotusWidget2, * + html lotusWidget2 {border-width: 1px !important;}
+
+* html .lotusSpritesOn .lotusWidget2 h2 {border-bottom:1px !important;}
+
+* html .dw-lc-socialboxcontainer td a img {
+	margin-bottom: 3px;
+	margin-top: 10px;
+	padding-top:0;
+}
+
+* html .dw-lc-socialboxcontainer td a img, * html .dw-lc-socialboxcontainer td a, * html .dw-lc-socialboxcontainer td {background: none transparent !important;}
+
+* html .dw-lc-socialboxcontainer table tr td {height:50px !important;}
+
+* html .dw-lc-socialboxcontainer td a img {padding-top:0 !important;}
+
+* html #recent-friends-container a.lotusAction {font-size:11px !important;}
+
+* html #friendsTabContent .lotusBtn a {padding-left: 5px !important; padding-right: 5px !important;}
+	
+* html #friendsTabContent .lotusBtn a, * html #friendsTabContent .lotusBtn a:visited {color:#222 !important;}
+
+* html .gwt-HTML {
+padding-left:5px;
+padding-right:5px;
+}	
+
+
+* html #dw-lc-typesearch li {
+	margin-left: -15px;
+}
+
+
+/*IE7 hacks */
+
+* + html ul#communities-nav li.lotusSelected {
+	background: none transparent !important;
+	}
+	
+* + html #bannerprofimg {
+	border:1px solid #BCBCBC;
+	margin: -4px !important;
+	position:relative;
+	top:0px !important;
+	}
+	
+* + html .lotusSpritesOn .lotusWidget2 h2 {border-bottom:1px !important;}
+
+* + #newsStatusPostDiv a {top:2px;}
+
+* + html #recent-friends-container a.lotusAction {
+	font-size:11px !important;
+	}
+	
+* + html a:link, 
+* + html a:hover {
+	color:#4a6694}
+	
+* + html .gwt-HTML {
+	padding-left:5px;
+	padding-right:5px;
+	}
+
+* + html #dw-lc-typesearch li {
+	margin-left: -15px;
+	}
+
+* + .lotusBlue #lotusPlaceBar .dijitButton button,
+.lotusBlue #lotusPlaceBar .dijitDropDownButton button, 
+.lotusInner span.lotusBtn, 
+#lotusInner span.lotusBtn {
+background:#6E88A7 url(//dw1.s81c.com/i/v16/ibmlc/btn-sec-bg.gif) repeat-x 0px 0px !important;
+border:1px solid #6E88A7 !important;
+color:#FFF !important;
+min-width:135px !important;
+padding:0px 10px !important;
+margin-top:2px !important;
+}
+
+.linkedInContent {
+line-height:15px;}
+
+.linkedInHeader {
+padding-top:5px;}
+
+.linkedInContent {
+padding-left:15px !important;
+padding-bottom:5px !important;
+padding-right:2px;
+}
+
+#editLIButtonDiv, #LinkedInLogoDiv, #liEditForm  {
+padding-left:5px !important;
+padding-bottom:10px !important;
+font-size:11px;
+padding-right:2px;
+}
+
+#liEditForm Label {
+font-weight:normal !important;}
+
+#mainLIDiv {
+padding-top:0 !important;
+padding-left:5px !important;
+font-size:11px;}
+
+#lotusBanner #communities-login li a.username {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent url(//dw1.s81c.com/developerworks/i/dw-lc-mast_login_divider.gif) no-repeat scroll 100% 50%;
+color:#4FA9E8;
+font-weight:bold;
+display:block;
+padding:9px 10px !important;
+}
+
+.lotusLeftWidget {
+float:left;
+text-align:left;
+margin-left:10px;
+}
+
+h2.ibmDndDragHandle a {
+color:#000;
+text-decoration:none;
+}
+
+.lotusWidget .entry a.bodylink {
+font-size:12px;
+}
+
+.lotusProfileWidget p{
+font-size:12px;
+}
+
+input.lotusText.lotusInactive {
+height:1.33em !important;
+min-height:1.33em !important;
+}
+
+.lconnSprite-bkmrkiconHelp16 {
+background-image:url(../../../nav/lconn/styles/images/help.gif) !important;
+height:14px;
+width:14px;
+margin-top:0px;
+}
+
+.lotusMenuMyHome {
+height:16.5em !important;
+} /* New class for My widgets > Customize > Left nav */
+
+.lotusMenuMyHome {
+-moz-border-radius-bottomleft:0;
+-moz-border-radius-bottomright:0;
+-moz-border-radius-topleft:0;
+-moz-border-radius-topright:0;
+border-width:0;
+margin-left:10px !important;
+overflow:auto;
+}
+
+.lotusMenuMyHome {
+width:auto !important;
+}
+
+.lotusMenuMyHome {
+border-color:#CCEBB5;
+}
+
+.lotusMenuMyHome {
+border-style:solid;
+margin:0 0 15px;
+padding:5px 0;
+}
+
+.lotusMenuMyHome {
+background-color:#FFFFFF !important;
+background-image:none !important;
+border:1px solid #ccc !important;
+padding-top: 0 !important;
+}
+
+.lotusMenuMyHome {
+width:auto !important;
+}
+
+.lotusMenuMyHome ul {
+list-style-type: none;
+}
+
+.lotusMenuMyHome ul li a, .lotusMenuMyHome ul li a:visited, .lotusMenuMyHome ul li.lotusSelectedMyHome a, .lotusMenuMyHome ul 
+
+li.lotusSelectedMyHome a:visited {
+}
+
+.lotusMenuMyHome li a:visited {
+margin-right:0px;
+}
+
+.lotusMenuMyHome ul li {
+list-style-type: none;
+font-weight:bold;
+margin-left:-20px;
+}
+
+.lotusMenuMyHome li.lotusSelectedMyHome a, .lotusMenuMyHome li.lotusSelectedMyHome a:visited, .lotusMenuMyHome li.lotusSelectedMyHome a:active {
+background-color:#ccc !important;
+border:0 none !important;
+}
+
+.lotusMenuMyHome li.lotusSelectedMyHome a, .lotusMenuMyHome li.lotusSelectedMyHome a:visited, .lotusMenuMyHome li.lotusSelectedMyHome a:active {
+background-color:#ccc !important;
+color:#4C6E94 !important;
+}
+
+.lotusMenuMyHome li.lotusSelectedMyHome a, .lotusMenuMyHome li.lotusSelectedMyHome a:visited {
+border-style:solid;
+cursor:default;
+text-decoration:none;
+}
+
+.lotusMenuMyHome li a, .lotusMenuMyHome li a:visited {
+padding-bottom:8px !important;
+padding-top:7px !important;
+}
+
+.lotusMenuMyHome li a, .lotusMenuMyHome li a:visited {
+font-size:11px;
+font-weight:bold !important;
+padding-left:10px !important;
+}
+
+.lotusMenuMyHome li a, .lotusMenuMyHome li a:visited {
+display:block;
+line-height:1.5em;margin-top:-5px;
+}
+
+.lotusList a.bkmrk, ul.lotusList li.lotusSelected a.bkmrk {
+display:inline;
+} /* Alignment fix for selected links in tagging widget for bookmarks */
+
+* + html .lotusList a.bkmrk, ul.lotusList li.lotusSelected a.bkmrk {display:block !important;margin-top:-3px;margin-right:1px;white-space:nowrap !important;} 
+* + html ul.lotusList li a.dogearUntag {display:block !important;margin-left:-15px;margin-right:42px;} 
+
+#tagnavform span.lotusBkmrkBtnImg {
+margin-left:4px !important;
+} /* Top alignment fix for Submit button in tagging widget for bookmarks */
+
+div.bkmrk{
+margin-top:2px;
+margin-right:8px;
+} /* Top alignment fix for Submit button in tagging widget for bookmarks */
+
+* + html div.bkmrk {margin-top:-22px !important; margin-right:8px;} /* Top alignment fix for Search button, in IE 7 */
+* + html span.lotusBtn a {color:#ffffff;} /* Top alignment fix for Search button, in IE 7 */
+
+#col3DropZone  h2.ibmDndDragHandle  .lotusLeft {
+width:140px !important;
+font-size:11px !important;}
+
+.qkrWikiPreview td, .qkrWikiPreview th { 
+	border-bottom:none !important; 
+	border-color:none !important; 
+	border-right:none !important; 
+	border-style:none !important; 
+	padding:0; } 
+
+* + html .findoutmore {
+	border-style:none !important;
+}
+
+.findoutmore {
+	border-style:none !important;
+}
+	
+
+#lotusColRight h2.ibmDndDragHandle .lotusLeft {
+font-size:11px !important;}
+
+#grantPlainList .ibm-required, #pubPlainList .ibm-required, #coursePlainList .ibm-required {font-size:11px;padding-left:5px;}
+
+.dw-lc-formlabelsecondary label{
+	padding-right:5px;
+}
+	
+	
+/* BEGIN TEMP FIX for sharethis widget issues*/
+
+.stico_default {
+background:transparent url(http://w.sharethis.com/images/share-icon-16x16.png?CXNID=1000014.0NXC) no-repeat 
+scroll 0 0 !important;
+}
+
+a.stbutton {
+padding:1px 5px 5px 22px;
+}
+
+#outercontainer {
+background-color:#FFFFFF;
+border:3px solid #666666;
+}
+
+.stbuttontext {
+line-height:17px;
+}
+
+.stwrapper {
+height:auto;
+left:0;
+margin:0;
+padding:0;
+position:absolute;
+top:0;
+visibility:hidden;
+width:354px;
+z-index:1000000;
+}
+
+.stframe {
+position:absolute;
+z-index:1000020;
+}
+
+.stclose {
+cursor:pointer;
+font-family:Helvetica,Arial,Sans-Serif;
+height:15px;
+line-height:1em;
+margin:0;
+padding:0;
+position:absolute;
+right:9px;
+text-align:left;
+text-decoration:none;
+top:3px;
+width:15px;
+z-index:2000000;
+}
+
+/* END TEMP FIX for sharethis widget issues*/

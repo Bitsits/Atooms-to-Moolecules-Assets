@@ -1,0 +1,145 @@
+/* Color Specs ---------------------------------------------------
+
+503264 = h1-h6, h1nospeace-h6nospace, (all headers), summitrollover li  (border), .ddsubmenustyle li a (sub menu dotted btm border), .blog hr  
+418593 = a, strong, leftnavcontent (shortcuts), blackwhite li a:hover (subs rollover), 
+1c2c30 = fbox (wrapper color on footer boxes)
+45136a = .blog hr (border between blogs)
+858585 = .blog_date	
+
+8754aa = .slide-details h2 strong (slider content title)
+63848b = .slide-details .description li a strong (slider content a strong link)
+426c75 = .jFlowControl:hover,#myController span.jFlowSelected
+
+a798b1 = markermenu (border color for main nav)
+f2ccff = markermenu ul li a span (txt color for description under main nav link on btns)
+c9fff8 = markermenu ul li a:hover (ROLLOVER txt color for description under main nav link on btns)
+6e9e98 = ddsubmenustyle (subs border)
+-------------------------------------------------------------- */
+   
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #503264; }
+
+h1 { font-size: 2.5em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: .75em; line-height: 1;}
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 1em; font-weight: bold; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {  margin: 0;}
+
+h1nospace,h2nospace,h3nospace,h4nospace,h5nospace,h6nospace { font-weight: normal; color: #dd883c; }
+
+.h1nospace {font-size: 2.5em; color: #503264;}
+.h2nospace {font-size: 2em; color: #503264;}
+.h3nospace {font-size: 1.5em; color: #503264;}
+.h4nospace {font-size: 1.2em; color: #503264;}
+.h5nospace {font-size: 1em; color: #503264;}
+.passes {font-weight: bold; color: #4B891C;font-size: 1.5em; line-height: 1.25; margin-bottom: 1.5em;}
+.citation {font-weight: normal; color: #666666;font-size: 0.75em;}
+.citationwhite {font-weight: normal; color: #ffffff;font-size: 0.85em;}
+.red {color: #ff0000;}
+.purple {color: #503264;}
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { margin: 0 0 1.5em; }
+p img.left  { float: left;}
+p img.right { float: right;}
+
+a:focus, 
+a:hover     { text-decoration: underline }
+a           { color: #418593; text-decoration: none; }
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold;}
+em,dfn      { font-style: italic; }
+dfn         { font-weight: bold; }
+h1 sup		{ font-size: .35em }
+sup, sub    { line-height: 0; font-size: .75em }
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre 		{ margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+
+/* Lists
+-------------------------------------------------------------- */
+
+li ul, 
+li ol       { margin:0 1.5em; }
+ul, ol      { margin: 0 1.5em 1.5em 1.5em; }
+
+ul          { list-style-type: disc; }
+ol          { list-style-type: decimal; }
+
+dl          { margin: 0 0 1.5em 0; }
+dl dt       { font-weight: bold; }
+dd          { margin-left: 1.5em;}
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table       { margin-bottom: 1.4em; width:100%; }
+th          { font-weight: bold; }
+thead th 	{ background: #c3d9ff; }
+th,td,caption { padding: 4px 10px 4px 5px; }
+tr.even td  { background: #e5ecf9; }
+tfoot       { font-style: italic; }
+caption     { background: #eee; }
+
+
+/* Misc classes
+-------------------------------------------------------------- */
+
+.first      { margin-left:0; padding-left:0; }
+.last       { margin-right:0; padding-right:0; }
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
+
+.right 		{float:right;}
+.left 		{float:left;}
+img, a img 	{border:none}
+
+.textleft 	{text-align:left;}
+.center 	{text-align:center;}
+
+/* Pass Options Table
+------------------------------------------------------------- */
+
+table.passTable, .passTable th, .passTable thead th, .passTable td, .passTable caption, .passTable tr.even td, .passTable tfoot, table.passTable table.passType {
+	margin-bottom: 0; background: #fff; padding: 0;}
+table.passType {color: #000; text-align: center; line-height: 1.25em}
+table.passType strong {font-weight: bold; font-size: 14px;}
+table.passType tr.colcol-1 td {height: 47px; text-align: center; color: #FFF; font-weight: bold;}
+table.passType tr.colcol-2 td {height: 33px;}
+table.passType tr.colcol-3 td {height: 34px;}
+table.passType tr.colcol-4 td {height: 33px;}
+table.passType tr.colcol-5 td {height: 30px;}
+table.passType tr.colcol-6-2 td {height: 130px;}
+	
+table.passTable tr.price_even td, table.passTable tr.price_odd td {height: 57px; color: #333;}
+table.passTable td  span {font-size: 10px; color: #1a8f8b;}
+tr.price_even td.col-1 {background: #FFF url(../img/attend/even_1.jpg) repeat-y; padding: 0 10px;}
+tr.price_odd td.col-1 {background: #FFF url(../img/attend/odd_1.jpg); padding: 0 10px;}
+tr.price_even td.col-2 {background: #fff2bf;}
+tr.price_odd td.col-2 {background: #f2e6b2;}
+tr.price_even td.col-3 {background: #efefc3;}
+tr.price_odd td.col-3 {background: #e2e3b6;}
+tr.price_even td.col-4 {background: #e2edc8;}
+tr.price_odd td.col-4 {background: #d5e0bb;}
+tr.price_even td.col-5 {background: #d9ecd0;}
+tr.price_odd td.col-5 {background: #cde0c3;}
+tr.price_even td.col-6 {background: #d3edde;}
+tr.price_odd td.col-6 {background: #c7e0d1;}
+tr.price_even td.col-7 {background: #ceefee;}
+tr.price_odd td.col-7 {background: #c1e2e1;}
+tr.price_odd strong, tr.price_even strong {display: block; background: url(../img/attend/check.gif) no-repeat center; width: 96px; height: 57px;text-indent:-1000px;}
+

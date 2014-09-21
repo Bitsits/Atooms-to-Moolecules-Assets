@@ -1,0 +1,310 @@
+/*  My developerWorks css */
+/*  History:  */
+/*  07 apr 2010:  dw-lc-selectbox:  Created this class for the following RATLC defect: RATLC00417972: The search by people function needs to be a combo box drop down and input field in one. (ddh) */
+
+/* jrw - 30 nov 2010: added classes for mydw community landing page - at bottom of css file, commented as such. */
+
+
+.dw-lc-alignright {text-align: right;white-space:nowrap;}
+
+.dw-lc-blockalignright {float:right !important;}
+
+.dw-lc-clear {clear:both;height:1%;}
+
+.dw-lc-cloudtext li {font-size:0.9em;}
+
+.dw-lc-cloudtext li a {font-size:1em;}
+
+.dw-lc-divider {
+	color: #666 !important;
+	padding: 0 8px;
+}
+
+.dw-lc-emphasis {
+	font-weight: bold !important;
+}
+
+.dw-lc-footersearch {
+	background: url('//www.ibm.com/developerworks/i/dw-lc/sprites-search.gif') no-repeat -2px -37px;
+	border:none;
+	color:#4C6E94 !important;
+	font-size: 1.085em;
+	height: 1%;
+	padding:6px 0 8px 29px;
+	text-align:left;
+	cursor:pointer;
+	margin-bottom:-7px;
+	text-decoration: none;
+}
+
+.dw-lc-footersearch:hover {
+	background:url('//www.ibm.com/developerworks/i/dw-lc/sprites-search.gif') no-repeat -2px -4px;
+	text-decoration: underline;
+}
+
+.dw-lc-formconfirm {
+	background:url(//www.ibm.com/i/v16/icons/confirm.gif) no-repeat 2px 4px;
+	margin:0px !important;
+	padding:5px 5px 5px 21px !important;
+	color:#aca899 !important;
+	margin-left:2px !important;
+	height:16px !important;
+	display:inline;
+}
+
+* + html .dw-lc-formconfirm {
+	background:url(//www.ibm.com/i/v16/icons/confirm.gif) no-repeat 2px 4px;
+	margin:0px !important;
+	padding:5px 5px 5px 21px !important;
+	color:#aca899 !important;
+	margin-left:2px !important;
+	height:16px !important;
+	display:inline;
+	margin-top:20px !important;
+}
+
+	
+.dw-lc-formerror {
+	background:url(//www.ibm.com/i/v16/icons/cancel.gif) no-repeat 2px 4px;
+	color: #F00;
+	/*font-size: 0.901em;*/
+	font-size: 12px;
+	margin:0px;
+	padding:5px 5px 5px 21px;
+	margin-left:0px !important;
+}
+
+.dw-lc-formcaution {
+	background:url(//www.ibm.com/i/v16/icons/caution.gif) no-repeat 0px 0px;
+	color: #aca899;
+	/*font-size: 0.901em;*/
+	font-size: 12px;
+	margin:0px;
+	padding:0px 5px 5px 21px;
+	margin-left:0px !important;
+	height:16px;
+	margin-top:2px !important;
+}
+
+.dw-lc-formerror p{
+font-size:12px !important;margin-left:20px !important;margin-top:-15px !important;
+}
+
+.dw-lc-formconfirm p {
+font-size:12px !important;
+margin-left:20px !important;
+margin-top:-15px !important;
+}
+* + html .dw-lc-formconfirm p {
+font-size:12px !important;
+margin-left:20px !important;
+margin-top: 20px !important;
+}
+
+
+
+.dw-lc-formoffset  {
+	margin: -15px 0 20px 157px !important;
+}
+
+.dw-lc-formoverride {
+	margin-left: 10px !important;
+}
+
+.dw-lc-iconright {
+	background:url('//www.ibm.com/developerworks/i/dw-lc/mdw-iconright.jpg') no-repeat 2px 10px;
+	display:inline;
+	margin:0px;
+	padding: 8px;
+	text-decoration: none !important;
+}
+
+.dw-lc-important-adjust {/*font-size: 0.901em;*/font-size: 11px;margin-left:0px !important;}
+
+.dw-lc-ind-link a {
+	text-decoration: none;
+}
+
+.dw-lc-ind-link a:hover {
+	text-decoration: underline;
+}
+
+.dw-lc-ind-link a.ibm-video-link {
+	background:url(//www.ibm.com/i/v16/icons/video.gif) no-repeat 2px 4px;
+	font-weight: bold;
+	margin:0px;
+	padding:4px 2px 8px 20px;
+}
+
+.dw-lc-labeloverride {
+	display: inline !important;
+	float: none !important;
+	width: auto !important;
+}
+
+.dw-lc-link {
+	background: url('//www.ibm.com/developerworks/i/runson-logo.jpg') no-repeat 1px;
+	font-weight: bold;
+	margin:0px;
+	padding:8px 5px 8px 35px;
+	text-decoration: none;
+}
+
+.dw-lc-linksansicon {
+	color: #4C6E94 !important;
+	font-size: 1.085em;
+	font-weight: bold;
+	height: 1%;
+	padding:0em;
+	text-decoration: none;
+}
+
+.dw-lc-linksansicon:hover {
+	text-decoration: underline;
+}
+
+.dw-lc-selectbox {
+width:140px;height:21px;
+}
+
+#dw-lc-listhint {
+	display:none;
+	float:left;
+	font-size:1.2em;
+	padding-top: -3px;
+}
+
+.dw-lc-nonemphasis {
+	font-weight: normal !important;
+}
+
+.dw-lc-offset-trim {margin-left:-3px !important;}
+
+.dw-lc-sectionsearch {background-color: #EFEFEF;}
+
+.dw-lc-spacevertical {height:10px;}
+
+.dw-lc-video-link-inline {
+	background: url('//www.ibm.com/i/v16/icons/video.gif') no-repeat 2px 5px;
+	display: block;
+	height: 1%;
+	margin-top: -3px;
+	padding:5px 5px 5px 21px;
+	text-decoration: none;
+}
+
+.dw-lc-wordmark{
+	background:url('//www.ibm.com/developerworks/i/dwwordmark.gif') no-repeat 99% 0px;
+}
+.dw-lc-wordmark {min-height:20px;}
+
+.dw-lc-wordmarkonly {background:none !important;}  /*used to remove breadcrumb carat when navigation trail exists only for wordmark image, sans any links or text */
+
+.ibm-leadspace-overlay p {width: 520px !important;}
+
+#ibm-tertiary-navigation ul {
+	background:#FFF;
+	font-weight:normal;
+	padding:0px;
+}
+
+#ibm-tertiary-navigation ul li a {
+	background:url(//www.ibm.com/i/v16/bullets/sprites.gif) no-repeat 17px -3231px;
+	border:none;
+	display:block;
+	margin:0px;
+	padding:1px 4px 1px 23px;
+}
+
+#ibm-tertiary-navigation a:hover {text-decoration:underline;}
+
+#ibm-tertiary-navigation li a:link,
+#ibm-tertiary-navigation li a:visited {color:#666;}
+
+#kanjiName, #kanjisearchby {
+	font-size: 1.0em !important;
+}
+
+#langsform {
+	font-size: 0.8em;
+}
+
+#langsform select option {
+	padding-right: 10px;;
+}
+
+.mdw-termslabel {
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+.dw-lc-text-emphasis {
+	color: #FF6600;
+	font-weight: bold;
+}
+
+#overlay2 li {font-size: 11px !important;}
+
+.mydw-iconLink{margin-left:50px !important;padding-top:3px !important;}
+
+form.ibm-column-form a.ibm-help-link, form.ibm-row-form a.dw-ibm-help-link {
+background:url("//www.ibm.com/i/v16/icons/sprites-form.gif") no-repeat scroll 0 -191px;
+}
+
+form.ibm-column-form a.ibm-calculator-link, form.ibm-row-form a.ibm-calculator-link, form.ibm-column-form a.ibm-calendar-link, form.ibm-row-form a.ibm-calendar-link, form.ibm-column-form a.ibm-dwinformation-link, form.ibm-row-form a.ibm-information-link, form.ibm-column-form a.ibm-error-link, form.ibm-row-form a.ibm-error-link, form.ibm-column-form a.ibm-help-link, form.ibm-row-form a.dw-ibm-help-link {
+display:inline;
+margin:0 0 0 150px;
+padding:3px 5px 8px 10px !important;
+text-decoration:none;
+}
+
+
+.dw-lc-formconfirm p {
+font-size:12px !important;
+margin-left:20px !important;
+margin-top:-15px !important;
+}
+
+#ibm-content-main p {
+word-wrap: break-word !important;}
+
+
+/* START mydw community landing page */
+
+.storyContainerPadding {
+margin:0 0 0 8px;
+padding:5px 4px 2px;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px !important; }
+
+.storyContainerPadding a {
+text-decoration:none;}
+
+#ibm-content-main select {
+height:22px;
+margin-top:2px; }
+
+#ibm-content-head p.dw-leadspace-overlay-heading{
+color:#000000;}
+div.ibm-landing-page .ibm-leadspace-overlay {
+background-color:#ffffff;
+background-image:url("http://www.ibm.com/developerworks/i/hidef-community.jpg");
+min-height: 170px;}
+
+td.icon img{
+position:relative;
+top:5px;}
+td.icon a {
+font-size:12px !important;
+text-decoration:none !important;
+color:#4C6E94;}
+div.ibm-landing-page #ibm-content-main .ibm-alternate-four .ibm-column.ibm-first dw-search{
+width:200px !important;
+}
+
+.dw-refresh-disabled-link {
+background:url("//www.ibm.com/developerworks/i/dwrefresh_icon-grey.gif") no-repeat scroll 2px 4px transparent;
+font-weight:bold;
+color:#828282 !important;
+}
+
+/* END mydw community landing page */

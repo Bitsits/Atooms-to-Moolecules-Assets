@@ -1,0 +1,431 @@
+/* dW Top level pages */
+
+#ibm-content-head h1.dwtop {
+	color:#e15119;
+}
+#ibm-content-head.dwwordmark {
+background:url("//www.ibm.com/developerworks/i/dwwordmark.gif") no-repeat 560px 0px;
+}
+#ibm-content-head.ibm-content-subtitle p {padding:0px 0px 8px 0px;}
+
+#dw-date-area {
+	float: right;
+	font-size:0.9em;
+	font-style:normal;
+	font-family:arial,sans-serif;
+}
+
+.dw-feature-image {
+float:left;
+padding:0px 10px 0px 0px;
+}
+h3.dw-feature-heading {
+	font-family:verdana,sans-serif;
+	font-weight:bold;
+	font-size:0.8em;
+	font-style:normal;
+}
+h3.dw-feature-heading a:visited {
+	color:#4C6E94;
+}
+
+.dw-tab-simple-show-hide  {
+	padding-bottom:4px;
+	padding-top:4px;
+}
+
+.dw-show-hide-spacer {
+	padding-bottom:0px;
+}
+
+#ibm-content-main .ibm-three-column .dw-tab-third-column {
+	width:160px !important;
+}
+
+.ibm-portrait-module img.dw-image-space,
+ul.ibm-portrait-module-list li img.dw-image-space {
+	padding:0px 0px 4px 0px !important;
+}
+
+/* RIGHT COLUMN */
+
+#dw-signin {
+	overflow:auto;
+	height:auto;
+}
+* html #dw-signin {
+	width:168px;
+    height:auto;
+}
+#dw-signin ul.dw-signin-links {
+	width:167px;
+}
+#dw-signin ul li.dw-mixed-link a {display:inline !important;}
+#dw-signin ul li.dw-mixed-link a.dw-mixed-link-anchor {padding:2px 0px 3px 4px !important}
+.dw-mixed-link-text {font-size:0.7em;color:#666;}
+
+#ibm-content-sidebar .ibm-container-body.dw-right-bullet-list {
+	padding:4px 3px 0px 0px;
+} 
+
+#ibm-content-sidebar .ibm-container-body span.dw-important {
+	color:#F60;
+} 
+
+#ibm-content-sidebar .ibm-container-body p.dw-special-offers {
+padding-bottom:0px;
+}
+
+/* BOTTOM */
+
+#ibm-navigation li a.dw-separator {
+border-bottom-width: 5px;
+border-bottom-style: solid;
+border-bottom-color: #98b1c4;
+}
+
+#dw-footer-module {
+	width:930px;
+	height:120px;
+	clear:both;
+	background-color:#eee;
+}
+#dw-footer-module .footer-module-container {
+	padding-left:20px;
+	padding-top:14px;
+	padding-right:10px;
+}
+#dw-footer-module .footer-module-container .footer-module-column-first {width:350px;float:left;}
+#dw-footer-module .footer-module-container .footer-module-column-second {width:1px;float:left;padding:0px 1px;}
+#dw-footer-module .footer-module-container .footer-module-column-third {width:530px;float:left;padding-left:10px;}
+#dw-footer-module .footer-module-container .footer-module-column-third h2 {
+	font-family:verdana,arial,sans-serif;
+	font-size:0.7em;
+	font-weight:bold;
+	color:#666;
+	padding:0px 0px 8px 3px !important; 
+	margin:0px !important;
+}
+#dw-footer-module .bottom {width:920px;height:20px;clear:both;}
+#dw-footer-module .bottom a.ibm-forward-link:link {text-decoration:none;}
+#dw-footer-module .bottom a.ibm-forward-link:visited {text-decoration:none;}
+#dw-footer-module .bottom a.ibm-forward-link:hover {text-decoration:underline;}
+#dw-footer-module .bottom a.ibm-forward-link {
+	background:url(//www.ibm.com/i/v16/icons/fw.gif) no-repeat 0px 0px;
+	font-family:arial,sans-serif;
+	font-size:0.7em;
+	float:right;
+	padding-right:40px;
+	padding-left:20px;
+}
+#dw-footer-module img.footer-module-image {padding-left:5px;}
+
+/* Google gadget classes for top-level pages:
+   .dwfwte - display default icon on page load (height/width required to display)
+   .dwfwtc - display highlighted icon on mouseover (height/width required to display)
+   .dwgooglegadget - display "Add to Google" selection on mouseover (offset from highlighted icon)
+*/
+
+.dwfwte {
+  cursor:pointer;
+  background:transparent url(//www.ibm.com/developerworks/i/icon_gadget.gif) no-repeat scroll;
+  padding:0px;
+  margin:0px;
+  width: 16px;
+  height:16px; 
+  position:relative;
+  top:4px;
+  left:140px;
+}
+
+.dwfwtc {
+  cursor:pointer;
+  background:transparent url(//www.ibm.com/developerworks/i/icon_gadgetroll.gif) no-repeat scroll;
+  padding:0px;
+  margin:0px;
+  width:16px;
+  height:16px;  
+  position:relative;
+  top:4px;
+  left:140px;
+}
+
+.dwfwte-alt {
+  cursor:pointer;
+  background:transparent url(//www.ibm.com/developerworks/i/icon_gadget.gif) no-repeat scroll;
+  padding:0px;
+  margin:0px;
+  width: 16px;
+  height:16px; 
+  position:relative;
+  top:4px;
+  bottom:3px;
+  left:140px;
+}
+
+.dwfwtc-alt {
+  cursor:pointer;
+  background:transparent url(//www.ibm.com/developerworks/i/icon_gadgetroll.gif) no-repeat scroll;
+  padding:0px;
+  margin:0px;
+  width:16px;
+  height:16px;  
+  position:relative;
+  top:4px;
+  bottom:3px;
+  left:140px;
+}
+
+.dwgooglegadget {
+  background:transparent url(//buttons.googlesyndication.com/fusion/add.gif) no-repeat scroll;
+  cursor:pointer;
+  width:104px;
+  height:17px;
+  padding-right:5px;
+}
+
+.dwnetvibes {
+  background:transparent url(//eco.netvibes.com/img/add2netvibes.png) no-repeat scroll;
+  cursor:pointer;
+  width:91px;
+  height:17px;
+  padding-right:5px;
+}
+
+.dwmyyahoo {
+  background:transparent url(//www.ibm.com/developerworks/i/addtomyyahoo4.gif) no-repeat scroll;
+  cursor:pointer;
+  width:91px;
+  height:17px;
+  padding-right:5px;
+}
+
+.dwrss {
+  background:transparent url(//www.ibm.com/developerworks/i/subscribeto.gif) no-repeat scroll;
+  cursor:pointer;
+  width:91px;
+  height:17px;
+  padding-right:5px;
+}
+
+/* incremental profiling ================================================================ */
+.dw-interest-block-tech {
+	margin:0.3em 0em 1em;
+	width:100%;
+}
+.dw-interest-block {
+	margin:-0.5em 0em 1em;
+	width:100%;
+}
+/* Double buffering of image below prevents flickering in IE 6 */
+#interestShow div#dw-interest-anon {background:url(//www.ibm.com/developerworks/i/updateinterests.gif) no-repeat 0px 2px;font-size:0.7em;font-family:arial,sans-serif} 
+#interestShow div#dw-interest-anon a.ibm-external-link {
+	background:url(//www.ibm.com/developerworks/i/updateinterests.gif) no-repeat 0px 0px;
+	padding-left:20px;
+	font-weight:bold !important;
+	line-height:150%;
+	color:#4C6E94;
+}
+/* Double buffering of image below prevents flickering in IE 6 */
+#interestShow div#dw-interest-add {background:url(//www.ibm.com/developerworks/i/addinterests.gif) no-repeat 0px 2px;font-size:0.7em;font-family:arial,sans-serif} 
+#interestShow div#dw-interest-add a.ibm-external-link {
+	background:url(//www.ibm.com/developerworks/i/addinterests.gif) no-repeat 0px 0px;
+	padding-left:20px;
+	font-weight:bold !important;
+	line-height:150%;
+	color:#4C6E94;
+}
+#interestShow div#dw-interest-remove {
+	background:url(//www.ibm.com/developerworks/i/addedtointerest-mav-trans.gif) no-repeat 0px -1px;
+	font-size:0.7em;
+	font-family:arial,sans-serif;
+	padding-left:18px;
+}
+#interestShow a.dw-interest:link {text-decoration:none;}
+#interestShow a.dw-interest:visited {text-decoration:none;color:#4C6E94;}
+#interestShow a.dw-interest:hover {text-decoration:underline;}
+
+/* landing-generic classes =========================================================== */
+.dw-container-sidebar  {
+	width:320px;
+	margin-left:10px;
+	float: right;
+	/* border:1; */
+}
+/* Allow multi-column layout within a twisty: 6.0 Maverick jpp 051310 */
+* html div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-two-column {width:480px !important;}
+* html div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column {width:480px !important;}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-two-column .ibm-column.ibm-first {
+	width:240px !important;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-two-column .ibm-column.ibm-second {
+	width:235px !important;
+	float:right;
+	margin-right:3px;
+	margin-bottom:5px;
+}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column .ibm-column.ibm-first {
+	width:160px !important;
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column .ibm-column.ibm-second {
+	width:160px !important;
+	float:right;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column .ibm-column.ibm-third {
+	width:160px !important;
+	float:right;
+	margin-right:3px;
+	margin-bottom:5px;
+}
+* html div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column .ibm-column.ibm-third {width:140px !important;}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-three-column p.ibm-ind-link,
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body .ibm-two-column p.ibm-ind-link {
+	padding-bottom:0px !important;
+	padding-top:0px !important;
+}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body h3 {font-size:1.0em !important;padding-left:0px !important;}
+div.ibm-container .ibm-container-body ul.ibm-twisty li div.ibm-twisty-body {padding-right:3px;}
+/* Sidebar modifications */
+#ibm-content-main .ibm-container.ibm-alternate .ibm-container-body .ibm-cross-links {
+	width:260px;
+    background-color:#ededed;
+    margin:5px 1px 5px 3px;
+}
+#ibm-content-main .ibm-container .ibm-container-body .ibm-cross-links {
+	width:260px;
+    background-color:#ededed;
+    margin:5px 5px 5px;
+}
+#ibm-content-head ul#ibm-navigation-trail li span.dwbctbar {
+	display:inline;
+	padding:0px;
+	margin:0px 2px 0px 2px;
+    color:#999;
+}
+/* Updated blockquote tag CSS to handle as classic block quote */
+#ibm-content-main .ibm-container blockquote {
+    font-weight:normal;  
+    font-size:0.76em;
+    padding:0.3em 20px 0.7em;
+} 
+#ibm-content-main ul.ibm-bullet-list li p {
+	margin:0em !important;
+	padding:0em 0em 1em !important;
+} 
+/* 6.0 Maverick R3 jpp 051910: Fix for p tag in ordered lists */
+#ibm-content-main .ibm-container ol p {font-size:1.0em;padding-left:0px;}
+code  {	
+	font-family:monospace;
+	font-size:small !important;
+}
+/* 6.0 Maverick jpp 052809: Update for code sections */
+.displaycode {
+    width:450px;
+	margin:2px 5px 5px 5px;
+	font-family: Andale Mono, Lucida Console, Monaco, Liberation, fixed, monospace; 
+	font-size: 11px; 
+	background:#F7F7F7 !important; 
+	color:#000;
+	overflow:hidden;
+}
+.code-outline {background-color:#F7F7F7 !important; border: 1px solid #ccc; padding: 2px 2px 5px 2px;}
+table.dw-landing-code-table {margin-left:1px;}
+* html table.dw-landing-code-table {margin-left:5px;}
+#ibm-content-main .ibm-container dl {font-size:0.76em;}
+#ibm-content-main .ibm-container dl dd ol {font-size:1.0em;margin-top:4px;}
+#ibm-content-main .ibm-container dl dd p {font-size:1.0em;margin-top:4px;padding-left:0px;padding-bottom:0px;}
+#ibm-content-main .ibm-container dl dd ul {font-size:1.0em;margin-top:4px;}
+.ibm-container dl {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	padding-top:0px;
+	padding-right:5px;
+	padding-bottom:0px;
+}
+.ibm-container dl dt {
+	margin-top:10px;
+	margin-bottom:4px;
+}
+.ibm-container p.dw-landing-dltable-linklist {padding:1em 0em .5em !important;}
+.ibm-container .dw-landing-dltable-link {display:inline !important;font-size:0.9em;font-weight:bold;}
+.ibm-container p.dw-landing-dltable-note b,
+.ibm-container ol.dw-landing-dltable-notelist li {font-size:0.9em;}
+
+/* v16 Submit article proposals template  ddh 10-21-2010:  Fixes display issues for unordered lists and textarea boxes in forms */
+#ibm-content-main form.ibm-column-form ul.dw-submit-align{
+margin-left:-25px !important;
+}
+
+* + html #ibm-content-main form.ibm-column-form ul.dw-submit-align {
+display:block;
+margin-left:178px !important;
+font-size:.76em !important;
+margin-top:0px !important;
+}
+
+* + html #ibm-content-main form.ibm-column-form textarea.dw-submit-align {
+margin-left:162px !important;
+width:291px !important;
+}
+
+#ibm-content-main form.ibm-column-form textarea.dw-submit-align {
+width:293px !important;
+}
+
+* + html #ibm-content-main form.ibm-column-form span.dw-submit-align{
+margin-left:162px !important;
+font-size:.66em !important; 
+font-family:arial,sans-serif;
+}
+
+.dw-submit-font-reset{
+color:#000;
+}
+
+.dw-submit-select-med-width{
+width:297px !important;
+}
+* + html .dw-submit-select-med-width{
+width:298px !important;
+}
+
+#ibm-content-main form.ibm-column-form textarea.dw-submit-alignReset {
+width:293px !important;
+}
+
+* + html #ibm-content-main form.ibm-column-form textarea.dw-submit-alignReset {
+margin-left:0px !important;
+width:291px !important;
+}
+
+#ibm-content-main form.ibm-column-form textarea.dw-feedback-align {
+width:278px !important;
+}
+
+/* Hidef Home page styles - 12/14/10 jpp */
+#ibm-content-head h2.dw-leadspace-overlay-heading {
+	width:650px;
+	margin-left:260px;
+	text-decoration:none !important;
+}
+#ibm-content-head p.dw-leadspace-overlay-body {
+	font-size:.9em;
+	margin-left:250px;
+    padding-top:8px !important;
+	line-height:122%;
+}
+#ibm-content-head h2.dw-leadspace-overlay-heading a,
+#ibm-content-head p.dw-leadspace-overlay-body {
+	margin-right:10px;
+	text-decoration:none !important;
+}
+#ibm-content-head h2.dw-leadspace-overlay-heading a:hover { text-decoration:underline !important; } 

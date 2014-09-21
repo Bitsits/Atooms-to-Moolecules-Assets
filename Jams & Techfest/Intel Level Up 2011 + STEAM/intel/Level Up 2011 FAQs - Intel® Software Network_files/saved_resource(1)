@@ -1,0 +1,1254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+ <head profile="http://gmpg.org/xfn/11">
+  <meta property="og:title" content="Intel&reg; Software Network"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="http://software.intel.com/en-us/"/>
+  <meta property="og:site_name" content="Intel&reg; Software Network" />
+  <meta property="fb:page_id" content="94251532337" />
+  <meta property="fb:admins" content="123981191010926" />
+  <meta property="og:description" content="Intel Software Network is Intel's online community for software developers. Come find answers to your software questions in our blogs, forums, videos, and more."/>
+  <meta http-equiv="Content-Language" content="en-us" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=8" />
+  <link rel="pingback" href="http://software.intel.com/en-us/services/comment/pingback/" />
+  <link rel="shortcut icon" href="/common/images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/common/v3.1/gaat-header.css?v=1333055222" id="HAT-linkStyle" />
+  <link rel="stylesheet" type="text/css" href="/common/v3.1/master-global-min.css?v=1333055222" media="all" />
+  <link rel="stylesheet" type="text/css" href="/media/js/tooltip/jquery.cluetip.css?v=1333055222" />
+  <link rel="stylesheet" type="text/css" href="/common/css/style.css?v=1333055222" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/common/css/style_print.css?v=1333055222" media="print" />
+  <script type="text/javascript" src="/common/v3.1/jquery-1.4.2.min.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/v3.1/global.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/v3.1/mod-share.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/js/jquery.bgiframe.min.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/js/jqmodal.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/js/tooltip/jquery.hoverIntent.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/js/tooltip/jquery.cluetip.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/js/ufo.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/js/isn/combined.js?v=1333055222"></script>
+  <script type="text/javascript" src="/common/js/isn/search.js?v=1333055222"></script>
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<!-- head -->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/css/ui-lightness/jquery-ui-1.8.2.custom.css?v=1333055222" />
+  <link rel="stylesheet" type="text/css" media="print" href="/media/home/css/master-print-min.css?v=1333055222" />
+  <!--[if IE]>
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/css/master-ie-min.css?v=1333055222" />
+  <![endif]-->
+  <!--[if IE 6]>
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/css/master-ie6-min.css?v=1333055222" />
+  <script type="text/javascript" src="/media/home/js/unitpngfix.js?v=1333055222"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/css/browser-fixes.css?v=1333055222" />
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/isn.css?v=1333055222" />
+  <link rel="stylesheet" type="text/css" media="all" href="/media/home/css/tweaks.css?v=1333055222" />
+  <script type="text/javascript" src="/media/home/js/jquery-ui.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jquery-plugins.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jquery.jcarousel.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/mod-accordion.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jfeed.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jfeeditem.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jrss.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jatom.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/jquery.widthTruncate.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/loopedcarousel.js?v=1333055222"></script> 
+  <script type="text/javascript" src="/media/home/js/css_browser_selector.js?v=1333055222"></script>
+  <script type="text/javascript" src="/media/home/js/dynamic-elements.js?v=1333055222"></script> 
+  <script type="text/javascript" src="/media/home/isn.js?v=1333055222"></script>
+<!-- /head -->
+<!-- headpost -->
+<script type="text/javascript" src="/common/js/constants/en-us.js?v=1333055222"> </script>
+<!--
+<link rel="stylesheet" type="text/css" id="HAT-linkStyle" href="/common/css/ltr_header.css?v=1333055222" />
+-->
+<!-- /headpost -->
+  <title>Intel Software Network communities - Intel&#174; Software Network</title>
+ </head>
+ <body>
+  <noscript><center><strong>Javascript is disabled on your browser. In order to use this platform effeciently, please enable javascript from your browser settings or contact your system administrator.</strong></center></noscript>  <div id="grid-11-lnb" class="main-outer" style="width: 100%;">
+   <div class="main-wrap" style="width: 993px;">
+    <div class="main-left"></div>
+    <div style="width: 973px;" class="main-center">
+     <div class="con con-hdr">
+      <span>
+       <script type="text/javascript">
+        /**/
+        var GAAT40=(typeof GAAT40=="undefined"||!GAAT40)?{}:GAAT40;GAAT40.renderSettings={pageWidth:"w1024",renderMode:"standards",textDirection:"ltr",protocol:"http",culture:"en_US",enableShareWidget:false,enableEmailWidget:true,enablePrintWidget:true,shareTxt:"Share",changeTxt:"Change",searchTxt:"Search",printTxt:"Print",emailTxt:"Email A Friend",sitewidePath:"/sites/sitewide/hat/40recode"};GAAT40.ProtocolType=(function(){var protocol=(GAAT40.renderSettings.protocol=="https")?"https://www-ssl.":"http://www.";return protocol;})();GAAT40.FileType=(function(){var extension=(document.location.search.indexOf("filemax=1")!=-1)?"-master":"";return extension;})();GAAT40.AssetPath=(function(){var testUrls=["int-40recode.mrmpweb.co.uk","int-40recode2.mrmpweb.co.uk","proto-cps.cps.intel.com","preview-cps.cps.intel.com"];var defaultUrl=GAAT40.ProtocolType+"intel.com";var liveUrl=defaultUrl;var cUrl=document.location.search;var dCook=document.cookie;var setincookie=(cUrl.indexOf("assetcookie=1")!=-1);if(cUrl.indexOf("assetpath=rel")!=-1||(dCook.indexOf("GAATAssetPath=rel")!=-1)||testUrls.join().indexOf(document.domain)!=-1){liveUrl=defaultUrl;if(setincookie){document.cookie="GAATAssetPath=rel; path=/";}}
+        if((cUrl.indexOf("assetpath=proto")!=-1)||dCook.indexOf("GAATAssetPath=proto")!=-1){liveUrl=(GAAT40.renderSettings.protocol=="https")?"https://":"http://";liveUrl+="proto-cps.cps.intel.com";if(setincookie){document.cookie="GAATAssetPath=proto; path=/";}}
+        if((cUrl.indexOf("assetpath=preview")!=-1)||dCook.indexOf("GAATAssetPath=preview")!=-1){liveUrl=(GAAT40.renderSettings.protocol=="https")?"https://":"http://";liveUrl+="preview-cps.cps.intel.com";if(setincookie){document.cookie="GAATAssetPath=preview; path=/";}}
+        if(cUrl.indexOf("assetpath=live")!=-1||dCook.indexOf("GAATAssetPath=live")!=-1){liveUrl=defaultUrl;if(setincookie){document.cookie="GAATAssetPath=live; path=/";}}
+        return liveUrl;})();document.write('<style type="text/css">#gaat40-header {height:91px;overflow:hidden;visibility:hidden;}</style>');document.write('<link id="gaat-linkstyle" href="'+GAAT40.AssetPath+GAAT40.renderSettings.sitewidePath+'/css/'+GAAT40.renderSettings.textDirection+'_header'+GAAT40.FileType+'.css" rel="stylesheet" type="text/css" />');document.write('<link href="'+GAAT40.AssetPath+'/sites/sitewide/search/css/mod-search-searchbox.css" rel="stylesheet" type="text/css" />');if(typeof(INTEL)=="undefined"){document.write('<scr'+'ipt type="text/javascript" src="'+GAAT40.AssetPath+'/sites/js/INTEL.js"><\/scr'+'ipt>')}  
+        /**/
+       </script>
+       <div id="gaat40-header" class="gaat40-reset" style="z-index:3; height:73px;">
+        <a class="gaat40-logo" title="" href="http://www.intel.com"><img src="http://www.intel.com/sites/sitewide/HAT/40recode/pix/main-logo.png" alt="Logo - Intel" /></a>
+        <ul class="gaat40-search">
+         <li class="gaat40-first" style="text-align:right;border-right: 1px solid #E6E6E6;font-weight:normal;padding-right:5px;position: absolute;right:180px;top:7px;width:93px;" id="product-index"><a style="font-weight:normal;" href="http://www.intel.com/products/sitemap.htm">Product Index</a></li>
+         <li>
+          <form method="get" id="FORMSearchHeader" action="http://search.intel.com/Default.aspx" target="_blank">
+           <fieldset><input type="hidden" name="c" id="c" value="en_US" /><input type="hidden" name="category" id="category" /><input type="hidden" name="adv" id="adv" /><input type="hidden" name="value" id="value" /><input type="hidden" name="method" id="method" value="text" /><label id="lbl_search" for="q">Search</label><input id="q" name="q" type="text" class="gaat40-inptsearch" /><input type="submit" value="Search" id="input-submit" class="gaat40-btnsearch" /><div id="HAT-filtermenu-container" class="gaat40-hide"></div></fieldset>
+          </form>
+         </li>
+        </ul>
+        <div class="gaat40-nav">
+         <ul class="gaat40-mainnav">
+          <li class="gaat40-first gaat40-selected" id="gaat40-hdr_link_bus"><a href="/en-us/">Intel® Software Network</a></li>
+         </ul>
+         <div class="gaat40-lower">
+          <ul id="gaat40-subnav" class="gaat40-subnav">
+           <li class="gaat40-first">
+            <div class="menu-head"><a href="/en-us/articles/intel-software-network-communities/">Communities</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li class="gaat40-first"><a href="/en-us/ultrabook/">Ultrabook&#153;</a></li>
+              <li><a href="/en-us/android/">Android* Developers</a></li>
+              <li><a href="http://appdeveloper.intel.com/">Intel AppUp&#8480; developer program</a></li>
+              <li><a href="/en-us/visual-computing/">Visual Computing</a></li>
+              <li><a href="/en-us/parallel/">Parallel Programming</a></li>
+              <li><a href="/en-us/vpro/">Intel&reg; vPro&trade; Developers</a></li>
+              <li><a href="/en-us/server-developer/">Server Developer Community</a></li>
+              <li><a href="/en-us/academic/">Academic</a></li>
+              <li><a href="/en-us/articles/blackbelt/">Earn Reputation &mdash; Intel&reg; Black Belt Program</a></li>
+              <li><a href="/en-us/articles/intel-software-network-communities/">More...</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+           <li class="">
+            <div class="menu-head"><a href="/partner/home?locale=en-US">Partners</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li class="gaat40-first"><a href="/partner/home?locale=en-US">Intel&reg; Software Partner Program</a></li>
+              <li><a href="/partner/software-technology?locale=en-US">Intel&reg; Technologies</a></li>
+              <li><a href="/partner/app/software-assessment?locale=en-US">Software Assessment Center</a></li>
+              <li><a href="/partner/initiatives/software-initiatives">Software Initiatives</a></li>
+              <li><a href="/partner/library/resource-library?locale=en-US">Resource Library</a></li>
+              <li><a href="/partner/search?locale=en-US">Partner Finder</a></li>
+              <li><a href="/swfinder?locale=en-US">Software Finder</a></li>
+              <li><a href="/partner/overview?locale=en-US">Program Overview</a></li>
+              <li><a href="/en-us/business-network">Software Business Network</a></li>
+              <li><a href="/partner/software-news?locale=en-US">News</a></li>
+              <li><a href="/partner/library/contact-us?locale=en-US">Support</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+           <li class="">
+            <div class="menu-head"><a href="javascript:void(0);">Tools & Downloads</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li><h5>Tools</h5></li>
+              <li><a href="/en-us/intel-sdp-home/">Intel&reg; Software Development Products</a></li>
+              <li><a href="/en-us/articles/intel-software-evaluation-center/">Free Evaluations</a></li>
+              <li><a href="/en-us/articles/tools/">Tools Knowledge Base</a></li>
+              <li><a href="/en-us/articles/intel-academic-developer-program/">Academic</a></li>
+              <li><a href="/en-us/vcsource/">Intel&reg; Visual Computing Source</a></li>
+             </ul>
+             <ul>
+              <li><h5>Downloads</h5></li>
+              <li><a href="/en-us/articles/code-downloads/">Code & Downloads</a></li>
+              <li><a href="/en-us/articles/non-commercial-software-development/">Free Non-Commercial</a></li>
+              <li><a href="/en-us/whatif/">"WhatIf" Experimental Software</a></li>
+              <li><a href="http://downloadcenter.intel.com/">Drivers</a></li>
+              <li><a href="http://www.intel.com/support/detect.htm">Intel&reg; Driver Update Utility</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+           <li class="">
+            <div class="menu-head"><a href="javascript:void(0);">Forums & Support</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li class="gaat40-first"><a href="/en-us/forums/">Software Forums</a></li>
+              <li><a href="/en-us/forums/software-business-forum/">Software Business Forum</a></li>
+              <li><a href="http://appdeveloper.intel.com/en-us/forum/">Intel AppUp&#8480; developer program Forums</a></li>
+              <li><a href="/en-us/articles/all/1/">Knowledge Base</a></li>
+              <li><a href="/en-us/articles/intel-software-developer-support/">Support Resources</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+           <li class="">
+            <div class="menu-head"><a href="javascript:void(0);">Blog</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li class="gaat40-first"><a href="/en-us/blogs/">Intel&reg; Software Network blog</a></li>
+              <li><a href="http://appdeveloper.intel.com/en-us/blog">Intel AppUp&#8480; developer program blog</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+           <li class="">
+            <div class="menu-head"><a href="javascript:void(0);">Resources</a></div>
+            <div class="gaat40-subsubnav gaat40-hide">
+             <ul class="gaat40-first">
+              <li class="gaat40-first"><a href="/en-us/videos/">Intel Software TV - Videos</a></li>
+              <li><a href="/en-us/articles/intel-software-network-events-calendar/">Events Calendar</a></li>
+              <li><a href="/en-us/articles/intel-software-network-news-archive/">Intel&reg; Software Network Newsletter</a></li>
+              <li><a href="http://www.intel.com/intelpress/">Intel&reg; Press</a></li>
+              <li><a href="http://softwareinsight.intel.com/">Insight Magazine</a></li>
+              <li><a href="http://software.intel.com/sites/billboard/va-magazines/">Visual Adrenaline</a></li>
+             </ul>
+             <div class="gaat40-end"><b></b><i></i></div>
+            </div>
+           </li>
+          </ul>
+          <ul class="gaat40-overview">
+           <li style="border-left:0px none;padding-top:0px;margin-right:0px;"><span style="float:left;margin-top:3px;margin-right:5px;"><strong>Language: </strong></span>
+            <ul id="cssdropdown" style="float:left;">
+             <li class="headlink" style="border-left:0px none;font-size:10px;padding-left:0px;">
+              <span style="color:#007dc5; line-he3ight: 14px; margin-top: -4px; padding-top: -4px">English</span>
+              <ul>
+               <li style="border-left:0px none;float:none;"><a href="/en-us/">English</a></li>
+               <li style="border-left:0px none;float:none;"><a href="/zh-cn/">中文</a></li>
+               <li style="border-left:0px none;float:none;"><a href="/ru-ru/">Русский</a></li>
+               <li style="border-left:0px none;float:none;"><a href="/fr-fr/">Français</a></li>
+               <li style="border-left:0px none;float:none;"><a href="/pt-br/">Português</a></li>
+              </ul>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <script type="text/javascript">
+           /**/
+           document.write('<scr'+'ipt type="text/javascript" src="'+GAAT40.AssetPath+GAAT40.renderSettings.sitewidePath+'/js/header'+GAAT40.FileType+'.js"><\/scr'+'ipt>');
+           /**/
+          </script>
+         </div>
+        </div>
+       </div>
+      </span>
+      <div style="position: absolute; right: 0px;">
+       <div class="mod-share">
+        <ul class="share-tool">
+         <li class="share">Share</li>
+         <li class="drop img-txt">
+          <span><a href="javascript:;"></a></span>
+          <div class="sec-nav">
+           <div class="tp"></div>
+           <div class="bdy sharefix">
+            <div class="inner-wrap">
+             <ul>
+              <li class="facebook"><a title="Facebook" href="javascript:;" onclick="window.open('http://facebook.com/IntelSoftwareNetwork','');return false;">Facebook</a></li>
+              <li class="twitter"><a title="Twitter" href="javascript:;" onclick="window.open('http://twitter.com/IntelSoftware','');return false;">Twitter</a></li>
+              <li class="youtube"><a title="YouTube" href="javascript:;" onclick="window.open('http://www.youtube.com/intelswnetwork','');return false;">YouTube</a></li>
+              <li class="linkedin"><a title="Linkedin" href="javascript:;" onclick="window.open('http://www.linkedin.com/groups/Intel-Software-Network-3078126','');return false;">Linkedin</a></li>
+              <li class="delicious"><a title="Delicious" href="javascript:;" onclick="window.open('http://del.icio.us/post?url=http%3A%2F%2Fsoftware.intel.com%2Fen-us%2F','');return false;">Delicious</a></li>
+              <li class="digg last"><a title="Digg" href="javascript:;" onclick="window.open('http://digg.com/submit?phase=2&url=http%3A%2F%2Fsoftware.intel.com%2Fen-us%2F','');return false;">Digg</a></li>
+             </ul>
+            </div>
+           </div>
+           <div class="ft"></div>
+          </div>
+         </li>
+         <li class="print img-txt"><a title="Print" href="javascript:window.print();">Print</a></li>
+        </ul>
+       </div>
+       <div class="cleaner"></div>
+      </div>
+     </div>
+     <div class="main-inner">
+      <!-- body -->
+      <div class="banner-loader-wrapper main-page">
+       <div class="con con-nck">
+        <div class="mod-brand-stage with-nav-links">
+         <script type="text/javascript"><!--
+          $(function(){
+           $('#header-container ol').jcarousel({
+            vertical:false,
+            wrap:'circular',
+            scroll:1,
+            itemFallbackDimension:983,
+            auto:10
+           });
+           $('#page-links a').click(function(e){
+            e.preventDefault();
+            $(this).css('font-weight', 'bold');
+            $(this).siblings().css('font-weight', 'normal');
+            $('#header-container ol').data('jcarousel').scroll($(this).parent().children('a').index(this), true);
+           });
+           $('#page-arrow-link1 a').click(function(e){
+            e.preventDefault();
+            $('#header-container ol').data('jcarousel').prev();
+           });
+           $('#page-arrow-link2 a').click(function(e){
+            e.preventDefault();
+            $('#header-container ol').data('jcarousel').next();
+           });
+           $('#recent-forum-posts').jcarousel({
+            vertical:true,
+            wrap:'circular',
+            scroll:1
+           });
+           $('#recent-forum-posts .vert-scroll-down').click(function(e){
+            e.preventDefault();
+            $('#recent-forum-posts').data('jcarousel').next();
+           });
+           $('#recent-blog-posts').jcarousel({
+            vertical:true,
+            wrap:'both',
+            scroll:1
+           });
+           $('#recent-blog-posts .vert-scroll-down').click(function(e){
+            e.preventDefault();
+            $('#recent-blog-posts').data('jcarousel').next();
+           });
+           $('#accordion').accordion({
+            active:2,
+            collapsible:false,
+            autoHeight:false,
+            clearStyle:true,
+            animated:false
+           });
+           $('#accordion').accordion('activate', 0);
+           $('#apps-carousel').jcarousel({
+            vertical:false,
+            wrap:'circular',
+            scroll:1,
+            buttonNextHTML:null,
+            buttonPrevHTML:null,
+            itemFallbackDimension:208,
+            itemFirstInCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).addClass('first-item');
+            }},
+            itemFirstOutCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).removeClass('first-item');
+            }}
+           });
+           $('#apps-carousel .carousel-ui-left').click(function(e){
+            e.preventDefault();
+            $('#apps-carousel').data('jcarousel').prev();
+           });
+           $('#apps-carousel .carousel-ui-right').click(function(e){
+            e.preventDefault();
+            $('#apps-carousel').data('jcarousel').next();
+           });
+           $('#latest-content-carousel').jcarousel({
+            vertical:false,
+            wrap:'circular',
+            scroll:1,
+            buttonNextHTML:null,
+            buttonPrevHTML:null,
+            itemFallbackDimension:208,
+            itemFirstInCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).addClass('first-item');
+            }},
+            itemFirstOutCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).removeClass('first-item');
+            }}
+           });
+           $('#latest-content-carousel .carousel-ui-left').click(function(e){
+            e.preventDefault();
+            $('#latest-content-carousel').data('jcarousel').prev();
+           });
+           $('#latest-content-carousel .carousel-ui-right').click(function(e){
+            e.preventDefault();
+            $('#latest-content-carousel').data('jcarousel').next();
+           });
+           $('#video-carousel').jcarousel({
+            vertical:false,
+            wrap:'circular',
+            scroll:1,
+            buttonNextHTML:null,
+            buttonPrevHTML:null,
+            itemFallbackDimension:208,
+            itemFirstInCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).addClass('first-item');
+            }},
+            itemFirstOutCallback: {onBeforeAnimation:function(carouselInstance,listItem,index,triggeringEvent) {
+             $(listItem).removeClass('first-item');
+            }}
+           });
+           $('#video-carousel .carousel-ui-left').click(function(e){
+            e.preventDefault();
+            $('#video-carousel').data('jcarousel').prev();
+           });
+           $('#video-carousel .carousel-ui-right').click(function(e){
+            e.preventDefault();
+            $('#video-carousel').data('jcarousel').next();
+           });
+           setTimeout(adjustWidths, 1000);
+           accordionDefault();
+          });
+          function adjustWidths() {
+           $('#latest-content-carousel .carousel').css('width', '2388px');
+           $('#apps-carousel .carousel').css('width', '2388px');
+           $('#video-carousel .carousel').css('width', '2388px');
+          }
+          function accordionDefault() {
+           // IMPORTANT - this is what sets the default accordion state:
+           // 0 - latest content
+           // 1 - videos
+           // 2 - app spotlight
+           $('#accordion').accordion('activate', 0);
+           $('#accordion').accordion('option', 'animated', 'slide');   // back to animated open/close on accordion
+          }
+          // -->
+         </script>
+         <div id="header-container">
+             <map id="frontmap0" name="frontmap0"><area shape="rect" coords="0,0,983,215" href="http://software.intel.com/en-us/articles/sandy-bridge/" alt="Read all about the new capabilities of Sandy Bridge" title="Read all about the new capabilities of Sandy Bridge" /></map>
+             <map id="frontmap1" name="frontmap1"><area shape="rect" coords="0,0,983,215" href="http://appdeveloper.intel.com/" alt="Create and sell apps for notebooks and other mobile devices. Learn More." title="Create and sell apps for notebooks and other mobile devices. Learn More." /></map>
+             <map id="frontmap2" name="frontmap2"><area shape="rect" coords="0,0,983,215" href="http://www.intel.com/partner/" alt="Learn how the Intel Software Partner Program can help" title="Learn how the Intel Software Partner Program can help" /></map>
+             <map id="frontmap3" name="frontmap3"><area shape="rect" coords="0,0,983,215" href="http://software.intel.com/en-us/articles/intel-academic-community/" alt="Curricular for the Future of Software The Intel Academic Community Teach and Learn" title="Curricular for the Future of Software The Intel Academic Community Teach and Learn" /></map>
+             <map id="frontmap4" name="frontmap4"><area shape="rect" coords="0,0,983,215" href="http://software.intel.com/en-us/articles/code-downloads/" alt="Intel Libraries, Software Development Kits, Tools and Experimental Software" title="Intel Libraries, Software Development Kits, Tools and Experimental Software" /></map>
+          <ol class="header-list">
+           <li><img alt="Read all about the new capabilities of Sandy Bridge" border="0" height="400" src="http://software.intel.com/file/36192/" usemap="#frontmap0" width="983" /></li>
+           <li><img alt="Create and sell apps for notebooks and other mobile devices. Learn More." border="0" height="400" src="http://software.intel.com/file/36190/" usemap="#frontmap1" width="983" /></li>
+           <li><img alt="Learn how the Intel Software Partner Program can help" border="0" height="400" src="http://software.intel.com/file/39150/" usemap="#frontmap2" width="983" /></li>
+           <li><img alt="Curricular for the Future of Software The Intel Academic Community Teach and Learn" border="0" height="400" src="http://software.intel.com/file/36188/" usemap="#frontmap3" width="983" /></li>
+           <li><img alt="Intel Libraries, Software Development Kits, Tools and Experimental Software" border="0" height="400" src="http://software.intel.com/file/36189/" usemap="#frontmap4" width="983" /></li>
+          </ol>
+         </div>
+         <div id="paging-bar">
+          <div id="page-links"><a>1</a><a>2</a><a>3</a><a>4</a><a>5</a></div>
+          <div id="page-arrows-new">
+           <div class="page-arrow-links" id="page-arrow-link1"><a>&lt;</a></div><div class="page-arrow-links" id="page-arrow-link2"><a style="padding-left: 5px">&gt;</a></div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="main-inner-sub main-page">
+        <div class="con con-bdy">
+<!-- CSS OVERRIDE -->
+
+<style>
+#latest-content-accordion .carousel li img.content-thumb {
+display: none;
+}
+
+#latest-content-accordion .item-description {
+  width: 100%;
+}
+
+#latest-content-accordion .read-more-link {
+display: none;
+}
+</style>
+
+
+ <div class="mod-box-737 mod-buying-guides">
+  <div class="mod-box-inner blank">
+   <div class="mod-box-content">
+    <div id="accordion">
+     <h3><div class="box-accordion"><div class="lb-accordion"><div class="rb-accordion"><div class="bb-accordion"><div class="blc-accordion"><div class="brc-accordion"><div class="tb-accordion"><div class="tlc-accordion"><div class="trc-accordion"><a onclick="location.href='/en-us/articles/feed/'" class="tl-rss-feed-icon"><img src="/media/home/media/icons/rss.gif" /></a><b><a>Latest Content</a></b></div></div></div></div></div></div></div></div></div></h3>
+     <div class="bb_interior_accordion" id="latest-content-accordion">
+      <div class="accordion-content-container">
+       <div class="carousel-container" id="latest-content-carousel">
+        <a href="javascript:;" class="carousel-ui-right"><img src="/media/home/media/buttons/horz-scroll-right.png" alt="" /></a>
+        <a href="javascript:;" class="carousel-ui-left"><img src="/media/home/media/buttons/horz-scroll-left.png" alt="" /></a>
+        <ol class="carousel">         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/ultrabook-developers-great-power-comes-great-responsibility/">For Ultrabook™ Developers, With Great Power Comes Great Responsibility</a></h3>
+          <p class="item-description">The new breed of Ultrabook™ PCs are pushing battery life and thermal design to a new level.</p>
+          <a href="http://software.intel.com/en-us/articles/ultrabook-developers-great-power-comes-great-responsibility/"><img src="http://software.intel.com/file/34253/" alt="For Ultrabook™ Developers, With Great Power Comes Great Responsibility" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/ultrabook-developers-great-power-comes-great-responsibility/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/the-human-touch-building-ultrabook-applications-in-a-post-pc-age/">The Human Touch: Building Ultrabook™ Applications in a Post-PC Age</a></h3>
+          <p class="item-description">Fascinating results from an Intel research program focused on understanding how people might use touch capabilities in more traditional, notebook form-factor devices.</p>
+          <a href="http://software.intel.com/en-us/articles/the-human-touch-building-ultrabook-applications-in-a-post-pc-age/"><img src="http://software.intel.com/file/34253/" alt="The Human Touch: Building Ultrabook™ Applications in a Post-PC Age" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/the-human-touch-building-ultrabook-applications-in-a-post-pc-age/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="https://www.tizen.org/blogs/jabancroft/2012/announcing-tizen-developer-contest-intel">Tizen Developer Contest by Intel Launched</a></h3>
+          <p class="item-description">We want to hear your advice, product feedback, and experiences on writing apps for Tizen devices.</p>
+          <a href="https://www.tizen.org/blogs/jabancroft/2012/announcing-tizen-developer-contest-intel"><img src="http://software.intel.com/file/34253/" alt="Tizen Developer Contest by Intel Launched" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="https://www.tizen.org/blogs/jabancroft/2012/announcing-tizen-developer-contest-intel">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/vcsource-tools-media-sdk/">Intel® Media SDK 2012 Released</a></h3>
+          <p class="item-description">Intel® Media SDK 2012 is the software development library that exposes Intel platforms' industry-leading media acceleration capabilities.</p>
+          <a href="http://software.intel.com/en-us/articles/vcsource-tools-media-sdk/"><img src="http://software.intel.com/file/34253/" alt="Intel® Media SDK 2012 Released" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/vcsource-tools-media-sdk/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/">Intel® Active Management Technology (Intel® AMT) 8.0 Released</a></h3>
+          <p class="item-description">New manageability and security enhancements and features have been added to Intel® AMT to help IT managers and software developers. </p>
+          <a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/"><img src="http://software.intel.com/file/34253/" alt="Intel® Active Management Technology (Intel® AMT) 8.0 Released" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/ ">Intel® Setup and Configuration Software (Intel® SCS) 8.0 Released</a></h3>
+          <p class="item-description">Discover how Intel SCS 8.0 makes setup and configuration easier for your manageability solution and vPro technology.</p>
+          <a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/ "><img src="http://software.intel.com/file/34253/" alt="Intel® Setup and Configuration Software (Intel® SCS) 8.0 Released" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/download-the-latest-version-of-intel-amt-setup-and-configuration-service-scs/ ">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/blogs/2012/03/12/how-to-start-intel-hardware-assisted-virtualization-hypervisor-on-linux-to-speed-up-intel-android-x86-gingerbread-emulator/">How to Start Intel Hardware-assisted Virtualization (hypervisor) on Linux to Speed-up Intel Android x86 Gingerbread Emulator</a></h3>
+          <p class="item-description">Guide on how to install and enable KVM on Ubuntu host platform and start the Intel Android x86 Gingerbread emulator with Intel hardware-assisted virtualization on Ubuntu Linux host.</p>
+          <a href="http://software.intel.com/en-us/blogs/2012/03/12/how-to-start-intel-hardware-assisted-virtualization-hypervisor-on-linux-to-speed-up-intel-android-x86-gingerbread-emulator/"><img src="http://software.intel.com/file/34253/" alt="How to Start Intel Hardware-assisted Virtualization (hypervisor) on Linux to Speed-up Intel Android x86 Gingerbread Emulator" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/blogs/2012/03/12/how-to-start-intel-hardware-assisted-virtualization-hypervisor-on-linux-to-speed-up-intel-android-x86-gingerbread-emulator/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/articles/creating-and-porting-ndk-based-android-apps-for-ia/">Creating and Porting NDK Based Android* Apps for IA</a></h3>
+          <p class="item-description">An introduction to creating native (NDK based) Android* applications for Intel® architecture (IA) based devices.</p>
+          <a href="http://software.intel.com/en-us/articles/creating-and-porting-ndk-based-android-apps-for-ia/"><img src="http://software.intel.com/file/34253/" alt="Creating and Porting NDK Based Android* Apps for IA" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/articles/creating-and-porting-ndk-based-android-apps-for-ia/">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://www.intel.com/software/opencl">Intel Introduces OpenCL Development Kit for 3rd Gen Intel® Core™ Processors</a></h3>
+          <p class="item-description">The Intel® SDK for OpenCL* Applications now supports the OpenCL* 1.1 full-profile on 3rd generation Intel® Core™ processors with Intel® HD Graphics 4000/2500.</p>
+          <a href="http://www.intel.com/software/opencl"><img src="http://software.intel.com/file/34253/" alt="Intel Introduces OpenCL Development Kit for 3rd Gen Intel® Core™ Processors" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://www.intel.com/software/opencl">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/videos/channel/visual-computing/the-tech-of-puss-in-boots/1547272531001 ">Video: The Tech of Puss in Boots</a></h3>
+          <p class="item-description">See how the DreamWorks Animation and Intel partnership continue to push what’s possible in CG animation and stereoscopic 3D moviemaking.</p>
+          <a href="http://software.intel.com/en-us/videos/channel/visual-computing/the-tech-of-puss-in-boots/1547272531001 "><img src="http://software.intel.com/file/34253/" alt="Video: The Tech of Puss in Boots" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/videos/channel/visual-computing/the-tech-of-puss-in-boots/1547272531001 ">Read more &gt;</a></p>
+         </li>
+         <li>
+          <h3><a href="http://software.intel.com/en-us/videos/channel/visual-computing/gabe-newell-of-valve-software-at-gdc-2012/1535255645001">Video: Gabe Newell of Valve Software at GDC 2012</a></h3>
+          <p class="item-description">Gabe Newell of Valve Software discusses Sandy Bridge, Valve’s use of Intel tools to optimize games and how Ultrabooks™ impact game play.</p>
+          <a href="http://software.intel.com/en-us/videos/channel/visual-computing/gabe-newell-of-valve-software-at-gdc-2012/1535255645001"><img src="http://software.intel.com/file/34253/" alt="Video: Gabe Newell of Valve Software at GDC 2012" class="content-thumb" /></a>
+          <p class="read-more-link"><a href="http://software.intel.com/en-us/videos/channel/visual-computing/gabe-newell-of-valve-software-at-gdc-2012/1535255645001">Read more &gt;</a></p>
+         </li>
+</ol>
+        <span class="cleaner"></span>
+       </div>
+      </div>
+     </div>
+     <h3><div class="box-accordion"><div class="lb-accordion"><div class="rb-accordion"><div class="bb-accordion"><div class="blc-accordion"><div class="brc-accordion"><div class="tb-accordion"><div class="tlc-accordion"><div class="trc-accordion"><a onclick="location.href='http://feeds.feedburner.com/ISNVideos'" class="tl-rss-feed-icon"><img src="/media/home/media/icons/rss.gif" /></a><b><a>Videos</a></b></div></div></div></div></div></div></div></div></div></h3>
+     <div class="bb_interior_accordion" id="video-accordion">
+      <div class="accordion-content-container">
+       <div class="carousel-container" id="video-carousel">
+        <a href="javascript:;" class="carousel-ui-right"><img src="/media/home/media/buttons/horz-scroll-right.png" alt="" /></a>
+        <a href="javascript:;" class="carousel-ui-left"><img src="/media/home/media/buttons/horz-scroll-left.png" alt="" /></a>
+        <ol class="carousel"><li><a href="http://software.intel.com/en-us/videos/usc-havok-demo/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/c/8/b/a/7/6/c/Havok1Thumb_1.jpg" />USC Havok Demo </a><a href="http://software.intel.com/en-us/videos/usc-lightsaber-havok-demo/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/a/4/d/2/f/0/d/LightSaberThumb_1.jpg" />USC LightSaber Havok Demo</a></li><li><a href="http://software.intel.com/en-us/videos/ticker-tape-demo/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/7/e/b/3/c/8/b/Quentin_Froemke_Ticker_Tape_Still_Low_1.jpg" />Ticker Tape Demo – Use of Real Time 3D Aerodynamics </a><a href="http://software.intel.com/en-us/videos/ticker-tape-demo-running/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/6/c/8/d/b/a/7/Ticker_Tape.png" />Ticker Tape Demo running</a></li><li><a href="http://software.intel.com/en-us/videos/havok-cloth-demo-at-gdc-2010/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/c/d/0/d/c/e/8/Malcolm_Tyrrell_Havok_Cloth_Still_Low_1.jpg" />Havok Cloth Demo at GDC 2010</a><a href="http://software.intel.com/en-us/videos/gdce-2010-multi-thread-your-games-with-directx-11-nulstein-demo/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/3/f/b/4/5/1/c/3fb451ca2e89b3a13095b059d8705b15.jpg" />GDCE 2010: Multi-thread your Games with DirectX 11 (nulstein demo)</a></li><li><a href="http://software.intel.com/en-us/videos/gdce-2010-parallelize-your-games-with-intel-threading-building-blocks/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/8/c/0/0/d/e/e/8c00dee24c9878fea090ed070b44f1ab.jpg" />GDCE 2010: Parallelize your Games with Intel Threading Building Blocks</a><a href="http://software.intel.com/en-us/videos/gdce-2010-profile-and-debug-your-games-with-intel-graphics-performance-analyzers/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/e/6/0/e/8/1/c/e60e81c4cbe5171cd654662d9887aec2.jpg" />GDCE 2010: Profile and debug your games with Intel Graphics Performance Analyzers</a></li><li><a href="http://software.intel.com/en-us/videos/gdce-2010-part-13-of-intel-graphics-performance-analyzers-live-demo-frame-analyzer/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/5/c/c/e/8/d/e/5cce8dede893813f879b873962fb669f.jpg" />GDCE 2010: Part 1/3 of Intel Graphics Performance Analyzers live-demo (Frame Analyzer)</a><a href="http://software.intel.com/en-us/videos/gdce-2010-part-33-of-intel-graphics-performance-analyzers-live-demo-platform-view/"><img class="content-thumb" alt="" src="http://software.intel.com/media/videos/1/0/9/d/2/d/d/109d2dd3608f669ca17920c511c2a41e.jpg" />GDCE 2010: Part 3/3 of Intel Graphics Performance Analyzers live-demo (Platform View)</a></li><a href=""><img class="content-thumb" alt="" src="" /></a></ol>
+        <span class="cleaner"></span>
+       </div>
+      </div>
+     </div>
+     <h3><div class="box-accordion"><div class="lb-accordion"><div class="rb-accordion"><div class="bb-accordion"><div class="blc-accordion"><div class="brc-accordion"><div class="tb-accordion"><div class="tlc-accordion"><div class="trc-accordion"><b><a>Latest Apps</a></b></div></div></div></div></div></div></div></div></div></h3>
+     <div class="bb_interior_accordion" id="apps-accordion">
+      <div class="accordion-content-container">
+       <div class="carousel-container" id="apps-carousel">
+        <a href="javascript:;" class="carousel-ui-right"><img src="/media/home/media/buttons/horz-scroll-right.png" alt="" /></a>
+        <a href="javascript:;" class="carousel-ui-left"><img src="/media/home/media/buttons/horz-scroll-left.png" alt="" /></a>
+        <ol class="carousel">         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-Julius%21+FunKit">Julius! FunKit</a></h3>
+          <p class="item-description">Game: Come play with Julius and his FunKit game pack! Perfect for children ages 2-5.</p>
+          <a href="http://www.appup.com/applications/applications-Julius%21+FunKit"><img src="http://www.appup.com/global/Assets/Image/thumbs/3885_large_100x100.png" alt="Julius! FunKit" class="content-thumb" /></a>
+         </li>
+         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-BlueBirds+-+A+Magical+Twitter+Client">BlueBirds - A Magical Twitter</a></h3>
+          <p class="item-description">Utility: Blue Birds is a sleek and elegant Twitter client with 18 themes. </p>
+          <a href="http://www.appup.com/applications/applications-BlueBirds+-+A+Magical+Twitter+Client"><img src="http://www.appup.com/global/Assets/Image/thumbs/3921_large_100x100.png" alt="BlueBirds - A Magical Twitter" class="content-thumb" /></a>
+         </li>
+         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-Osmos">Osmos</a></h3>
+          <p class="item-description">Game: Enter the absorbing world of Osmos; part ambient, cosmic simulator and part Darwinistic game of survival.</p>
+          <a href="http://www.appup.com/applications/applications-Osmos"><img src="http://www.appup.com/global/Assets/Image/thumbs/3681_large_100x100.png" alt="Osmos" class="content-thumb" /></a>
+         </li>
+         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-Alchemy+Classic">Alchemy Classic</a></h3>
+          <p class="item-description">Game: It is a simple puzzle game. You have only four start elements: Air, Earth, Water and Fire</p>
+          <a href="http://www.appup.com/applications/applications-Alchemy+Classic"><img src="http://www.appup.com/global/Assets/Image/thumbs/1458_large_100x100.png" alt="Alchemy Classic" class="content-thumb" /></a>
+         </li>
+         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-Flight+Control+HD">Flight Control HD</a></h3>
+          <p class="item-description">Game: Control a never-ending stream of aircraft in this insanely addictive #1 worldwide hit from Firemint!</p>
+          <a href="http://www.appup.com/applications/applications-Flight+Control+HD"><img src="http://www.appup.com/global/Assets/Image/thumbs/3886_large_100x100.png" alt="Flight Control HD" class="content-thumb" /></a>
+         </li>
+         <li style="float: left">
+          <h3><a href="http://www.appup.com/applications/applications-Pinball+HD">Pinball HD</a></h3>
+          <p class="item-description">Game: Pinball HD -simply the best Pinball simulator -awaits you. Each table is its own masterpiece.</p>
+          <a href="http://www.appup.com/applications/applications-Pinball+HD"><img src="http://www.appup.com/global/Assets/Image/thumbs/3644_large_100x100.png" alt="Pinball HD" class="content-thumb" /></a>
+         </li>
+</ol>
+        <span class="cleaner"></span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <span class="cleaner"></span>
+  </div>
+ </div>
+ <span class="mod-box-737-bottom"></span><div class="mod-box-737 mod-buying-guides blank" id="software-network">
+<div class="mod-box-inner blank">
+	<div class="mod-box-content">
+	<h2>Engage With Intel® Software Network</h2>
+	<div class="three-cols-plus-img">
+	<div class="img-column"><img src="/media/home/media/backgrounds/people-talking.png" alt="" /></div>
+	<div class="column">
+	<h3>Learn</h3>
+	<ul class="link-list">
+	<li><a href="/en-us/intel-sdp-home/">Tools & Products</a></li>
+	<li><a href="/en-us/articles/intel-software-network-communities/">Software Communities</a></li>
+	<li><a href="/en-us/articles/all/1/">Knowledge Base</a></li>
+	</ul>
+	</div>
+	<div class="column" id="ask-links">
+	<h3>Ask</h3>
+	<ul class="link-list">
+	<li><a href="/en-us/forums/">Community Forums</a></li>
+	<li><a href="http://appdeveloper.intel.com/en-us/forum/">AppUp℠ developer program Forum</a></li>
+	<li><a href="/en-us/articles/email-the-intel-software-network-support-team/">Software Support</a></li>
+	</ul>
+	</div>
+	<div class="column">
+	<h3>Share</h3>
+	<ul class="link-list">
+	<li><a href="/en-us/articles/how-to-contribute-to-isn/">How to Contribute</a></li>
+	<li><a href="/en-us/blogs/">Write a Blog Post</a></li>
+	<li><a href="/en-us/articles/blackbelt/">Earn Reputation - Intel® Black Belt Program</a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+<span class="cleaner"></span>
+</div>
+</div>
+<span class="mod-box-737-bottom short blank"></span>
+<div class="mod-box-737 mod-buying-guides light">
+<div class="mod-box-inner blank">
+<div class="mod-box-content">
+<div class="columns inset-white">
+<div class="half-col column">
+<div class="cap top"></div>
+<a href="/en-us/forums/feed/" class="tl-rss-feed-icon"><img src="/media/home/media/icons/rss.gif" /></a><h2>Recent Forum Posts</h2>
+<div id="recent-forum-posts">
+<ol class="post-links">
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105669">DSS vs. Pardiso</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105668">Problem compiling ifort</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105667">Beginner's problems with example programs</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105666">help on finding training course</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105664">I cannot take the second of two seats of a floating license we bought</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105662">CIppimage (ippimage.(h|cpp) ) different in different folders</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105663">Compiling errors on Fedora 17</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105658">Two machines, two very different performances for a same program.</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105660">mux/demux binaries</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/forums/showthread.php?t=105657">Enough with that environment variable mayhem!!!</a><span>01 Jun 2012</span></li>
+<li><a href=""></a><span>31 Dec 1969</span></li>
+</ol>
+
+<a href="javascript:;" class="vert-scroll-down"><img src="/media/home/media/buttons/vert-scroll-down-arrow.png" alt="scroll down arrow" /></a>
+</div>
+<div class="cap bottom"></div>
+</div>
+<div class="half-col column">
+<div class="cap top"></div>
+<a href="http://feeds.feedburner.com/IntelSoftwareNetworkBlog" class="tl-rss-feed-icon"><img src="/media/home/media/icons/rss.gif" /></a><h2>Recent Blog Posts</h2>
+<div id="recent-blog-posts">
+<ol class="post-links">
+<li><a href="http://software.intel.com/en-us/blogs/2012/06/01/how-to-build-a-virtualbox-android-linux-kernel/">How to: build a VirtualBox Android Linux kernel</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/06/01/a-big-android-thank-you-for-google/">A big Android thank you for Google</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/06/01/paris-in-june-orange-html5-hackathon-june-11-12/">Paris in June: Orange HTML5 Hackathon June 11-12</a><span>01 Jun 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/31/simd-tuning-with-asm-pt-3-ps-good-ss-bad/">SIMD tuning with ASM pt. 3 - PS good, SS bad</a><span>31 May 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/31/prepare-for-success-how-to-create-a-great-software-demo-video/">Prepare for Success: How to Create a Great Software Demo Video</a><span>31 May 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/31/android-ics-x86-emulator-system-image-launched-2/">Android ICS x86 Emulator System Image launched!</a><span>31 May 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/30/adding-html5-to-your-blog-posts-ultrabook/">Adding HTML5 to Your Blog Posts #Ultrabook</a><span>30 May 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/30/3-tips-for-effective-online-networking/">3 Tips for Effective Online Networking </a><span>30 May 2012</span></li>
+<li><a href="http://software.intel.com/en-us/blogs/2012/05/30/simd-tuning-with-asm-pt-2-your-first-dump/">SIMD tuning with ASM pt. 2 - Your First Dump</a><span>30 May 2012</span></li>
+<li><a href="http://appdeveloper.intel.com/en-us/blog/2012/05/30/nuovo-encapsulator-20-alpha">Nuovo Encapsulator 2.0 Alpha!</a><span>30 May 2012</span></li>
+<li><a href=""></a><span>31 Dec 1969</span></li>
+</ol>
+
+<a href="javascript:;" class="vert-scroll-down"><img src="/media/home/media/buttons/vert-scroll-down-arrow.png" alt="scroll down arrow" /></a>
+</div>
+<div class="cap bottom"></div>
+</div>
+</div>
+<span class="cleaner"></span>
+<div class="columns blank grid-3-links">
+<div class="column third-col">
+<h2>Communities</h2>
+<ul class="link-list">
+<li><a href="http://appdeveloper.intel.com/en-us/">AppUp℠ developer program</a></li>
+<li><a href="/en-us/visual-computing/">Visual Computing</a></li>
+<li><a href="/en-us/parallel/">Parallel Programming</a></li>
+<li><a href="/en-us/articles/intel-software-network-communities/">More…</a></li>
+</ul>
+</div>
+<div class="column third-col">
+<h2>Tools & Downloads</h2>
+<ul class="link-list">
+<li><a href="/en-us/intel-sdp-home/">Intel® Software Development Products</a></li>
+<li><a href="/en-us/articles/intel-parallel-studio-home/">Intel® Parallel Studio</a></li>
+<li><a href="/en-us/articles/code-downloads/">Code & Downloads</a></li>
+<li><a href="/en-us/whatif/">"WhatIf" Experimental Software</a></li>
+</ul>
+</div>
+<div class="column third-col">
+<h2>Calendar of Events</h2>
+<iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;bgcolor=%23FFFFFF&amp;src=d4ujatf9m387vdcakp1j0l5djo%40group.calendar.google.com&amp;color=%230D7813&amp;src=au0m47ahsn4cmcan48974fs9qg%40group.calendar.google.com&amp;color=%231B887A&amp;src=7u0mqometgt98rv17s9kb67dlc%40group.calendar.google.com&amp;color=%232952A3&amp;src=fobm39rg5omojmf2mi1kna0hso%40group.calendar.google.com&amp;color=%23B1365F&amp;src=eevlvkejjm9b1thsmcucj544nc%40group.calendar.google.com&amp;color=%23BE6D00&amp;src=cfusmveip1q2pe9un36ufnj2fo%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " scrolling="no" frameborder="0" height="180" width="210"></iframe>
+</div>
+</div>
+<span class="cleaner"></span>
+<hr class="blank dotted" />
+	<div class="columns blank grid-3-links">
+		<div class="column third-col">
+			<h2>Other Program Resources</h2>
+			<ul class="link-list">
+			<li><a href="http://software.intel.com/partner/home">Intel® Software Partner Program</a></li>
+			<li><a href="http://appdeveloper.intel.com/en-us/">AppUp℠ developer program</a></li>
+			<li><a href="http://software.intel.com/en-us/articles/intel-academic-community/">Intel Academic Community</a></li>
+			</ul>
+		</div>
+		<div class="column third-col">
+			<h2>Publications & Trainings</h2>
+			<ul class="link-list">
+			<li><a href="/en-us/articles/intel-software-insight-magazine/">Intel Software Insight Magazine</a></li>
+			<li><a href="/en-us/articles/intel-visual-adrenaline-magazine/">Intel® Visual Adrenaline Magazine</a></li>
+			<li><a href="http://www.intel.com/intelpress/">Intel Press Technical Books</a></li>
+			</ul>
+		</div>
+		<div class="column third-col">
+			<h2>Intel Subsidiaries</h2>
+			<ul class="link-list">
+			<li><a href="http://www.mcafee.com/us/">McAfee</a></li>
+			<li><a href="http://www.havok.com/">Havok</a></li>
+			<li><a href="http://www.bsdi.com/">Wind River</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<span class="cleaner"></span>
+</div>
+</div>
+<span class="mod-box-737-bottom medium light"></span>        </div>
+       </div>
+       <div class="con con-rcl"> 
+        <div class="mod-box-220 blue-top login main-page">
+         <div class="inner-login">
+          <p><strong>Welcome back</strong>, <a href="/en-us/profile/549675/">suvozit</a>.</p>
+          <p>You are currently a <span>Registered User</span>, with <span>28 points</span>.</p>
+          <ul>
+           <li><a href="/en-us/profile/549675/settings/">Edit Profile</a> / <a href="/en-us/rfadmin/">Admin</a></li>
+           <li><a href="https://ssl.software.intel.com/en-us/logout/?target=http%3A%2F%2Fsoftware.intel.com%2Fen-us%2F">Logout</a></li>
+          </ul>
+          <div class="mod-box-inner blank sharebox">
+           <div class="sidebar-share">
+            <iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.html" style="width:98px; height:20px;"></iframe>
+            <!-- Place this tag in your head or just before your close body tag -->
+            <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+            <!-- Place this tag where you want the +1 button to render -->
+            <g:plusone size="medium"></g:plusone>
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoftware.intel.com%2Fen-us%2F&amp;send=false&amp;layout=standard&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=45" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px;height:45px;" allowTransparency="true"></iframe>
+           </div>
+          </div>
+         </div>
+        </div>
+        <span class="mod-box-220-bottom dark"></span>
+        <div class="mod-box-220 light">
+         <p>Want to join our active and rewarding community? <a href="http://software.intel.com/en-us/articles/how-to-contribute-to-isn/">Learn how &gt;</a></p>
+         <script type="text/javascript"><!--
+          $(document).ready(function() {
+           $('#new-user-list').jcarousel({
+            vertical:true,
+            wrap:'circular',
+            scroll:1,
+            itemFallbackDimension:110
+           });
+           $('#new-user-list .vert-scroll-down').click(function(e){
+            e.preventDefault();
+            $('#new-user-list').data('jcarousel').next();
+           });
+           $('#top-user-list').jcarousel({
+            vertical:true,
+            wrap:'circular',
+            scroll:1,
+            itemFallbackDimension:110
+           });
+           $('#top-user-list .vert-scroll-down').click(function(e){
+            e.preventDefault();
+            $('#top-user-list').data('jcarousel').next();
+           });
+           $('.tab-link').click(moveTabs);
+           $(function() {
+            $("#tabs").tabs();
+            $('#tabs ul').children().eq(0).find('.tabs-mid').css('color', '#666');
+            $('#tabs').find('.tabs-left').first().css('background-image', 'url(/media/home/css/ui-lightness/images/tabs_left_first.png)');
+            $("#tabs").bind("tabsselect", function(event, ui) {
+             var selected = ui.index;
+             $('#tabs ul').children().find('.tabs-mid').css('color', '#fff');
+             $('#tabs ul').children().eq(selected).find('.tabs-mid').css('color', '#666');
+             if(selected != 0){
+              $('#tabs').find('.tabs-left').first().css('background-position', '0px -39px');
+              } else {
+              $('#tabs').find('.tabs-left').first().css('background-position', '0 0');
+             }
+            });
+           });
+          });
+          function moveTabs(next) {
+           $('.tab-link').parent().removeClass('tab-nav-onstate');
+           $(this).parent().addClass('tab-nav-onstate');
+           $(this).children().removeClass('tab-nav-onstate');
+           $(this).children().css('color', '#fff');
+           if($(this).parent().index() == 0){
+            $('.tab-content-right').css('display', 'none');
+            $('.tab-content-left').css('display', 'block');
+           } else {
+            $('.tab-content-left').css('display', 'none');
+            $('.tab-content-right').css('display', 'block');
+           }
+          }
+          // -->
+         </script>
+         <div id="tabs" class="sidebar-user-list">
+          <ul>
+           <li><a href="#fragment-1"><span><div class="tabs-left"></div><div class="tabs-mid">NEW</div><div class="tabs-right"></div></span></a></li>
+           <li><a href="#fragment-2"><span><div class="tabs-left"></div><div class="tabs-mid">TOP TEN</div><div class="tabs-right"></div></span></a></li>
+          </ul>
+          <div class="tab-top-cap"></div>
+          <div class="tabs-content">
+           <div id="fragment-1">
+            <div class="sidebar-scroller" id="new-user-list">
+             <ol class="user-showcase">
+              <!-- cached -->
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565635/"><img alt="Sridhar Rajagopalan" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Sridhar Rajagopalan" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565635/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565635/">Sridhar Rajagopalan</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565635/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565634/"><img alt="apartman" border="0" src="http://software.intel.com/media/images/pixel.gif" title="apartman" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565634/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565634/">apartman</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565634/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565633/"><img alt="hotelbook" border="0" src="http://software.intel.com/media/images/pixel.gif" title="hotelbook" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565633/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565633/">hotelbook</a></h3>
+                  <p class="description-text">Family and holiday travelers. It combines several...<br /><a href="/en-us/profile/565633/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565632/"><img alt="Tan Mr" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Tan Mr" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565632/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565632/">Tan Mr</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565632/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565631/"><img alt="geek_news" border="0" src="http://software.intel.com/media/images/pixel.gif" title="geek_news" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565631/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565631/">geek_news</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565631/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565630/"><img alt="laltrimeilgmail.com" border="0" src="http://software.intel.com/media/images/pixel.gif" title="laltrimeilgmail.com" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565630/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565630/">laltrimeilgmail.com</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565630/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565629/"><img alt="sgukanti" border="0" src="http://software.intel.com/media/images/pixel.gif" title="sgukanti" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565629/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565629/">sgukanti</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565629/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565628/"><img alt="Jeanne Lisse" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Jeanne Lisse" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565628/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565628/">Jeanne Lisse</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565628/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565627/"><img alt="Stella Gabriel" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Stella Gabriel" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565627/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565627/">Stella Gabriel</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565627/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/565626/"><img alt="Sean Antioquia" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Sean Antioquia" height="60" width="60" /></a><br />
+0<br />
+Registered User<br />
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/565626/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/565626/">Sean Antioquia</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/565626/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+             </ol>
+             <a href="javascript:;" class="vert-scroll-down"><img src="/media/home/media/buttons/vert-scroll-down-arrow.png" alt="scroll down arrow" /></a>
+            </div>
+           </div>
+           <div id="fragment-2">
+            <div class="sidebar-scroller" id="top-user-list">
+             <ol class="user-showcase">
+              <!-- cached -->
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/336209/"><img alt="Steve Lionel (Intel)" border="0" src="http://software.intel.com/media/avatars/0/9/4/b/c/c/d/094bccde8b3ccf0f38a1889aca0fe9cf/6b1a864b240fc77e3a901e3470b243f9/6b1a864b240fc77e3a901e3470b243f9_s.jpg" title="Steve Lionel (Intel)" height="60" width="60" /></a><br />
+253,869<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/336209/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/336209/">Steve Lionel (Intel)</a></h3>
+                  <p class="description-text">My life in an online community began on the PLATO...<br /><a href="/en-us/profile/336209/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/99850/"><img alt="jimdempseyatthecove" border="0" src="http://software.intel.com/media/avatars/4/7/6/9/f/d/8/4769fd80461ab37b0a00512f37f86115/72be476187889df5a41b67e8365203f5/72be476187889df5a41b67e8365203f5_s.jpg" title="jimdempseyatthecove" height="60" width="60" /></a><br />
+77,941<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/99850/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/99850/">jimdempseyatthecove</a></h3>
+                  <p class="description-text">B.A. Physics, class of 1971. S.E. Digital Equip. C...<br /><a href="/en-us/profile/99850/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/9662/"><img alt="mecej4" border="0" src="http://software.intel.com/media/avatars/6/2/4/c/4/d/8/624c4d80c23d2d4d295fd814604d9ec6/1a5ac893888f602be0fd0015dcf20e98/1a5ac893888f602be0fd0015dcf20e98_s.jpg" title="mecej4" height="60" width="60" /></a><br />
+47,343<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/9662/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/9662/">mecej4</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/9662/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/334681/"><img alt="Gennady Fedorov (Intel)" border="0" src="http://software.intel.com/media/images/pixel.gif" title="Gennady Fedorov (Intel)" height="60" width="60" /></a><br />
+45,330<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/334681/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/334681/">Gennady Fedorov (Intel)</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/334681/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/347331/"><img alt="Dmitriy Vyukov" border="0" src="http://software.intel.com/media/avatars/6/1/4/a/4/6/a/614a46ac6b8c9253aca6db9d3be84b11/e118e7875ed89dc4496e785655eddd0e/e118e7875ed89dc4496e785655eddd0e_s.jpg" title="Dmitriy Vyukov" height="60" width="60" /></a><br />
+43,899<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/347331/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/347331/">Dmitriy Vyukov</a></h3>
+                  <p class="description-text">Lock-free, wait-free, obstruction-free synchroniza...<br /><a href="/en-us/profile/347331/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/423519/"><img alt="xnjdyangchuan" border="0" src="http://software.intel.com/media/images/pixel.gif" title="xnjdyangchuan" height="60" width="60" /></a><br />
+38,770<br />
+Brown Belt<br />
+                  <div class="user-points-bar" style="background-color: #653010"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/423519/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/423519/">xnjdyangchuan</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/423519/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/336498/"><img alt="Vladimir Dudnik (Intel)" border="0" src="http://software.intel.com/media/avatars/4/c/4/4/6/8/9/4c446890cc0c1453e9f461377af52110/e3fd383f6ed435f35f70175031cb4697/e3fd383f6ed435f35f70175031cb4697_s.jpg" title="Vladimir Dudnik (Intel)" height="60" width="60" /></a><br />
+37,266<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/336498/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/336498/">Vladimir Dudnik (Intel)</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/336498/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/334919/"><img alt="Jennifer Jiang (Intel)" border="0" src="http://software.intel.com/media/avatars/e/6/8/e/f/d/e/e68efdecb429a18c98aa643f48e11523/433db795566d9f51a72086333588e655/433db795566d9f51a72086333588e655_s.jpg" title="Jennifer Jiang (Intel)" height="60" width="60" /></a><br />
+35,352<br />
+Brown Belt<br />
+                  <div class="user-points-bar" style="background-color: #653010"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/334919/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/334919/">Jennifer Jiang (Intel)</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/334919/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/300863/"><img alt="Raf Schietekat" border="0" src="http://software.intel.com/media/avatars/5/1/2/9/8/7/0/5129870f02909043196450724d996f43/bba29e6602dee6491ec62f45058becc7/bba29e6602dee6491ec62f45058becc7_s.jpg" title="Raf Schietekat" height="60" width="60" /></a><br />
+34,702<br />
+Black Belt<br />
+                  <div class="user-points-bar" style="background-color: black"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/300863/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/300863/">Raf Schietekat</a></h3>
+                  <p class="description-text"><br /><a href="/en-us/profile/300863/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+              <li>
+               <table style="font-size: 0.8em" width="170">
+                <tr>
+                 <td valign="top" width="60">
+<a href="http://software.intel.com/en-us/profile/338213/"><img alt="Peter Wang (Intel)" border="0" src="http://software.intel.com/media/avatars/e/4/2/f/f/e/5/e42ffe5e3fc58145c4a1a44e48bbf1f9/df334b223e699294764c2bb7ae40d8db/df334b223e699294764c2bb7ae40d8db_s.jpg" title="Peter Wang (Intel)" height="60" width="60" /></a><br />
+32,255<br />
+Brown Belt<br />
+                  <div class="user-points-bar" style="background-color: #653010"></div>
+                 </td>
+                 <td valign="top" width="10">&#160;</td>
+                 <td valign="top" width="100">
+                  <p><a href="/en-us/profile/338213/"><img src="/media/home/media/icons/buddy-icon.gif" alt="" /></a></p>
+                  <h3 class="description-title"><a href="/en-us/profile/338213/">Peter Wang (Intel)</a></h3>
+                  <p class="description-text">Peter (Zhen Yu) Wang is a technical consulting eng...<br /><a href="/en-us/profile/338213/" class="more-link">Read more &gt;</a></p>
+                 </td>
+                </tr>
+               </table>
+              </li>
+             </ol>
+             <a href="javascript:;" class="vert-scroll-down"><img src="/media/home/media/buttons/vert-scroll-down-arrow.png" alt="scroll down arrow" /></a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <span class="mod-box-220-bottom light"></span>
+<div class="mod-box-220 light">
+<h2> Intel® Software Partner Program</h2>
+<p><a href="http://software.intel.com/partner/overview">Partner Program Overview</a><br />
+<br />
+<a href="http://software.intel.com/partner/app/software-assessment">Software Assessment Tools</a>
+</p>
+</div>
+<span class="mod-box-220-bottom light"></span>
+<div class="mod-box-220 light">
+<h2>Intel Software Development Products</h2>
+<p><img src="http://software.intel.com/media/images/spd_badge.gif" align="right" /> <a href="http://www.intel.com/software/products">Get the tools you need to create multi-threaded applications that get the most out of the latest multi-core systems</a></p>
+</div>
+<span class="mod-box-220-bottom light"></span>
+       </div>
+      </div>
+      <!-- /body -->
+     </div>
+     <div class="cleaner"></div>
+     <div class="con con-ftr">
+      <div class="gaat40-clear"></div>
+      <div id="gaat40-footer" class="gaat40-reset">
+       <div class="gaat40-cr">
+        <ul class="gaat40-first">
+         <li class="gaat40-first">©Intel Corporation</li>
+        </ul>
+       </div>
+       <div class="gaat40-main">
+        <ul class="gaat40-first">
+         <li class="gaat40-first"><a href="http://www.intel.com/siteindex.htm?iid=ftr+map">Site Map</a></li>
+         <li><a href="http://www.intel.com/intel/rss.htm?iid=ftr+rss">RSS</a></li>
+         <li><a href="http://www.intel.com/jobs/index.htm?iid=ftr+jobs">Jobs</a></li>
+         <li><a href="http://newsroom.intel.com/?iid=ftr+press">Press Room</a></li>
+         <li><a target="_blank" href="/en-us/articles/optimization-notice/">Optimization Notice</a></li>
+        </ul>
+       </div>
+       <div class="gaat40-terms">
+        <ul class="gaat40-first">
+         <li class="gaat40-first"><a href="http://www.intel.com/sites/sitewide/en_US/termsofuse.htm?iid=ftr+terms">Terms of Use</a></li>
+         <li><a class="gaat40-trademark" href="http://www.intel.com/sites/sitewide/en_US/tradmarx.htm?iid=ftr+trademark">*Trademarks</a></li>
+         <li><a href="http://www.intel.com/sites/sitewide/en_US/privacy/privacy.htm?iid=ftr+privacy">Privacy</a></li>
+        </ul>
+       </div>
+       <div class="clear"></div>
+      </div> 
+     </div>
+    </div>
+    <div class="main-right"></div>
+    <div class="cleaner"></div>
+   </div>
+  </div>
+  <div style="display: none">
+   <script type="text/javascript">
+     var _gaq = _gaq || [];
+     _gaq.push(['ISNtracker._setAccount', 'UA-17890616-1']);
+     _gaq.push(['ISNtracker._setDomainName', 'intel.com']);
+     _gaq.push(['ISNtracker._setAllowHash', false]);
+     _gaq.push(['ISNtracker._trackPageview']);
+     _gaq.push(['SWtracker._setAccount', 'UA-17890616-3']);
+     _gaq.push(['SWtracker._setDomainName', 'intel.com']);
+     _gaq.push(['SWtracker._setAllowHash', false]);
+     _gaq.push(['SWtracker._trackPageview']);
+     (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+   </script>
+   <script type="text/javascript" src="/common/js/wa_setup.js?v=20120601"></script>
+   <script type="text/javascript"><!--
+    var wa_pageName='/en-us/';
+    var wa_geo='asmo-na';
+    var wa_language='en-us';
+    var wa_org1='sw';
+    var wa_org2='isn';
+    var wa_org4='/en-us/';
+    var wa_orgX='';
+    var wa_custom03='landing page';
+    var wa_urlQueryString="all";
+    var wa_reportSuites='intelcorpsw';
+    var s_charSet='UTF-8';
+    var wa_eCustom13='http://software.intel.com/en-us/';
+    var wa_eCustom28='http://software.intel.com/en-us/';
+   // -->
+   </script>
+   <script type="text/javascript" src="/common/js/wa_process.js?v=20120601"></script>
+   <script type="text/javascript">var _sf_async_config={uid:982,domain:"software.intel.com"}; (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement('script'); e.setAttribute('language', 'javascript'); e.setAttribute('type', 'text/javascript'); e.setAttribute('src', (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") + "static.chartbeat.com/js/chartbeat.js"); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })();</script>
+  </div>
+ </body>
+</html>

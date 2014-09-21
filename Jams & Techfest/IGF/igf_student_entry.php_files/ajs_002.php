@@ -1,0 +1,11 @@
+var OX_f2fb4d6f = '';
+OX_f2fb4d6f += "<"+"div id=\'ox_f7c576a24cbaaf5926d4bef595d6cf1a\' style=\'display: inline;\'><"+"img src=\'http://69.59.137.121/openx/www/images/1x1.gif\' alt=\'\' title=\'\' border=\'0\' /><"+"/div>\n";
+OX_f2fb4d6f += "<"+"script type=\'text/javascript\'><"+"!--// <"+"![CDATA[\n";
+OX_f2fb4d6f += "var ox_swf = new FlashObject(\'http://69.59.137.121/openx/www/images/f554171f57b9a70bf3acbc518bd3d9f6.swf\', \'Advertisement\', \'160\', \'600\', \'10\');\n";
+OX_f2fb4d6f += "ox_swf.addVariable(\'clickTARGET\', \'_blank\');\n";
+OX_f2fb4d6f += "ox_swf.addVariable(\'clickTAG\', \'http%3A%2F%2F69.59.137.121%2Fopenx%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D195__zoneid%3D6__cb%3D9628afbfee__oadest%3Dhttp%253A%252F%252Fwww.gamasutra.com%252Fjobs%252F\');\n";
+OX_f2fb4d6f += "ox_swf.addParam(\'allowScriptAccess\',\'always\');\n";
+OX_f2fb4d6f += "ox_swf.write(\'ox_f7c576a24cbaaf5926d4bef595d6cf1a\');\n";
+OX_f2fb4d6f += "if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute(\'version\'))) { document.write(\"<"+"div id=\'beacon_9628afbfee\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://69.59.137.121/openx/www/delivery/lg.php?bannerid=195&amp;campaignid=8&amp;zoneid=6&amp;loc=https%3A%2F%2Fwww.gamasutra.com%2Fphp-bin%2Figf_student%2Figf_student_entry.php&amp;referer=https%3A%2F%2Fwww.gamasutra.com%2Fphp-bin%2Figf_student%2Figf_student_entry.php&amp;cb=9628afbfee\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\"); }\n";
+OX_f2fb4d6f += "// ]]> --><"+"/script>\n";
+document.write(OX_f2fb4d6f);

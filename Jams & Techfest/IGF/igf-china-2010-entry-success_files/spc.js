@@ -1,0 +1,13 @@
+var OA_output = new Array(); 
+OA_output['2'] = '';
+OA_output['2'] += "<"+"div id=\'ox_98553c154a75a13a7534c6e00b842118\' style=\'display: inline;\'><"+"img src=\'http://69.59.137.121/openx/www/images/1x1.gif\' alt=\'\' title=\'\' border=\'0\' /><"+"/div>\n";
+OA_output['2'] += "<"+"script type=\'text/javascript\'><"+"!--// <"+"![CDATA[\n";
+OA_output['2'] += "var ox_swf = new FlashObject(\'http://69.59.137.121/openx/www/images/926267f3fe53800a8e7112a53763da3e.swf\', \'Advertisement\', \'160\', \'600\', \'10\');\n";
+OA_output['2'] += "ox_swf.addVariable(\'clickTARGET\', \'_blank\');\n";
+OA_output['2'] += "ox_swf.addVariable(\'clickTAG\', \'http%3A%2F%2F69.59.137.121%2Fopenx%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D533__zoneid%3D2__cb%3D92c99d6e7b__oadest%3Dhttp%253A%252F%252Fwww.gdconline.com%252F%253Fcid%253DGDCO10_REGX1\');\n";
+OA_output['2'] += "ox_swf.addParam(\'allowScriptAccess\',\'always\');\n";
+OA_output['2'] += "ox_swf.write(\'ox_98553c154a75a13a7534c6e00b842118\');\n";
+OA_output['2'] += "if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute(\'version\'))) { document.write(\"<"+"div id=\'beacon_92c99d6e7b\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://69.59.137.121/openx/www/delivery/lg.php?bannerid=533&amp;campaignid=315&amp;zoneid=2&amp;loc=http%3A%2F%2Fwww.gdcchina.cn%2Fevents%2Figf-china-2010-entry-success&amp;referer=http%3A%2F%2Fwww.gdcchina.cn%2Fevents%2Figf-china-2010-entry-form&amp;cb=92c99d6e7b\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\"); }\n";
+OA_output['2'] += "// ]]> --><"+"/script>\n";
+OA_output['38'] = '';
+OA_output['38'] += "<"+"a href=\'http://69.59.137.121/openx/www/delivery/ck.php?oaparams=2__bannerid=166__zoneid=38__cb=01318a6210__oadest=http%3A%2F%2Fwww.gwi.com%2FRequest%2FTrial%3Ftr%3Dhdibnr%26keyword%3D11thk09\' target=\'_blank\'><"+"img src=\'http://69.59.137.121/openx/www/images/b4ce0c6a159364b7f137ca056c93ea92.gif\' width=\'100\' height=\'250\' alt=\'AD - GWI\' title=\'AD - GWI\' border=\'0\' /><"+"/a><"+"div id=\'beacon_01318a6210\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://69.59.137.121/openx/www/delivery/lg.php?bannerid=166&amp;campaignid=93&amp;zoneid=38&amp;loc=http%3A%2F%2Fwww.gdcchina.cn%2Fevents%2Figf-china-2010-entry-success&amp;referer=http%3A%2F%2Fwww.gdcchina.cn%2Fevents%2Figf-china-2010-entry-form&amp;cb=01318a6210\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";

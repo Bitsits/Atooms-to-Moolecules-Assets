@@ -1,0 +1,73 @@
+p{color:#333 !important}
+.endfloat{clear:both;display:block;font-size:1px;height:1px;visibility:hidden}
+.j-layout li{list-style-type:none !important;padding-bottom:4px !important}
+.jive-content-body{overflow:hidden}
+.jive-content-body .anchor-links ul{-moz-border-radius:5px;background-color:#e6e6e6;border-radius:5px;list-style-image:none;list-style-type:none;margin:0 0 5px;padding:5px}
+.jive-content-body .anchor-links li{background:url(http://www.intel.com/sites/sitewide/30/pix/caret_down.gif) no-repeat 0 7px;display:inline}
+.jive-content-body .anchor-links li a{padding:0 8px}
+.jive-content-body .anchor-links li:hover{font-weight:700;text-decoration:none}
+UL.doublecaret{padding-left:5px !important}
+UL.doublecaret li{padding-bottom:0 !important}
+UL.doublecaret li a{background:url(http://www.intel.com/newsroom/assets/images/caret_right.gif) no-repeat left center;padding:1px 0 1px 17px !important}
+UL.doublecaret li a.jive-link-blog-small{background-image:url(http://intelnewsroom.hosted.jivesoftware.com/images/jive-icon-blog-12x12.png) !important;padding-left:17px !important}
+UL.doublecaret li a.jive-link-wiki-small{background-image:url(http://intelnewsroom.hosted.jivesoftware.com/images/jive-icon-wiki-12x12.png) !important;padding-left:17px !important}
+.headergradNR{-moz-border-radius:0 8px 8px;background-color:transparent;background-image:url(http://www.intel.com/newsroom/assets/images/header_white-to-blue.jpg);background-position:center bottom;background-repeat:no-repeat;border-bottom:#0860a8 0 solid;border-radius:0 8px 8px 8px;border-top:#0860a8 1px solid;color:#0860a8;font-size:130%;font-weight:700;margin-bottom:5px;min-height:0;padding:0 5px 5px 0}
+.subheaderNR{background-color:transparent;background-image:url(http://www.intel.com/newsroom/assets/images/subheader_white-to-blue.jpg);background-position:left center;background-repeat:no-repeat;color:#515357;font-size:98% !important;font-weight:700;margin-bottom:5px;min-height:0;padding:5px 5px 5px 35px}
+.backtotop{background:url(http://www.intel.com/newsroom/assets/images/newsroom/caret_up.gif) no-repeat right 50%;color:#fff;float:right;padding:3px 8px 0 1px}
+.backtotopwhite{background:url(http://www.intel.com/newsroom/assets/images/caret_up_white.gif) no-repeat right 50%;float:right;font-size:70%;font-weight:400;margin-bottom:5px;min-height:0;padding:3px 8px 0 1px}
+.hr-line{background-color:transparent;background-image:url(http://www.intel.com/newsroom/assets/images/inner-section-seperator.jpg);background-position:left top;background-repeat:no-repeat;height:9px;margin:15px auto 5px;min-height:0;width:630px}
+.filesize{color:#666;font-size:10px}
+.hr{border-bottom:#a6a6a6 1px solid;font-size:1px;margin-bottom:4px}
+.hr-dotted{background:url(http://www.intel.com/sites/sitewide/30/pix/hr-dotted.gif) repeat-x left top;height:12px}
+.right{background-color:#e6e6e6;float:right;margin:0.5em 0 0.5em 0.8em}
+.left{background-color:#e6e6e6;float:left;margin:0.5em 0.8em 0.5em 0}
+.picture img{margin-bottom:0 !important;margin-left:3px !important;margin-top:3px !important}
+.picture p{border-bottom:#ccc 0 solid;border-left:#ccc 0 solid;border-right:#ccc 0 solid;border-top:#ccc 0 solid;font:italic 11px Arial, sans-serif;padding:8px}
+.blogstoryr{border:1px solid #d3d3d3;float:right;margin:6px 0 6px 6px;padding:0;text-align:left}
+p.blogstorycaption_sm{font-size:10px;padding:3px 12px 6px;width:180px}
+#prMasterContainer{width:100%}
+#prMasterContainer sup{_vertical-align:bottom;bottom:0.4ex;font-size:0.9em;height:0;line-height:1;position:relative;vertical-align:baseline}
+#prMasterContainer iframe{display:block;margin-left:auto;margin-right:auto}
+.jive-widget-rssfeed-entry clearfix{margin:0;padding:0 !important}
+.jive-alert-type{float:left;padding:10px 10px 25px;position:relative}
+#jive-alert{-moz-border-radius:5px;background-color:#005e91;background-image:url(http://www.intel.com/newsroom/assets/images/announcement_grid.jpg);background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;width:920px}
+.jive-icon-blog.jive-icon-med{background-image:url(http://www.intel.com/newsroom/assets/images/jive-icon-sprites-med.png) !important}
+.jive-icon-announcement{background-position:-16px -268px}
+.jive-alert-details{color:#7dd7fa !important;text-decoration:none}
+.jive-alert-details .jive-username-link{color:#fff !important;text-decoration:none}
+.jive-alert-header ul li a{color:#7dd7fa;font-size:0.88em}
+.jive-alert-announcement-label{color:#f2e5b9;font-weight:700px}
+.jive-alert-content{color:#fff !important;font-size:1.1em;font-weight:400;margin:0;padding:4px 0 0 14px;width:880px}
+.jive-alert-content a:hover{text-decoration:underline}
+.jive-alert-header .jive-alert-title a{color:#fff;font-size:1.1em;outline-color:invert;outline-style:none;outline-width:medium;text-decoration:none}
+#jive-alert-counter{background-color:transparent;margin:0;padding:0;position:absolute;right:0;top:10px}
+.jive-alert-count a{background-color:#005e91;color:#fff;display:block;padding:0 4px}
+.jive-alert-count-active a{background-color:#59d7e9;color:#fff;display:block;font-weight:700px;padding:0 4px}
+a:hover{text-decoration:underline !important}
+.jive-blog-post-message .jive-rendered-content ul li{list-style-type:disc !important}
+.jive-content-body #pranchornav{background-color:#e8e8e8;border-bottom:#ccc 1px solid;float:left;margin:0 0 1em;padding:0;width:100%}
+.jive-content-body #pranchornav ul{list-style-image:none;list-style-type:none;margin:0 auto;padding:0;width:100%}
+.jive-content-body #pranchornav li{float:left;margin:0;padding-bottom:0 !important}
+.jive-content-body #pranchornav li a{border-right:#ccc 1px solid;display:block;padding:4px 8px;text-decoration:none}
+.jive-content-body #pranchornav li:first-child a{border-left:#ccc 1px solid}
+.jive-content-body #pranchornav li a:hover{background-color:#0860a8;color:#fff}
+.j-doc .jive-content{padding:12px !important}
+.jive-content-blog{padding:15px !important}
+.j-blog .jive-content section{margin-left:20px !important}
+#jive-body .j-layout-ls .j-column-l{margin-right:220px !important}
+.j-layout-ls .j-column-s{margin-left:-220px !important}
+.j-column-s{width:220px !important}
+.j-column-s .j-box-body{padding-left:10px !important;padding-right:10px !important}
+.jive-body-content .jive-attachments{left:0 !important}
+.superkitbuttons{margin-left:auto;margin-right:auto;width:695px}
+.superkitbuttons img{margin-bottom:10px;margin-right:10px}
+.superkitbuttons img.superkitend{margin-bottom:10px;margin-right:0}
+.backtotopwhite a,.jive-alert-content p{color:#fff !important}
+#jive-body-layout-sls .jive-body-layout-l .jive-widget-container,a img{border-bottom:0;border-left:0;border-right:0;border-top:0}
+.jive-widget-container-large .jive-widget,.jive-widget-container-small .jive-widget{background:none transparent scroll repeat 0 0;border-bottom:#e8e8e8 1px solid;border-left:#e8e8e8 1px solid;border-right:#e8e8e8 1px solid;border-top:#e8e8e8 1px solid;margin:0 2px 2px}
+.jive-alert-count,.jive-alert-count-active{border-bottom:#ccc 1px solid;border-left:#ccc 1px solid;border-right:#ccc 1px solid;border-top:#ccc 1px solid;display:block;float:none;margin:0 5px 5px 0;text-align:center;width:20px}
+.jive-alert-details span a:link,.jive-alert-details span a:visited{color:#7dd7fa;text-decoration:none}
+.jive-alert-details span a:hover,.jive-alert-header ul li a:hover{color:#7dd7fa;text-decoration:underline}
+.jive-alert-content a:link,.jive-alert-content a:visited{color:#7dd7fa}
+.jive-widget .jive-blog-post-subject-header h2,.jive-widget-rssfeed-entry-header a{display:block;font-size:1.1em;font-weight:700px;line-height:1.1;margin:0 0 0.2em}
+#j-satNav li:first-child .jive-avatar {border: 0 !important}

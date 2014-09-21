@@ -1,0 +1,50 @@
+Hostname: upload.igf.com
+User: igf_upload$
+Password: IGF_game$-R_Fun!
+
+
+
+Atooms to Moolecule is a chemistry based puzzle game. Explore the lab to see how Atooms changes into Moolecules.
+
+
+
+http://www.youtube.com/watch?v=F1EuZnheoMQ
+
+
+
+System requirements
+
+Operating System: Microsoft® Windows® XP / Vista
+Additional Requirements: NET 3.5 SP1 Framework, XNA 3.1 support
+Processor: 1.6 GHz Dual Core
+Memory: 1 GB RAM
+Hard Disk Space: 40 MB
+Video Card: DirectX® 9.0c compatible video card, Shader Model 2.0 required. 256 MB
+Sound Card: DirectX® 9.0c compatible sound card
+DirectX® Version: DirectX® 9.0c
+
+
+
+Drag and drop using LEFT mouse button to connect the atomic creatures and RIGHT mouse button to detach it from the molecule. Make bigger and bigger molecule.
+
+RIGHT click on any atom will break all its bonds.
+
+Esc to pause the game.
+
+
+
+Middleware listing (please list all middleware and SDKs used to make this game): 
+Microsoft Visual Studio Express Edition 2008
+Microsoft Cross-Platform Audio Creation Tool 3 (XACT3)
+Microsoft XNA Game Studio 3.1
+Erin Catto's Box2D Physics Engine
+
+
+
+Credits
+
+Design, Art, Programming & Sound - Shubhajit Saha 
+Level Designing & Concept - Maya Agarwal
+Music - May by Alexander Blu
+
+

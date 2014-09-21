@@ -1,0 +1,170 @@
+body {
+	background: url(../images/body-bg.jpg) repeat-y center;
+	background-color: #333333;
+	margin: 0 auto;
+	width: 965px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+img {
+	border: none;
+	margin: 0 0 0 0px;
+	padding: 0 0 0 0px;
+}
+#wrapper {
+	background-color: #000;
+	width: 965px;
+	text-align: center;
+}
+#header {
+	height: 36px;
+	width: 935px;
+	background: url(../images/hdr-bg.png) no-repeat top;
+	padding-left: 30px;
+	padding-top: 19px;
+}
+
+#hero {
+	text-align: center;
+}
+
+#subhero {
+	background: url(../images/sub-hero-bg.png) no-repeat top;
+	background-color: none;
+	height: 138px;
+	width: 935px;
+	vertical-align: top;
+	padding: 0 0 0 30px;
+	padding-top: 15px;	
+	text-size: 14px;
+}
+#subherocopy {
+	padding-top: 16px; 
+	text-align:left; 
+	font-size: 15px; 
+	line-height: 22px; 
+	color:#7e7e7e;
+}
+
+#content {
+	margin:0 0 0 0px;
+	width:965px;
+	height: 290px;
+	Background: url(../images/content-bg.jpg) no-repeat top;
+	background-color: #333333;
+	
+}
+
+#subhead {
+	
+	background: url(../images/comm-hdr-gap.png) repeat-x bottom;
+	margin-bottom: 20px;
+	width: 908px;
+	margin-left: 30px;
+	text-align:left;
+}
+.module-matrix {
+	margin: 0 0 0 30px;
+	padding: 0 0 0 0px;
+	border: none;
+	vertical-align: top;
+	text-align: left;		
+}
+.modulematrix tr td {
+	vertical-align: top;
+	text-align: left;
+}
+
+.module-hdr {
+	background: url(../images/module-hdr.jpg) no-repeat top;
+	height: 30px; 
+	width: 307px;
+	padding-left: 16px;
+	padding-top: 10px;
+}
+
+.module-hdr-alt { 
+	padding-top: 6px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #76787a;
+	margin-bottom: 13px;
+}
+
+#contestInfo div.cf { 
+	margin-bottom: 8px;
+}
+
+	#contestInfo div.cf img.thumb { 
+		float: left;
+		display: inline-block;
+		margin-right: 6px;
+	}
+	
+	#contestInfo div.cf p { 
+		float: left;
+		display: inline-block;
+		width: 156px;
+		border: 0px solid red;
+	}
+
+#contestInfo p { 
+	margin-top: 0px;
+	font-size: 12px;
+	line-height: 15px;
+}
+	
+	#contestInfo p a {
+		font-size: 13px;
+	}
+
+.module {
+	background: url(../images/module-bg.jpg) repeat-y top;
+	height: 181px;
+	padding: 10px 10px 10px 10px;
+}
+
+.contentlink {
+	color: #41646d;
+	font-size: 13px; 
+	font-weight: 500;
+}
+
+#footer {
+	background: url(../images/footer-line.jpg) repeat-x top;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: left;
+	
+	
+}
+#wrapper #footer .footertext {
+	vertical-align: middle;
+	font-size: 10px;
+	color: #333333 !important;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#wrapper #footer .footertext a, #wrapper #footer .footertext a:visited #wrapper #footer .footertext a:hover, #wrapper #footer .footertext a:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+	

@@ -1,0 +1,4 @@
+15 px dashed border(expand) 3 px equipment 
+15 px glass boundry equipment
+
+2 px stroke for lab button

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="GameDataLibrary.LevelData">
+    <MaxAtoms>0</MaxAtoms>
+    
+    <Entry>0 0</Entry>
+    
+    <ContinuousBoundry>0 0</ContinuousBoundry>
+    
+    <EquipmentDetails>
+      <Item>
+        <EquipmentName>electrodes</EquipmentName>
+        <Position>0 0</Position>
+        <RotationInDeg>0</RotationInDeg>
+        <IsClamped>false</IsClamped>
+      </Item>
+    </EquipmentDetails>
+  </Asset>
+</XnaContent>

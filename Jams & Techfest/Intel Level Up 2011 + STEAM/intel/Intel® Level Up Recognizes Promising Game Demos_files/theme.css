@@ -1,0 +1,118 @@
+
+/* main default header */
+#jive-global-header {
+    background: #dedede url(../images/jive-hdr-bg1.png) repeat-x top;
+    border-bottom: 1px #e9e9e9 solid;
+    }
+#jive-global-header-texture {
+    background: none;
+    padding: 10px 15px;
+    width: 836px;
+    }
+
+/* default logo */
+#jive-global-header .jive-header-logo a.jive-global-header-logolink {
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(../images/jive-hdr-logo.png);
+	height: 52px;
+    width: 273px;
+    left: 15px;
+    top: 9px;
+    overflow: hidden;
+	}
+
+
+/* custom uploaded logo */
+#jive-global-header img {
+    border: none;
+    display: block;
+    position: relative;
+    }
+/* custom entered text */
+h1#jive-global-header-title {
+    color: #333;
+    font-size: 16pt;
+    padding: 15px 15px 13px 15px;
+    }
+
+h1#jive-global-header-title a.jive-global-header-titlelink {
+    color: #333;
+    text-decoration: none;
+}
+
+/* footer */
+#jive-footer {
+	border-top: 1px solid #dcdcdc;
+	clear: both;
+	color: #666;
+	display: block;
+	font-size: 8pt;
+	min-width: 100%;
+	width: 100%;
+	
+	}
+.jive-footer-nav {
+	float: left;
+	margin-right: -101px;
+	overflow: hidden;
+	padding: 6px 0 10px;
+	text-align: center;
+	width: 100%;
+	}
+.jive-footer-nav a {
+	padding: 0 5px;
+	}
+.jive-footer-copyright {
+	float: right;
+	overflow: hidden;
+	padding: 6px 0 10px;
+	width: 100px;
+	}
+
+/* admin nav specific */
+
+#jive-admin-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170px;
+    height: 28px;
+    background: transparent url(/images/cm/admin-nav-background-white.png) no-repeat;
+}
+
+#jive-admin-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#jive-admin-nav ul li {
+    float: left;
+    padding: 3px 4px;
+    font-size: 11px;
+    list-style-type: none;
+}
+#jive-admin-nav ul li a {
+    color: #666;
+    text-decoration: none;
+}
+#jive-admin-nav ul li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+#jive-admin-nav ul li.jive-admin-dashboard {
+    background: transparent url(/images/cm/jive-icon-dashboard.png) no-repeat 4px 4px;
+    padding: 4px 0 4px 22px;
+    margin-left: 6px;
+}
+
+
+#jive-admin-nav ul li.jive-admin-settings {
+    background: transparent url(/images/cm/jive-icon-settings.gif) no-repeat 4px 4px;
+    padding: 4px 0 4px 22px;
+    margin-left: 6px;
+}
+
